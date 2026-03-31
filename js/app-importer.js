@@ -158,7 +158,16 @@ app.importExcel = function(inputElement) {
     reader.readAsArrayBuffer(file);
 };
 
+// ==================================================
+// HÀM HÚT DATA MỚI - ĐÃ ĐƯỢC "TIÊM" XÁC THỰC EMAIL
+// ==================================================
 app.importFromCloud = async function() {
+    // 1. Kiểm tra Email đăng nhập
+    if (!window.userEmail) {
+        alert("⛔ BỒ CHƯA ĐĂNG NHẬP!\n\nHãy bấm nút 'Sign in with Google' ở thanh Menu bên trái để xác thực danh tính trước khi dùng tính năng Hút Data VIP.");
+        return;
+    }
+
     let rawLink = document.getElementById('cloud-link').value.trim();
     if (!rawLink) { alert("⚠️ Bro chưa dán link Google Sheets vào kìa!"); return; }
 
@@ -167,25 +176,41 @@ app.importFromCloud = async function() {
 
     if (!sheetId) { alert("❌ Lỗi: Không tìm thấy ID trong link."); return; }
 
+    // 2. Gửi Sheet ID kèm theo Email đăng nhập
     const API_URL = "https://script.google.com/macros/s/AKfycbyg6PZxb1NTDsPHAsAo1m-enEhTYqsE7yC_WTTeyNlpzFFJh9hQ8NA0q2xLw22Rn9hLgQ/exec";
-    let fetchUrl = API_URL + "?id=" + sheetId;
+    let fetchUrl = `${API_URL}?id=${sheetId}&email=${encodeURIComponent(window.userEmail)}`;
 
     let btn = document.getElementById('cloud-btn');
-    if(btn) { btn.innerText = "⏳ Đang triệu hồi Data..."; btn.disabled = true; }
+    if(btn) { btn.innerText = "⏳ Đang soi vé vào cổng..."; btn.disabled = true; }
 
     try {
         let response = await fetch(fetchUrl);
         if (!response.ok) throw new Error("Trạm trung tâm bị nghẽn mạng!");
         
         let result = await response.json();
-        if (result.status === "error") throw new Error("Lỗi từ Cổng Google: " + result.message);
+        
+        // 3. Bắt lỗi từ Sổ Nam Tào trả về
+        if (result.status === "error") {
+            if (result.message.includes("Từ chối truy cập")) {
+                throw new Error(`Email ${window.userEmail} không có trong Sổ Nam Tào hoặc đã bị khóa!`);
+            } else {
+                throw new Error(result.message);
+            }
+        }
 
         app.processRawData(result.data); 
         app.closeImportModal();
         
+        // Nâng cấp: Tự điền tên trường và môn học từ kết quả trả về
+        if (result.meta) {
+            document.getElementById('cfg-truong').value = result.meta.tenTruong || "Trường VIP";
+            document.getElementById('cfg-monthi').value = result.meta.tenMon || "Môn Thi VIP";
+            alert(`🎉 Hút thành công kho đề: ${result.meta.tenMon} - ${result.meta.tenTruong}`);
+        }
+        
     } catch (error) {
         console.error("LỖI HÚT DATA:", error);
-        alert("❌ Lỗi: " + error.message);
+        alert("⛔ TỪ CHỐI TRUY CẬP:\n\n" + error.message);
     } finally {
         if(btn) { btn.innerText = "⚡ Hút Data"; btn.disabled = false; }
     }
