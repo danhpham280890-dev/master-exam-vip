@@ -177,7 +177,7 @@ app.importFromCloud = async function() {
     if (!sheetId) { alert("❌ Lỗi: Không tìm thấy ID trong link."); return; }
 
     // 2. Gửi Sheet ID kèm theo Email đăng nhập
-    const API_URL = "https://script.google.com/macros/s/AKfycbyg6PZxb1NTDsPHAsAo1m-enEhTYqsE7yC_WTTeyNlpzFFJh9hQ8NA0q2xLw22Rn9hLgQ/exec";
+    const API_URL = "https://script.google.com/macros/s/AKfycbzbodEqJlvUwSUI2QR6ZVelLR1kZ8Dk8jLF4v59mb9dCGTJ1dJIVL_svaYhq69PLwp0Gg/exec";
     let fetchUrl = `${API_URL}?id=${sheetId}&email=${encodeURIComponent(window.userEmail)}`;
 
     let btn = document.getElementById('cloud-btn');
