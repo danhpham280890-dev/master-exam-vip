@@ -1,15 +1,1 @@
-// ==========================================
-// THÂN ROBOT: LƯU TRỮ TRẠNG THÁI VÀ DỮ LIỆU
-// ==========================================
-window.app = {
-    originalData: [],
-    workingData: [],
-    pageCount: 0,
-    qCounter: 1, 
-    ansMCQ: [], 
-    ansTF: [],  
-    ansEssay: [], 
-    totalSecs: 0,
-    matrix: { NB: 0, TH: 0, VD: 0, VDC: 0 },
-    catalog: {} // Kho phân loại câu hỏi cho Ma trận
-};
+function _0x3e3f(_0x45ab3d,_0x4d4272){_0x45ab3d=_0x45ab3d-0x107;var _0x519e21=_0x519e();var _0x3e3f50=_0x519e21[_0x45ab3d];return _0x3e3f50;}(function(_0x3b1874,_0x4be001){var _0x17bc39=_0x3e3f,_0x46c4a8=_0x3b1874();while(!![]){try{var _0x531c56=parseInt(_0x17bc39(0x108))/0x1+parseInt(_0x17bc39(0x10a))/0x2+-parseInt(_0x17bc39(0x107))/0x3*(-parseInt(_0x17bc39(0x109))/0x4)+-parseInt(_0x17bc39(0x10d))/0x5+parseInt(_0x17bc39(0x10c))/0x6+-parseInt(_0x17bc39(0x10e))/0x7+parseInt(_0x17bc39(0x10b))/0x8;if(_0x531c56===_0x4be001)break;else _0x46c4a8['push'](_0x46c4a8['shift']());}catch(_0x47c8b2){_0x46c4a8['push'](_0x46c4a8['shift']());}}}(_0x519e,0xe20a1),window['app']={'originalData':[],'workingData':[],'pageCount':0x0,'qCounter':0x1,'ansMCQ':[],'ansTF':[],'ansEssay':[],'totalSecs':0x0,'matrix':{'NB':0x0,'TH':0x0,'VD':0x0,'VDC':0x0},'catalog':{}});function _0x519e(){var _0x39d8a5=['1434036uZExjj','226748etXaRJ','1008236Naeegb','7572704yqYjIk','1610838IrYyhd','6528975QeWmll','12799885nBsNuB','48GoCkKo'];_0x519e=function(){return _0x39d8a5;};return _0x519e();}
