@@ -1,1 +1,129 @@
-function _0xd6e6(_0x3c223b,_0x502532){_0x3c223b=_0x3c223b-0xc5;const _0x336f76=_0x336f();let _0xd6e697=_0x336f76[_0x3c223b];return _0xd6e697;}const _0x46a9e8=_0xd6e6;(function(_0x473d78,_0x3cfce3){const _0x458258=_0xd6e6,_0x203921=_0x473d78();while(!![]){try{const _0xd52e50=parseInt(_0x458258(0xd0))/0x1*(parseInt(_0x458258(0xcb))/0x2)+parseInt(_0x458258(0xfe))/0x3+-parseInt(_0x458258(0xf1))/0x4+parseInt(_0x458258(0xef))/0x5+-parseInt(_0x458258(0xda))/0x6+-parseInt(_0x458258(0xe7))/0x7+parseInt(_0x458258(0xf7))/0x8;if(_0xd52e50===_0x3cfce3)break;else _0x203921['push'](_0x203921['shift']());}catch(_0x46d65f){_0x203921['push'](_0x203921['shift']());}}}(_0x336f,0x83b99),app[_0x46a9e8(0xd8)]=function(){const _0x1e6767=_0x46a9e8;this[_0x1e6767(0xdd)]={},this[_0x1e6767(0xde)]['forEach'](_0x4b5d94=>{const _0x207554=_0x1e6767;if(_0x4b5d94[_0x207554(0xfa)]!==_0x207554(0xe8)&&_0x4b5d94[_0x207554(0xfa)]!==_0x207554(0x106)){let _0x5eeea3=_0x4b5d94['chapter']||_0x207554(0xf5),_0x44d681=_0x4b5d94[_0x207554(0xfc)]||_0x207554(0xd5),_0x109f3d=_0x4b5d94[_0x207554(0xfa)]||'unknown',_0x3b2432=_0x4b5d94[_0x207554(0xec)]||'NB';if(!this[_0x207554(0xdd)][_0x5eeea3])this[_0x207554(0xdd)][_0x5eeea3]={};if(!this[_0x207554(0xdd)][_0x5eeea3][_0x44d681])this[_0x207554(0xdd)][_0x5eeea3][_0x44d681]={};if(!this[_0x207554(0xdd)][_0x5eeea3][_0x44d681][_0x109f3d])this[_0x207554(0xdd)][_0x5eeea3][_0x44d681][_0x109f3d]={'NB':[],'TH':[],'VD':[],'VDC':[]};this[_0x207554(0xdd)][_0x5eeea3][_0x44d681][_0x109f3d][_0x3b2432]&&this['catalog'][_0x5eeea3][_0x44d681][_0x109f3d][_0x3b2432][_0x207554(0x110)](_0x4b5d94);}});},app['openMatrixModal']=function(){const _0x589d0d=_0x46a9e8;let _0x30c356=document['getElementById']('matrix-tbody');_0x30c356[_0x589d0d(0xf0)]='';let _0x5bbf13=0x0;const _0x48a942={'mcq':_0x589d0d(0x108),'true-false':_0x589d0d(0x102),'matching':_0x589d0d(0xcf),'cloze':'Điền\x20khuyết\x20(Cloze)','fill-blank':_0x589d0d(0xcd),'essay':_0x589d0d(0xf2),'essay-multi':_0x589d0d(0xe6)};for(let _0x313e00 in this[_0x589d0d(0xdd)]){_0x30c356['innerHTML']+=_0x589d0d(0xfb)+_0x313e00+_0x589d0d(0xd2);for(let _0x28db03 in this['catalog'][_0x313e00]){for(let _0xc5fd14 in this[_0x589d0d(0xdd)][_0x313e00][_0x28db03]){let _0x2ee2cb=this[_0x589d0d(0xdd)][_0x313e00][_0x28db03][_0xc5fd14],_0x27f7ad=_0x2ee2cb['NB'][_0x589d0d(0x100)]+_0x2ee2cb['TH'][_0x589d0d(0x100)]+_0x2ee2cb['VD'][_0x589d0d(0x100)]+_0x2ee2cb[_0x589d0d(0xce)][_0x589d0d(0x100)];if(_0x27f7ad===0x0)continue;_0x5bbf13+=_0x27f7ad;let _0x36fdd1=_0x48a942[_0xc5fd14]||_0xc5fd14,_0x30b60e=_0x589d0d(0xc9)+_0x28db03+_0x589d0d(0x113)+_0x36fdd1+_0x589d0d(0xee),_0x2c75d5=_0x589d0d(0xc6)+_0x30b60e+'</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td><input\x20type=\x22number\x22\x20class=\x22mat-input\x22\x20data-chap=\x22'+_0x313e00+'\x22\x20data-les=\x22'+_0x28db03+_0x589d0d(0xca)+_0xc5fd14+'\x22\x20data-lvl=\x22NB\x22\x20min=\x220\x22\x20max=\x22'+_0x2ee2cb['NB'][_0x589d0d(0x100)]+_0x589d0d(0xeb)+_0x2ee2cb['NB'][_0x589d0d(0x100)]+'\x22></td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td><input\x20type=\x22number\x22\x20class=\x22mat-input\x22\x20data-chap=\x22'+_0x313e00+_0x589d0d(0x10a)+_0x28db03+'\x22\x20data-typ=\x22'+_0xc5fd14+_0x589d0d(0xf3)+_0x2ee2cb['TH'][_0x589d0d(0x100)]+_0x589d0d(0xeb)+_0x2ee2cb['TH'][_0x589d0d(0x100)]+'\x22></td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td><input\x20type=\x22number\x22\x20class=\x22mat-input\x22\x20data-chap=\x22'+_0x313e00+_0x589d0d(0x10a)+_0x28db03+_0x589d0d(0xca)+_0xc5fd14+_0x589d0d(0xea)+_0x2ee2cb['VD'][_0x589d0d(0x100)]+_0x589d0d(0xeb)+_0x2ee2cb['VD'][_0x589d0d(0x100)]+_0x589d0d(0xc5)+_0x313e00+'\x22\x20data-les=\x22'+_0x28db03+_0x589d0d(0xca)+_0xc5fd14+_0x589d0d(0x104)+_0x2ee2cb[_0x589d0d(0xce)][_0x589d0d(0x100)]+_0x589d0d(0xeb)+_0x2ee2cb[_0x589d0d(0xce)][_0x589d0d(0x100)]+_0x589d0d(0xdc);_0x30c356[_0x589d0d(0xf0)]+=_0x2c75d5;}}}document['getElementById'](_0x589d0d(0xf9))['innerText']=_0x5bbf13,document['getElementById'](_0x589d0d(0x112))[_0x589d0d(0xd7)][_0x589d0d(0x10b)]=_0x589d0d(0xd4);},app['closeMatrixModal']=function(){const _0x308db0=_0x46a9e8;document['getElementById'](_0x308db0(0x112))[_0x308db0(0xd7)][_0x308db0(0x10b)]=_0x308db0(0xd6);},app[_0x46a9e8(0xf6)]=function(){const _0x17698b=_0x46a9e8;let _0x166981=[],_0x1aca0e=document[_0x17698b(0xe1)](_0x17698b(0x103));_0x1aca0e[_0x17698b(0xf8)](_0x304fc3=>{const _0x3fb5b1=_0x17698b;let _0x4babd8=parseInt(_0x304fc3[_0x3fb5b1(0xfd)]);if(_0x4babd8>0x0){let _0x27cb3d=_0x304fc3[_0x3fb5b1(0xe0)](_0x3fb5b1(0xdb)),_0x20c3a7=_0x304fc3['getAttribute'](_0x3fb5b1(0xd1)),_0x301de7=_0x304fc3[_0x3fb5b1(0xe0)]('data-typ'),_0xa496b4=_0x304fc3[_0x3fb5b1(0xe0)]('data-lvl'),_0xfdce6f=[...this['catalog'][_0x27cb3d][_0x20c3a7][_0x301de7][_0xa496b4]];_0x4babd8>_0xfdce6f[_0x3fb5b1(0x100)]&&(alert(_0x3fb5b1(0x111)+_0x27cb3d+_0x3fb5b1(0xff)+_0x20c3a7+_0x3fb5b1(0xff)+_0xa496b4+'\x22,\x20kho\x20đạn\x20chỉ\x20có\x20'+_0xfdce6f[_0x3fb5b1(0x100)]+_0x3fb5b1(0xc7)+_0xfdce6f[_0x3fb5b1(0x100)]+_0x3fb5b1(0xe2)),_0x4babd8=_0xfdce6f['length'],_0x304fc3[_0x3fb5b1(0xfd)]=_0x4babd8);for(let _0x3f4e1b=_0xfdce6f[_0x3fb5b1(0x100)]-0x1;_0x3f4e1b>0x0;_0x3f4e1b--){const _0x15a6b9=Math[_0x3fb5b1(0x105)](Math[_0x3fb5b1(0x101)]()*(_0x3f4e1b+0x1));[_0xfdce6f[_0x3f4e1b],_0xfdce6f[_0x15a6b9]]=[_0xfdce6f[_0x15a6b9],_0xfdce6f[_0x3f4e1b]];}_0x166981=_0x166981[_0x3fb5b1(0xcc)](_0xfdce6f[_0x3fb5b1(0xe9)](0x0,_0x4babd8));}});if(_0x166981[_0x17698b(0x100)]===0x0){alert(_0x17698b(0xe5));return;}let _0x1dafff={'mcq':{'title':_0x17698b(0x107),'items':[]},'true-false':{'title':_0x17698b(0x10d),'items':[]},'matching':{'title':_0x17698b(0xf4),'items':[]},'cloze':{'title':_0x17698b(0x109),'items':[]},'fill-blank':{'title':'TRẢ\x20LỜI\x20NGẮN','items':[]},'essay':{'title':'TỰ\x20LUẬN','items':[]},'essay-multi':{'title':'TỰ\x20LUẬN\x20TỔNG\x20HỢP','items':[]}};_0x166981[_0x17698b(0xf8)](_0x4c8a19=>{const _0x2ea3b8=_0x17698b;if(_0x1dafff[_0x4c8a19['type']])_0x1dafff[_0x4c8a19[_0x2ea3b8(0xfa)]][_0x2ea3b8(0xc8)][_0x2ea3b8(0x110)](_0x4c8a19);});let _0x23427c=[],_0x20f2d1=0x1;const _0x59b4bf=['I','II','III','IV','V','VI','VII'];Object['keys'](_0x1dafff)['forEach'](_0x5dc7b8=>{const _0x5e8765=_0x17698b;if(_0x1dafff[_0x5dc7b8][_0x5e8765(0xc8)]['length']>0x0){let _0x59a334=_0x1dafff[_0x5dc7b8][_0x5e8765(0xc8)][0x0][_0x5e8765(0x10e)]||'';_0x23427c[_0x5e8765(0x110)]({'type':'section','title':_0x5e8765(0x10c)+_0x59b4bf[_0x20f2d1-0x1]+'.\x20'+_0x1dafff[_0x5dc7b8][_0x5e8765(0xed)],'pointsPerQuestion':_0x59a334}),_0x23427c=_0x23427c[_0x5e8765(0xcc)](_0x1dafff[_0x5dc7b8][_0x5e8765(0xc8)]),_0x20f2d1++;}}),app['workingData']=_0x23427c,EXAM[_0x17698b(0xdf)][_0x17698b(0xd3)]=Math[_0x17698b(0x105)](0x64+Math[_0x17698b(0x101)]()*0x384)[_0x17698b(0xe4)](),app[_0x17698b(0x10f)](),app[_0x17698b(0xd9)](),app[_0x17698b(0xe3)]();});function _0x336f(){const _0x39cb57=['Trả\x20lời\x20ngắn','VDC','Nối\x20cột\x20(Match)','190391bAoITf','data-les','</td></tr>','maDe','flex','Bài\x20chung','none','style','buildCatalog','closeMatrixModal','6047658jfIpLt','data-chap','\x22></td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','catalog','originalData','config','getAttribute','querySelectorAll','\x20câu.','openStagingModal','toString','⚠️\x20Bồ\x20chưa\x20nhập\x20số\x20lượng!','Tự\x20luận\x20(Nhiều\x20ý)','6505989fYWMBV','section','slice','\x22\x20data-lvl=\x22VD\x22\x20min=\x220\x22\x20max=\x22','\x22\x20placeholder=\x22/','level','title','</small>','3888950hvAYSR','innerHTML','2474372ENODBX','Tự\x20luận\x20(Đơn)','\x22\x20data-lvl=\x22TH\x22\x20min=\x220\x22\x20max=\x22','NỐI\x20CỘT','Chương\x20chung','generateFromMatrix','8193760JHqmnE','forEach','matrix-total-q','type','<tr\x20style=\x22background:#e9ecef;\x22><td\x20colspan=\x225\x22\x20style=\x22text-align:left;\x20font-weight:bold;\x20color:#333;\x20padding:\x2010px;\x22>📖\x20','lesson','value','1595802QmVwuc','\x20-\x20','length','random','Đúng/Sai\x20(TF)','.mat-input','\x22\x20data-lvl=\x22VDC\x22\x20min=\x220\x22\x20max=\x22','floor','reading','TRẮC\x20NGHIỆM\x20ĐA\x20LỰA\x20CHỌN','Trắc\x20nghiệm\x20(MCQ)','ĐIỀN\x20KHUYẾT','\x22\x20data-les=\x22','display','PHẦN\x20','TRẮC\x20NGHIỆM\x20ĐÚNG\x20SAI','points','preprocess','push','⚠️\x20CẢNH\x20BÁO:\x20Ở\x20phần\x20\x22','matrix-modal','</b><br><small\x20style=\x22color:#666\x22>👉\x20','\x22></td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td><input\x20type=\x22number\x22\x20class=\x22mat-input\x22\x20data-chap=\x22','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td\x20style=\x22text-align:left;\x20padding-left:\x2025px;\x20line-height:\x201.4;\x22>','\x20câu!\x0a👉\x20Tự\x20động\x20bốc\x20','items','<b\x20style=\x22color:#007bff\x22>','\x22\x20data-typ=\x22','8TohDZR','concat'];_0x336f=function(){return _0x39cb57;};return _0x336f();}
+// ==========================================
+// MODULE 2: MA TRẬN BỐC ĐỀ
+// ==========================================
+app.buildCatalog = function() {
+    this.catalog = {};
+    this.originalData.forEach(item => {
+        if (item.type !== 'section' && item.type !== 'reading') {
+            let chap = item.chapter || "Chương chung";
+            let les = item.lesson || "Bài chung";
+            let typ = item.type || "unknown";
+            let lvl = item.level || 'NB';
+
+            if (!this.catalog[chap]) this.catalog[chap] = {};
+            if (!this.catalog[chap][les]) this.catalog[chap][les] = {};
+            if (!this.catalog[chap][les][typ]) this.catalog[chap][les][typ] = { NB: [], TH: [], VD: [], VDC: [] };
+            
+            if (this.catalog[chap][les][typ][lvl]) {
+                this.catalog[chap][les][typ][lvl].push(item);
+            }
+        }
+    });
+};
+
+app.openMatrixModal = function() {
+    let tbody = document.getElementById('matrix-tbody');
+    tbody.innerHTML = '';
+    let totalQ = 0;
+    
+    const typeNames = {
+        'mcq': 'Trắc nghiệm (MCQ)', 'true-false': 'Đúng/Sai (TF)', 'matching': 'Nối cột (Match)',
+        'cloze': 'Điền khuyết (Cloze)', 'fill-blank': 'Trả lời ngắn', 'essay': 'Tự luận (Đơn)', 'essay-multi': 'Tự luận (Nhiều ý)'
+    };
+    
+    for (let chap in this.catalog) {
+        tbody.innerHTML += `<tr style="background:#e9ecef;"><td colspan="5" style="text-align:left; font-weight:bold; color:#333; padding: 10px;">📖 ${chap}</td></tr>`;
+        for (let les in this.catalog[chap]) {
+            for (let typ in this.catalog[chap][les]) {
+                let c = this.catalog[chap][les][typ];
+                let sum = c.NB.length + c.TH.length + c.VD.length + c.VDC.length;
+                if (sum === 0) continue; 
+                totalQ += sum;
+                
+                let typeLabel = typeNames[typ] || typ;
+                let rowTitle = `<b style="color:#007bff">${les}</b><br><small style="color:#666">👉 ${typeLabel}</small>`;
+                
+                let rowHTML = `
+                    <tr>
+                        <td style="text-align:left; padding-left: 25px; line-height: 1.4;">${rowTitle}</td>
+                        <td><input type="number" class="mat-input" data-chap="${chap}" data-les="${les}" data-typ="${typ}" data-lvl="NB" min="0" max="${c.NB.length}" placeholder="/${c.NB.length}"></td>
+                        <td><input type="number" class="mat-input" data-chap="${chap}" data-les="${les}" data-typ="${typ}" data-lvl="TH" min="0" max="${c.TH.length}" placeholder="/${c.TH.length}"></td>
+                        <td><input type="number" class="mat-input" data-chap="${chap}" data-les="${les}" data-typ="${typ}" data-lvl="VD" min="0" max="${c.VD.length}" placeholder="/${c.VD.length}"></td>
+                        <td><input type="number" class="mat-input" data-chap="${chap}" data-les="${les}" data-typ="${typ}" data-lvl="VDC" min="0" max="${c.VDC.length}" placeholder="/${c.VDC.length}"></td>
+                    </tr>
+                `;
+                tbody.innerHTML += rowHTML;
+            }
+        }
+    }
+    document.getElementById('matrix-total-q').innerText = totalQ;
+    document.getElementById('matrix-modal').style.display = 'flex';
+};
+
+app.closeMatrixModal = function() {
+    document.getElementById('matrix-modal').style.display = 'none';
+};
+
+app.generateFromMatrix = function() {
+    let selectedQuestions = [];
+    let inputs = document.querySelectorAll('.mat-input');
+    
+    inputs.forEach(inputEl => {
+        let val = parseInt(inputEl.value);
+        if (val > 0) {
+            let chap = inputEl.getAttribute('data-chap');
+            let les = inputEl.getAttribute('data-les');
+            let typ = inputEl.getAttribute('data-typ');
+            let lvl = inputEl.getAttribute('data-lvl');
+            
+            let pool = [...this.catalog[chap][les][typ][lvl]];
+            
+            if (val > pool.length) {
+                alert(`⚠️ CẢNH BÁO: Ở phần "${chap} - ${les} - ${lvl}", kho đạn chỉ có ${pool.length} câu!\n👉 Tự động bốc ${pool.length} câu.`);
+                val = pool.length; 
+                inputEl.value = val; 
+            }
+            
+            for(let i = pool.length - 1; i > 0; i--){
+                const j = Math.floor(Math.random() * (i + 1));
+                [pool[i], pool[j]] = [pool[j], pool[i]];
+            }
+            selectedQuestions = selectedQuestions.concat(pool.slice(0, val));
+        }
+    });
+
+    if (selectedQuestions.length === 0) { alert("⚠️ Bồ chưa nhập số lượng!"); return; }
+
+    let typeMap = {
+        'mcq': { title: 'TRẮC NGHIỆM ĐA LỰA CHỌN', items: [] },
+        'true-false': { title: 'TRẮC NGHIỆM ĐÚNG SAI', items: [] },
+        'matching': { title: 'NỐI CỘT', items: [] },
+        'cloze': { title: 'ĐIỀN KHUYẾT', items: [] },
+        'fill-blank': { title: 'TRẢ LỜI NGẮN', items: [] },
+        'essay': { title: 'TỰ LUẬN', items: [] },
+        'essay-multi': { title: 'TỰ LUẬN TỔNG HỢP', items: [] }
+    };
+    
+    selectedQuestions.forEach(q => { if (typeMap[q.type]) typeMap[q.type].items.push(q); });
+    
+    let newExamData = [];
+    let pIndex = 1;
+    const roman = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII'];
+    
+    Object.keys(typeMap).forEach(key => {
+        if (typeMap[key].items.length > 0) {
+            let defaultPts = typeMap[key].items[0].points || "";
+            newExamData.push({ type: "section", title: `PHẦN ${roman[pIndex-1]}. ${typeMap[key].title}`, pointsPerQuestion: defaultPts });
+            newExamData = newExamData.concat(typeMap[key].items);
+            pIndex++;
+        }
+    });
+
+    app.workingData = newExamData;
+    EXAM.config.maDe = Math.floor(100 + Math.random() * 900).toString();
+    
+    // --- GỌI TRẠM KIỂM DUYỆT THAY VÌ IN NGAY ---
+    app.preprocess(); 
+    app.closeMatrixModal();
+    app.openStagingModal(); 
+};
