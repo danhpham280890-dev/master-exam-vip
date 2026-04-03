@@ -137,6 +137,13 @@
             <div style="flex:1;"><label>Số lượng Mã đề:</label><input type="number" id="cfg-soluong" min="1" max="24" value="1"></div>
             <div style="flex:1;"><label>Phần (Bảng Điểm):</label><input type="number" id="cfg-sophan" min="1" max="10"></div>
         </div>
+        
+        <div class="form-group" style="margin-top: 15px; padding-top: 15px; border-top: 1px dashed #ccc;">
+            <label style="color: #00838f;">🔗 Link API SYSTEM_LOG (Google Apps Script):</label>
+            <input type="text" id="cfg-api-url" placeholder="Dán link Web App URL của Google Script vào đây...">
+            <div style="font-size: 11px; color: #666; margin-top: 5px;"><i>Mẹo: Để trống nếu bồ muốn xài API mặc định của hệ thống.</i></div>
+        </div>
+
         <div style="text-align: right; margin-top: 25px;">
             <button class="btn-cp" onclick="app.closeSettings()" style="background: #6c757d;">Hủy</button>
             <button class="btn-cp" onclick="app.saveSettings()" style="background: #28a745;">💾 Lưu Cập Nhật</button>
@@ -384,18 +391,14 @@
 
 <script>
     function handleCredentialResponse(response) {
-        // Giải mã thông tin từ Google
         const responsePayload = decodeJwtResponse(response.credential);
         
-        // Lưu Email vào biến toàn cục để dùng khi "Hút Data"
         window.userEmail = responsePayload.email;
         
-        // Cập nhật giao diện
         const infoDiv = document.getElementById('user-info');
         infoDiv.innerHTML = `✅ Chào bồ: <b>${responsePayload.name}</b><br>(${responsePayload.email})`;
         infoDiv.style.display = 'block';
         
-        // Ẩn nút đăng nhập và cảnh báo
         document.querySelector('.g_id_signin').style.display = 'none';
         const warning = document.getElementById('auth-warning');
         if(warning) warning.style.display = 'none';
