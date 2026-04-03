@@ -145,7 +145,7 @@ body {
 .img-fluid { max-width: 100%; height: auto; display: block; margin: 0 auto; }
 .img-caption { font-style: italic; font-size: 10pt; margin-top: 4px; color: #333; }
 
-.mcq-grid { display: grid; gap: 10px 20px; margin-top: 8px; font-weight: normal; clear: both; align-items: center; }
+.mcq-grid { display: grid; gap: 4px 20px; margin-top: 8px; font-weight: normal; clear: both; align-items: center; }
 .grid-4 { grid-template-columns: repeat(4, 1fr); }
 .grid-2 { grid-template-columns: repeat(2, 1fr); }
 .grid-1 { grid-template-columns: 1fr; }
