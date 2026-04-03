@@ -1,1 +1,91 @@
-function _0x4b91(_0x2a7544,_0x5cdb31){_0x2a7544=_0x2a7544-0x19f;const _0x2b8bb5=_0x2b8b();let _0x4b91cc=_0x2b8bb5[_0x2a7544];return _0x4b91cc;}function _0x2b8b(){const _0x299d0c=['generateExamVersions','stringify','150rcmLKI','142740alqPnx','shuffleQuestions','4070729nIkRFe','floor','forEach','reading','37218VJmPoz','options','examVersions','shuffleOptions','shuffleArray','12zuJjhz','3SUdhAo','parse','questions','push','248joUuBI','answer','type','650CtgNZi','config','length','toString','60AclntP','mcq','_qIdx','1125289migvQM','recalculateNumbering','section','workingData','fromCharCode','35430BPiLmh','137347yCyUHf','concat','1439744iGGRbQ'];_0x2b8b=function(){return _0x299d0c;};return _0x2b8b();}const _0x304944=_0x4b91;(function(_0x3756c0,_0x171e00){const _0x5d8b8e=_0x4b91,_0x3b8a7f=_0x3756c0();while(!![]){try{const _0x10071d=parseInt(_0x5d8b8e(0x1a8))/0x1*(-parseInt(_0x5d8b8e(0x1b9))/0x2)+-parseInt(_0x5d8b8e(0x1ae))/0x3*(-parseInt(_0x5d8b8e(0x1c4))/0x4)+parseInt(_0x5d8b8e(0x1b5))/0x5*(parseInt(_0x5d8b8e(0x1c1))/0x6)+parseInt(_0x5d8b8e(0x1c2))/0x7*(parseInt(_0x5d8b8e(0x1b2))/0x8)+parseInt(_0x5d8b8e(0x1a2))/0x9*(-parseInt(_0x5d8b8e(0x1a1))/0xa)+-parseInt(_0x5d8b8e(0x1bc))/0xb*(parseInt(_0x5d8b8e(0x1ad))/0xc)+parseInt(_0x5d8b8e(0x1a4))/0xd;if(_0x10071d===_0x171e00)break;else _0x3b8a7f['push'](_0x3b8a7f['shift']());}catch(_0x139b24){_0x3b8a7f['push'](_0x3b8a7f['shift']());}}}(_0x2b8b,0x90967),app['examVersions']=[],app[_0x304944(0x19f)]=function(_0xc0dcaa){const _0x5332db=_0x304944;this['examVersions']=[];let _0x1758cf=parseInt(EXAM[_0x5332db(0x1b6)]['maDe'])||0x65;for(let _0x56b693=0x0;_0x56b693<_0xc0dcaa;_0x56b693++){let _0x1d9ec3=(_0x1758cf+_0x56b693)[_0x5332db(0x1b8)](),_0x58fa74=JSON[_0x5332db(0x1af)](JSON[_0x5332db(0x1a0)](this[_0x5332db(0x1bf)]));_0x56b693>0x0&&(_0x58fa74=this[_0x5332db(0x1a3)](_0x58fa74),_0x58fa74['forEach'](_0x2f4855=>this[_0x5332db(0x1ab)](_0x2f4855))),this[_0x5332db(0x1bd)](_0x58fa74),this[_0x5332db(0x1aa)]['push']({'maDe':_0x1d9ec3,'data':_0x58fa74});}},app[_0x304944(0x1a3)]=function(_0x4bb637){const _0x4b4237=_0x304944;let _0x42c291=[],_0x324329=[],_0x4b40c0=null;return _0x4bb637[_0x4b4237(0x1a6)](_0x57f2d7=>{const _0x1e36bd=_0x4b4237;_0x57f2d7[_0x1e36bd(0x1b4)]==='section'?(_0x4b40c0&&(_0x42c291[_0x1e36bd(0x1b1)](_0x4b40c0),this[_0x1e36bd(0x1ac)](_0x324329),_0x42c291=_0x42c291[_0x1e36bd(0x1c3)](_0x324329)),_0x4b40c0=_0x57f2d7,_0x324329=[]):_0x324329[_0x1e36bd(0x1b1)](_0x57f2d7);}),_0x4b40c0&&(_0x42c291[_0x4b4237(0x1b1)](_0x4b40c0),this[_0x4b4237(0x1ac)](_0x324329),_0x42c291=_0x42c291[_0x4b4237(0x1c3)](_0x324329)),_0x42c291[_0x4b4237(0x1b7)]>0x0?_0x42c291:_0x4bb637;},app[_0x304944(0x1ab)]=function(_0x453e50){const _0x1c685c=_0x304944;if(_0x453e50[_0x1c685c(0x1b4)]===_0x1c685c(0x1ba)&&_0x453e50[_0x1c685c(0x1a9)]&&_0x453e50['options'][_0x1c685c(0x1b7)]>0x1&&_0x453e50['answer']){let _0x470509=_0x453e50['answer']['charCodeAt'](0x0)-0x41;if(_0x470509>=0x0&&_0x470509<_0x453e50[_0x1c685c(0x1a9)][_0x1c685c(0x1b7)]){let _0x34929c=_0x453e50[_0x1c685c(0x1a9)][_0x470509];this[_0x1c685c(0x1ac)](_0x453e50[_0x1c685c(0x1a9)]);let _0x93d8ff=_0x453e50[_0x1c685c(0x1a9)]['indexOf'](_0x34929c);_0x453e50[_0x1c685c(0x1b3)]=String[_0x1c685c(0x1c0)](0x41+_0x93d8ff);}}_0x453e50[_0x1c685c(0x1b4)]==='cloze'&&_0x453e50[_0x1c685c(0x1b0)]&&_0x453e50[_0x1c685c(0x1b0)][_0x1c685c(0x1a6)](_0x141df2=>this[_0x1c685c(0x1ab)](_0x141df2));},app['shuffleArray']=function(_0x1a58f9){const _0x2ccc82=_0x304944;for(let _0x1b0db3=_0x1a58f9['length']-0x1;_0x1b0db3>0x0;_0x1b0db3--){const _0x2c9e9f=Math[_0x2ccc82(0x1a5)](Math['random']()*(_0x1b0db3+0x1));[_0x1a58f9[_0x1b0db3],_0x1a58f9[_0x2c9e9f]]=[_0x1a58f9[_0x2c9e9f],_0x1a58f9[_0x1b0db3]];}},app[_0x304944(0x1bd)]=function(_0x2e28ac){const _0x4772d8=_0x304944;let _0x522819=0x1;_0x2e28ac[_0x4772d8(0x1a6)](_0x233143=>{const _0x215c80=_0x4772d8;_0x233143[_0x215c80(0x1b4)]!==_0x215c80(0x1be)&&_0x233143[_0x215c80(0x1b4)]!==_0x215c80(0x1a7)&&(_0x233143[_0x215c80(0x1bb)]=_0x522819++);});});
+// ==========================================
+// MODULE 4: ĐỘNG CƠ TRỘN MÃ ĐỀ (SHUFFLE ENGINE)
+// ==========================================
+
+app.examVersions = []; // Chứa danh sách các mã đề đã trộn
+
+app.generateExamVersions = function(numVersions) {
+    this.examVersions = [];
+    let baseCode = parseInt(EXAM.config.maDe) || 101;
+
+    for (let i = 0; i < numVersions; i++) {
+        let currentCode = (baseCode + i).toString();
+        // Copy tách biệt dữ liệu gốc để trộn không bị dính chùm
+        let clonedData = JSON.parse(JSON.stringify(this.workingData));
+
+        if (i > 0) { // Mã đề đầu tiên (i=0) giữ nguyên gốc, từ mã thứ 2 trở đi mới xào bài
+            clonedData = this.shuffleQuestions(clonedData);
+            clonedData.forEach(q => this.shuffleOptions(q));
+        }
+
+        // Cập nhật lại Số thứ tự câu (1, 2, 3...) sau khi đã xáo trộn
+        this.recalculateNumbering(clonedData);
+        
+        this.examVersions.push({
+            maDe: currentCode,
+            data: clonedData
+        });
+    }
+};
+
+// Thuật toán xào câu hỏi trong từng PHẦN (Section)
+app.shuffleQuestions = function(data) {
+    let newData = [];
+    let currentSection = [];
+    let currentHeader = null;
+
+    data.forEach(item => {
+        if (item.type === 'section') {
+            if (currentHeader) {
+                newData.push(currentHeader);
+                this.shuffleArray(currentSection);
+                newData = newData.concat(currentSection);
+            }
+            currentHeader = item;
+            currentSection = [];
+        } else {
+            currentSection.push(item);
+        }
+    });
+
+    if (currentHeader) {
+        newData.push(currentHeader);
+        this.shuffleArray(currentSection);
+        newData = newData.concat(currentSection);
+    }
+    return newData.length > 0 ? newData : data;
+};
+
+// Thuật toán xào Đáp án A, B, C, D
+app.shuffleOptions = function(item) {
+    // Xáo Trắc nghiệm thường
+    if (item.type === 'mcq' && item.options && item.options.length > 1 && item.answer) {
+        let ansIdx = item.answer.charCodeAt(0) - 65; // Đổi A, B, C, D thành 0, 1, 2, 3
+        if (ansIdx >= 0 && ansIdx < item.options.length) {
+            let correctText = item.options[ansIdx]; // Nhớ mặt đáp án đúng
+            this.shuffleArray(item.options); // Xóc đĩa
+            let newAnsIdx = item.options.indexOf(correctText); // Tìm lại nó đang nằm ở đâu
+            item.answer = String.fromCharCode(65 + newAnsIdx); // Gắn mác mới (VD: B thành C)
+        }
+    }
+    // Xáo Điền khuyết có câu hỏi phụ (Cloze-q)
+    if (item.type === 'cloze' && item.questions) {
+        item.questions.forEach(q => this.shuffleOptions(q)); // Đệ quy xáo câu phụ
+    }
+};
+
+app.shuffleArray = function(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+};
+
+app.recalculateNumbering = function(data) {
+    let tIdx = 1;
+    data.forEach(item => {
+        if (item.type !== "section" && item.type !== "reading") {
+            item._qIdx = tIdx++;
+        }
+    });
+};
