@@ -1,1 +1,85 @@
-function _0x695d(_0xb31554,_0x466209){_0xb31554=_0xb31554-0xcc;const _0x459750=_0x4597();let _0x695ddc=_0x459750[_0xb31554];return _0x695ddc;}const _0x5386cf=_0x695d;(function(_0x5de13c,_0x321ce5){const _0x666af6=_0x695d,_0xecb073=_0x5de13c();while(!![]){try{const _0x515661=parseInt(_0x666af6(0xea))/0x1+parseInt(_0x666af6(0xe1))/0x2*(parseInt(_0x666af6(0xec))/0x3)+-parseInt(_0x666af6(0xd4))/0x4*(-parseInt(_0x666af6(0xfd))/0x5)+-parseInt(_0x666af6(0x100))/0x6*(-parseInt(_0x666af6(0xd7))/0x7)+parseInt(_0x666af6(0xe6))/0x8+-parseInt(_0x666af6(0xd3))/0x9+-parseInt(_0x666af6(0xf6))/0xa;if(_0x515661===_0x321ce5)break;else _0xecb073['push'](_0xecb073['shift']());}catch(_0x34d393){_0xecb073['push'](_0xecb073['shift']());}}}(_0x4597,0x1b3fb),app[_0x5386cf(0xe4)]=function(){const _0x274a94=_0x5386cf;let _0x42f7ab=document[_0x274a94(0xe8)]('staging-tbody');_0x42f7ab[_0x274a94(0xf1)]='';let _0x2c512d='',_0x46c960=0x1;this[_0x274a94(0xdc)][_0x274a94(0xd8)](_0x8e6f9a=>{const _0x263a81=_0x274a94;if(_0x8e6f9a[_0x263a81(0xcf)]===_0x263a81(0x101)){_0x2c512d+=_0x263a81(0xcc)+_0x8e6f9a[_0x263a81(0xda)]+_0x263a81(0xd1);return;}let _0x41c55e=_0x8e6f9a['question']||_0x8e6f9a['content']||_0x8e6f9a[_0x263a81(0xda)]||'';if(_0x41c55e[_0x263a81(0xf3)]>0x96)_0x41c55e=_0x41c55e[_0x263a81(0xd2)](0x0,0x96)+'...';_0x41c55e=_0x41c55e[_0x263a81(0xde)](/\n/g,_0x263a81(0xe2));if(_0x8e6f9a['image'])_0x41c55e+=_0x263a81(0x102);_0x2c512d+=_0x263a81(0xd9)+_0x46c960++ +_0x263a81(0xed)+_0x8e6f9a[_0x263a81(0xce)]+_0x263a81(0xe3)+(_0x8e6f9a[_0x263a81(0xfe)]||'NB')+_0x263a81(0xd0)+_0x41c55e+'</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td\x20style=\x22text-align:center;\x20border:\x201px\x20solid\x20#eee;\x20padding:\x208px;\x20font-weight:bold;\x20color:red;\x22>'+(_0x8e6f9a[_0x263a81(0xfc)]||'-')+_0x263a81(0xdb)+_0x8e6f9a['_id']+_0x263a81(0xf2)+_0x8e6f9a['_id']+_0x263a81(0xd6);}),_0x42f7ab[_0x274a94(0xf1)]=_0x2c512d,document[_0x274a94(0xe8)]('staging-modal')[_0x274a94(0xf0)][_0x274a94(0xf7)]=_0x274a94(0xef);},app[_0x5386cf(0xfb)]=function(){const _0x717ef5=_0x5386cf;document['getElementById'](_0x717ef5(0xf5))[_0x717ef5(0xf0)][_0x717ef5(0xf7)]=_0x717ef5(0xf9);},app['confirmStaging']=function(){const _0x572faf=_0x5386cf;this[_0x572faf(0xfb)](),this[_0x572faf(0xd5)]();},app[_0x5386cf(0xe0)]=function(_0x3ec827){const _0x1453c0=_0x5386cf;let _0xe8392d=this[_0x1453c0(0xdc)][_0x1453c0(0x103)](_0x596c4a=>_0x596c4a[_0x1453c0(0xce)]===_0x3ec827);if(_0xe8392d===-0x1)return;let _0x271140=this[_0x1453c0(0xdc)][_0xe8392d],_0xfdf5be=_0x271140[_0x1453c0(0xeb)]||_0x1453c0(0xff),_0x1d29af=_0x271140['lesson']||'Bài\x20chung',_0x506a92=_0x271140['type'],_0x48a708=_0x271140[_0x1453c0(0xfe)]||'NB',_0x3195f9=[];try{_0x3195f9=this['catalog'][_0xfdf5be][_0x1d29af][_0x506a92][_0x48a708];}catch(_0x2fd224){}if(!_0x3195f9||_0x3195f9['length']<=0x1){alert(_0x1453c0(0xcd));return;}let _0x379a3d=this['workingData'][_0x1453c0(0xfa)](_0x43b346=>_0x43b346['_id']),_0x5c9165=_0x3195f9[_0x1453c0(0xe7)](_0x232be9=>!_0x379a3d[_0x1453c0(0xf8)](_0x232be9[_0x1453c0(0xce)]));if(_0x5c9165['length']===0x0){alert(_0x1453c0(0xdf));return;}let _0x482a60=Math[_0x1453c0(0xe5)](Math[_0x1453c0(0xee)]()*_0x5c9165[_0x1453c0(0xf3)]),_0x253ea9=JSON['parse'](JSON[_0x1453c0(0xe9)](_0x5c9165[_0x482a60]));_0x253ea9[_0x1453c0(0xce)]=_0x1453c0(0xdd)+Date[_0x1453c0(0xf4)]()+'_'+_0x482a60,this[_0x1453c0(0xdc)][_0xe8392d]=_0x253ea9,this['openStagingModal']();});function _0x4597(){const _0x5235a6=['filter','getElementById','stringify','184829ZiRJBe','chapter','55101xwgXtu','</b></td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td\x20style=\x22text-align:center;\x20border:\x201px\x20solid\x20#eee;\x20padding:\x208px;\x20font-size:\x209pt;\x20line-height:\x201.4;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20style=\x22color:#aaa;\x20font-family:\x20monospace;\x22>','random','flex','style','innerHTML','\x27)\x22\x20class=\x22btn-tiny\x22\x20style=\x22background:#007bff;\x20border-color:#007bff;\x20margin-bottom:5px;\x20width:100%;\x20padding:\x204px;\x22>✏️\x20Sửa</button><br>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20onclick=\x22app.rerollQuestion(\x27','length','now','staging-modal','2663710mxGIbl','display','includes','none','map','closeStagingModal','answer','26735PDXCDk','level','Chương\x20chung','12urSNmJ','section','\x20<br><i>[Có\x20đính\x20kèm\x20hình\x20ảnh]</i>','findIndex','<tr><td\x20colspan=\x225\x22\x20style=\x22background:#e9ecef;\x20font-weight:bold;\x20padding:8px;\x20color:\x20#007bff;\x22>','⚠️\x20Kho\x20đạn\x20của\x20Loại/Mức\x20độ\x20này\x20đã\x20cạn,\x20không\x20còn\x20câu\x20khác\x20để\x20đổi!','_id','type','</b>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td\x20style=\x22border:\x201px\x20solid\x20#eee;\x20padding:\x208px;\x22>','</td></tr>','substring','1597122NrBLSQ','36iYxZJK','run','\x27)\x22\x20class=\x22btn-tiny\x22\x20style=\x22background:#ffc107;\x20color:black;\x20border-color:#ffc107;\x20width:100%;\x20padding:\x204px;\x22>🔄\x20Đổi\x20câu</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</tr>','583989WqDBbN','forEach','\x0a\x20\x20\x20\x20\x20\x20\x20\x20<tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td\x20style=\x22text-align:center;\x20border:\x201px\x20solid\x20#eee;\x20padding:\x208px;\x22><b>','title','</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td\x20style=\x22text-align:center;\x20border:\x201px\x20solid\x20#eee;\x20padding:\x208px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20onclick=\x22app.openQuickEdit(\x27','workingData','q_reroll_','replace','⚠️\x20Tất\x20cả\x20câu\x20hỏi\x20trong\x20Kho\x20của\x20mức\x20độ\x20này\x20đã\x20được\x20bốc\x20hết\x20ra\x20đề,\x20không\x20còn\x20dự\x20bị!','rerollQuestion','4XKXqgO','<br>','</span><br>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<b\x20style=\x22color:#e83e8c;\x22>','openStagingModal','floor','951200lFPIKI'];_0x4597=function(){return _0x5235a6;};return _0x4597();}
+// ==========================================
+// MODULE 5: TRẠM KIỂM DUYỆT (STAGING AREA)
+// ==========================================
+
+app.openStagingModal = function() {
+    let tbody = document.getElementById('staging-tbody');
+    tbody.innerHTML = '';
+    let html = '';
+    let qIdx = 1;
+
+    this.workingData.forEach((item) => {
+        if (item.type === 'section') {
+            html += `<tr><td colspan="5" style="background:#e9ecef; font-weight:bold; padding:8px; color: #007bff;">${item.title}</td></tr>`;
+            return;
+        }
+        
+        // Trích xuất 1 đoạn ngắn của câu hỏi để hiển thị cho gọn
+        let shortQ = item.question || item.content || item.title || "";
+        if (shortQ.length > 150) shortQ = shortQ.substring(0, 150) + "...";
+        shortQ = shortQ.replace(/\n/g, '<br>'); // Giữ nguyên dòng
+        if (item.image) shortQ += ` <br><i>[Có đính kèm hình ảnh]</i>`;
+        
+        html += `
+        <tr>
+            <td style="text-align:center; border: 1px solid #eee; padding: 8px;"><b>${qIdx++}</b></td>
+            <td style="text-align:center; border: 1px solid #eee; padding: 8px; font-size: 9pt; line-height: 1.4;">
+                <span style="color:#aaa; font-family: monospace;">${item._id}</span><br>
+                <b style="color:#e83e8c;">${item.level || 'NB'}</b>
+            </td>
+            <td style="border: 1px solid #eee; padding: 8px;">${shortQ}</td>
+            <td style="text-align:center; border: 1px solid #eee; padding: 8px; font-weight:bold; color:red;">${item.answer || '-'}</td>
+            <td style="text-align:center; border: 1px solid #eee; padding: 8px;">
+                <button onclick="app.openQuickEdit('${item._id}')" class="btn-tiny" style="background:#007bff; border-color:#007bff; margin-bottom:5px; width:100%; padding: 4px;">✏️ Sửa</button><br>
+                <button onclick="app.rerollQuestion('${item._id}')" class="btn-tiny" style="background:#ffc107; color:black; border-color:#ffc107; width:100%; padding: 4px;">🔄 Đổi câu</button>
+            </td>
+        </tr>`;
+    });
+    
+    tbody.innerHTML = html;
+    document.getElementById('staging-modal').style.display = 'flex';
+};
+
+app.closeStagingModal = function() {
+    document.getElementById('staging-modal').style.display = 'none';
+};
+
+// KHI BẤM CHỐT -> ĐẨY RA GIẤY THI VÀ XÀO ĐỀ
+app.confirmStaging = function() {
+    this.closeStagingModal();
+    this.run(); 
+};
+
+// TÍNH NĂNG "ĐỔI CÂU KHÁC" (RE-ROLL)
+app.rerollQuestion = function(id) {
+    let index = this.workingData.findIndex(x => x._id === id);
+    if (index === -1) return;
+    
+    let oldItem = this.workingData[index];
+    let chap = oldItem.chapter || "Chương chung";
+    let les = oldItem.lesson || "Bài chung";
+    let typ = oldItem.type;
+    let lvl = oldItem.level || 'NB';
+    
+    let pool = [];
+    try { pool = this.catalog[chap][les][typ][lvl]; } catch(e) { }
+    
+    if (!pool || pool.length <= 1) {
+        alert("⚠️ Kho đạn của Loại/Mức độ này đã cạn, không còn câu khác để đổi!"); return;
+    }
+    
+    let currentIds = this.workingData.map(x => x._id);
+    let availableQuestions = pool.filter(x => !currentIds.includes(x._id));
+    
+    if (availableQuestions.length === 0) {
+        alert("⚠️ Tất cả câu hỏi trong Kho của mức độ này đã được bốc hết ra đề, không còn dự bị!"); return;
+    }
+    
+    let randIdx = Math.floor(Math.random() * availableQuestions.length);
+    let newItem = JSON.parse(JSON.stringify(availableQuestions[randIdx]));
+    
+    newItem._id = "q_reroll_" + Date.now() + "_" + randIdx;
+    
+    this.workingData[index] = newItem; 
+    this.openStagingModal(); 
+};
