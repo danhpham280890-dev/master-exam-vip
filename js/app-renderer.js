@@ -1,1 +1,488 @@
-function _0x5131(){const _0x3a9226=['map','<div\x20class=\x22q-block\x22>','<div\x20style=\x22margin-top:8px\x22><b>','inTrangDen','\x22\x20class=\x22img-fluid\x20editable-img\x22\x20style=\x22','imageCaption','\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','_count','</tr>','</b></div><div\x20class=\x22mcq-grid\x20','section','.img-resizable-wrapper.active-resize','.resize-dim-badge','Cao:\x20','opt-resizable','img','display','mode','\x20-\x20....</b>','<b>Câu\x20','lineHeight','\x22\x20style=\x22','mcq','33TGOxVz','<b>$1</b>\x20','showMCQTable','stopPropagation','grid-2','fontSize','setAttribute','essay-multi','imageLayout','\x22]\x20img','</table>','1416415TyqFMG','toFixed','<tr><td\x20style=\x22width:\x2048%;\x20padding:\x204px\x200;\x20border:\x20none;\x20vertical-align:\x20middle;\x22><b>','trim','.cfg-khoangay','first-page-content','drawing','updateUI','replace','khoaNgay','push','pointer','page-footer','\x22\x20style=\x22max-width:\x20100%;\x20height:\x20','matching','block','question','score-sidebar','truong','pageElement','image','✏️\x20Nhấp\x20đúp\x20chuột\x20để\x20sửa\x20nội\x20dung','<td></td>','4zPlWDn','_id','charAt','monThi','documentElement','removeChild','mousedown','points','<th></th>','.cfg-subject','imageHeight','innerText','cloze','_qIdx','includes','answer','3936LoybCu','maDe','432TRhyiL','length','onload','tpl-header-page-1','🌟\x20---\x20KHU\x20VỰC\x20ĐÁP\x20ÁN\x20DÀNH\x20CHO\x20GIÁO\x20VIÊN\x20---\x20🌟','<tr><td><b>','body','</th>','print-grayscale','createEl','width','ondblclick','add','src','questions','renderDOM','se-resize','paperStyle','</b>','</td>','<div\x20style=\x22text-align:center\x22><i>Đề\x20này\x20không\x20có\x20câu\x20hỏi\x20Trắc\x20nghiệm\x20MCQ.</i></div>',')</b>\x20','div','img-right-wrap','appendChild','content-area','1251lOcfPo','closest','.opt-resizable[data-qid=\x22','ans','renderMasterSummary','</div>','removeEventListener','statements','setProperty','max-width:\x20100%;','ansEssay','<table\x20class=\x22student-table\x22><tr><th\x20style=\x22width:45px\x22>Câu</th>','ui-font','--font-family','data-made','.cfg-truong','mouseup','<div\x20style=\x22margin-top:\x208px;\x22>','split',');\x22></div>','\x20---\x20✂️','true-false','<span\x20style=\x22font-size:\x2011pt;\x20font-weight:\x20bold;\x22>','clientX','--main-font-size','\x22\x20style=\x22max-height:100px\x22>','changeLineHeight','ansMCQ','click','width:\x20','</span>','✂️\x20---\x20HẾT\x20MÃ\x20ĐỀ\x20','qid',':</b>\x20','title','\x20&nbsp;&nbsp;\x20','\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<img\x20src=\x22','<div\x20class=\x22answer-box\x22><b>Đáp\x20án:</b><br>','\x22Times\x20New\x20Roman\x22','columns','round','1982210kwIfXk','.img-resizable-wrapper','</tr><tr><th>TL</th>','changeFont','none','--q-margin-bottom','preloadImages','grid','</td></tr>','page-container','getBoundingClientRect','<div\x20class=\x22mcq-grid\x20','options','.cfg-exam','data','cursor','\x22\x20style=\x22max-height:\x2080px;\x22>','<img\x20src=\x22','fromCharCode','find','👁️\x20ĐỀ\x20THI','<b\x20style=\x22color:red\x22>S</b>','imageWidth','<table\x20border=\x221\x22\x20style=\x22border-collapse:\x20collapse;\x20width:\x20100%;\x20text-align:center;\x20margin-top:\x208px;\x20margin-bottom:\x200px;\x22><tr><th\x20style=\x22padding:\x206px\x200;\x20background-color:\x20#f9f9f9;\x22>Phát\x20biểu</th><th\x20style=\x22width:60px;\x20padding:\x206px\x200;\x20background-color:\x20#f9f9f9;\x22>Đúng</th><th\x20style=\x22width:60px;\x20padding:\x206px\x200;\x20background-color:\x20#f9f9f9;\x22>Sai</th></tr>','cloneNode','<div\x20class=\x22paper-grid\x22\x20style=\x22min-height:\x20calc(var(--line-spacing)\x20*\x20','active-resize','remove','autoNumbering','4827PewRgb','addEventListener','<div\x20class=\x22essay-line\x22></div>','</td><td\x20style=\x22padding:\x206px\x200;\x22>','<td\x20style=\x22color:red;\x20font-weight:bold;\x22>','className','content','preventDefault','cssText',';\x20object-fit:\x20contain;\x20display:\x20block;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22img-resize-handle\x20resizer-br\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22resize-dim-badge\x22>0px</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>','<div\x20class=\x22q-reading\x22>','(Chưa\x20có)','forEach','isArray','</b></span>','contentElement','<div\x20class=\x22essay-wrapper\x22><div\x20class=\x22first-line\x22><div\x20class=\x22first-line-label\x22>Bài\x20làm:</div></div>','ansTF','clientY','masterKeys','.page-container[data-made=\x22','lines','reading','412398TNoqhp','</span><span>Trang\x20','</b></td>','font-size:13pt;\x20margin-bottom:10px','renderMathInElement','ui-lh','\x20-\x20Mã\x20đề:\x20<b>','dataset','ceil','<tr\x20style=\x22background:#f4f4f4\x22><th>Câu\x20\x5c\x20Mã\x20đề</th>','classList','app.openQuickEdit(\x22','some','mousemove','height','<div\x20class=\x22score-item\x22><span>Phần\x20','<span>','<div\x20class=\x22bold\x22\x20style=\x22margin-bottom:5px;\x20font-size:\x2011pt;\x22>Điểm\x20phần:</div>','\x22><b>','<div\x20style=\x22margin-top:10px\x22><b>','\x22\x20style=\x22max-width:100%\x22>','grid-4','<div\x20class=\x22paper-blank\x22\x20style=\x22min-height:\x20calc(var(--line-spacing)\x20*\x20','<br><span\x20style=\x22font-size:9pt;\x20font-weight:normal\x22>(Mã\x20đề:\x20','key',');\x22><div\x20class=\x22blank-hint\x22>Bài\x20làm</div></div>','grid-1','autoFit','<th>','getTextLength','totalSecs','drive.google.com/thumbnail','correct-answer','pageBreakInside','colB','19483SpjuBn','examVersions','items','style','createElement','.</b>\x20','right','config','btn-mode','<b>','pageCount','<div\x20class=\x22score-total\x22\x20style=\x22margin-top:auto\x22><span>Tổng:</span><span>.......đ</span></div>','type','width:\x20100%;\x20max-width:\x20100%;',')</span>','line','\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22img-resizable-wrapper\x22\x20data-qid=\x22','683354uQPDUA','drive.google.com/uc','</div><div\x20class=\x22essay-wrapper\x22><div\x20class=\x22first-line\x22></div></div>','\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<img\x20src=\x22','test','join','--line-height','backgroundColor','string','150px','<div\x20class=\x22img-caption\x22>','<b\x20style=\x22color:red\x22>Đ</b>','_start','querySelector','.cfg-diemthi','<table\x20style=\x22width:\x20100%;\x20border-collapse:\x20collapse;\x22>','end-marker\x20no-print','text','createNewPage','<div\x20class=\x22q-block\x22\x20style=\x22font-weight:\x20bold;\x20font-size:\x20110%;\x20text-transform:\x20uppercase;\x20border-bottom:\x201.5px\x20solid\x20#333;\x20padding-bottom:\x202px;\x20margin-top:\x208px;\x20margin-bottom:\x202px;\x22>','<div\x20class=\x22','querySelectorAll',':</span><span>......đ</span></div>','getElementById','colA','object','innerHTML'];_0x5131=function(){return _0x3a9226;};return _0x5131();}function _0x1846(_0x20c134,_0x4f5028){_0x20c134=_0x20c134-0x19e;const _0x5131e0=_0x5131();let _0x184693=_0x5131e0[_0x20c134];return _0x184693;}const _0x48189f=_0x1846;(function(_0x4dacdd,_0x3734fe){const _0x46e851=_0x1846,_0x5b6558=_0x4dacdd();while(!![]){try{const _0x2c9fc2=parseInt(_0x46e851(0x1ed))/0x1*(parseInt(_0x46e851(0x252))/0x2)+parseInt(_0x46e851(0x1b3))/0x3*(-parseInt(_0x46e851(0x264))/0x4)+-parseInt(_0x46e851(0x23b))/0x5+parseInt(_0x46e851(0x1ca))/0x6+-parseInt(_0x46e851(0x1fe))/0x7+parseInt(_0x46e851(0x262))/0x8*(parseInt(_0x46e851(0x27e))/0x9)+-parseInt(_0x46e851(0x2a7))/0xa*(-parseInt(_0x46e851(0x230))/0xb);if(_0x2c9fc2===_0x3734fe)break;else _0x5b6558['push'](_0x5b6558['shift']());}catch(_0x4c31b6){_0x5b6558['push'](_0x5b6558['shift']());}}}(_0x5131,0x34c09),app['updateUI']=function(){const _0x470065=_0x1846;let _0x24181b=document[_0x470065(0x215)](_0x470065(0x1f5));_0x24181b[_0x470065(0x218)]=EXAM[_0x470065(0x1f4)]['mode']==='key'?'👁️\x20ĐÁP\x20ÁN':_0x470065(0x1aa),_0x24181b['style'][_0x470065(0x205)]=EXAM[_0x470065(0x1f4)][_0x470065(0x22a)]==='key'?'#dc3545':'#007bff';if(EXAM[_0x470065(0x1f4)][_0x470065(0x21c)])document['body'][_0x470065(0x1d4)]['add']('print-grayscale');else document[_0x470065(0x26a)][_0x470065(0x1d4)][_0x470065(0x1b1)](_0x470065(0x26c));document['getElementById'](_0x470065(0x28a))['innerText']=EXAM['config'][_0x470065(0x235)],document[_0x470065(0x215)](_0x470065(0x1cf))[_0x470065(0x25d)]=EXAM[_0x470065(0x1f4)][_0x470065(0x22d)];},app[_0x48189f(0x2aa)]=function(_0x535fe9){const _0x2b8a56=_0x48189f;EXAM[_0x2b8a56(0x1f4)][_0x2b8a56(0x235)]+=_0x535fe9,this[_0x2b8a56(0x242)](),this[_0x2b8a56(0x1e5)]();},app[_0x48189f(0x298)]=function(_0x58e41c){const _0x40b2bc=_0x48189f;EXAM[_0x40b2bc(0x1f4)]['lineHeight']=parseFloat((EXAM[_0x40b2bc(0x1f4)][_0x40b2bc(0x22d)]+_0x58e41c)[_0x40b2bc(0x23c)](0x2)),this[_0x40b2bc(0x242)](),this[_0x40b2bc(0x1e5)]();},app[_0x48189f(0x1e7)]=function(_0x3058ef){const _0x216183=_0x48189f;let _0x52093b=document[_0x216183(0x1f1)](_0x216183(0x27a));return _0x52093b['innerHTML']=_0x3058ef||'',_0x52093b['textContent'][_0x216183(0x23e)]()[_0x216183(0x265)];},app[_0x48189f(0x1e5)]=function(){const _0x511eb4=_0x48189f;document[_0x511eb4(0x256)][_0x511eb4(0x1f0)]['setProperty'](_0x511eb4(0x28b),EXAM[_0x511eb4(0x1f4)]['fontFamily']||_0x511eb4(0x2a4)),document[_0x511eb4(0x256)][_0x511eb4(0x1f0)][_0x511eb4(0x286)](_0x511eb4(0x204),EXAM['config'][_0x511eb4(0x22d)]||1.15),this[_0x511eb4(0x273)](EXAM[_0x511eb4(0x1f4)][_0x511eb4(0x235)]||0xe,0x6);},app[_0x48189f(0x273)]=function(_0x36dd82,_0x566a14){const _0x4f3768=_0x48189f;document[_0x4f3768(0x256)][_0x4f3768(0x1f0)]['setProperty'](_0x4f3768(0x296),_0x36dd82+'pt'),document[_0x4f3768(0x256)][_0x4f3768(0x1f0)][_0x4f3768(0x286)](_0x4f3768(0x2ac),_0x566a14+'px');const _0x5bc13a=document[_0x4f3768(0x215)]('exam-paper');_0x5bc13a[_0x4f3768(0x218)]='',this['masterKeys']={},this[_0x4f3768(0x1ee)]['forEach']((_0x533c25,_0x3e4baf)=>{const _0x157815=_0x4f3768;this[_0x157815(0x1f7)]=0x0,this[_0x157815(0x299)]=[],this[_0x157815(0x1c4)]=[],this[_0x157815(0x288)]=[];let _0x5c750d=this[_0x157815(0x210)](_0x5bc13a,_0x533c25['maDe']);_0x533c25[_0x157815(0x1a4)][_0x157815(0x1bf)](_0xc288c1=>{const _0x1febca=_0x157815,_0x50807c=this[_0x1febca(0x26d)](_0xc288c1);if(window[_0x1febca(0x1ce)])renderMathInElement(_0x50807c,{'delimiters':[{'left':'$$','right':'$$','display':!![]},{'left':'$','right':'$','display':![]}],'throwOnError':![]});_0x5c750d[_0x1febca(0x1c2)][_0x1febca(0x27c)](_0x50807c),_0x5c750d['pageElement']['scrollHeight']>_0x5c750d[_0x1febca(0x24e)]['offsetHeight']&&(_0x5c750d[_0x1febca(0x1c2)][_0x1febca(0x257)](_0x50807c),_0x5c750d=this[_0x1febca(0x210)](_0x5bc13a,_0x533c25[_0x1febca(0x263)]),_0x5c750d[_0x1febca(0x1c2)]['appendChild'](_0x50807c));});let _0x466079=_0x5bc13a[_0x157815(0x213)](_0x157815(0x1c7)+_0x533c25[_0x157815(0x263)]+'\x22]');_0x466079[_0x157815(0x1bf)]((_0x403c17,_0x16de10)=>{const _0x3c35ec=_0x157815,_0x38a285=document[_0x3c35ec(0x1f1)](_0x3c35ec(0x27a));_0x38a285[_0x3c35ec(0x1b8)]=_0x3c35ec(0x247),_0x38a285[_0x3c35ec(0x218)]=_0x3c35ec(0x1da)+EXAM[_0x3c35ec(0x1f4)]['footerText']+_0x3c35ec(0x1cb)+(_0x16de10+0x1)+'/'+_0x466079['length']+_0x3c35ec(0x1d0)+_0x533c25[_0x3c35ec(0x263)]+_0x3c35ec(0x1c1),_0x403c17[_0x3c35ec(0x27c)](_0x38a285);});if(_0x3e4baf<this[_0x157815(0x1ee)][_0x157815(0x265)]-0x1){let _0x386d28=document[_0x157815(0x1f1)]('div');_0x386d28[_0x157815(0x1b8)]=_0x157815(0x20e),_0x386d28[_0x157815(0x218)]=_0x157815(0x29d)+_0x533c25[_0x157815(0x263)]+_0x157815(0x292),_0x5bc13a[_0x157815(0x27c)](_0x386d28);}this[_0x157815(0x1c6)][_0x533c25[_0x157815(0x263)]]={'mcq':this[_0x157815(0x299)],'tf':this[_0x157815(0x1c4)],'essay':this[_0x157815(0x288)]};});if(EXAM[_0x4f3768(0x1f4)][_0x4f3768(0x22a)]===_0x4f3768(0x1e2)){let _0x2af329=document[_0x4f3768(0x1f1)](_0x4f3768(0x27a));_0x2af329[_0x4f3768(0x1b8)]='end-marker\x20no-print',_0x2af329[_0x4f3768(0x218)]=_0x4f3768(0x268),_0x5bc13a[_0x4f3768(0x27c)](_0x2af329),this[_0x4f3768(0x282)](_0x5bc13a);}this['initImageResizing']();},app[_0x48189f(0x228)]=function(_0x4a0eb1){const _0x47f3c6=_0x48189f;if(!_0x4a0eb1[_0x47f3c6(0x24f)])return{'h':'','r':![]};let _0x3847ac=_0x4a0eb1[_0x47f3c6(0x1ac)]?String(_0x4a0eb1[_0x47f3c6(0x1ac)])[_0x47f3c6(0x23e)]():'';if(_0x3847ac&&!_0x3847ac[_0x47f3c6(0x260)]('px')&&!_0x3847ac[_0x47f3c6(0x260)]('cm')&&!_0x3847ac['includes']('%'))_0x3847ac+='cm';let _0x52f8bc=_0x3847ac?_0x47f3c6(0x29b)+_0x3847ac+';':_0x47f3c6(0x287),_0x13ad69=_0x3847ac?_0x47f3c6(0x1fa):'max-width:\x20100%;';if(_0x4a0eb1[_0x47f3c6(0x25c)])_0x13ad69+='height:\x20'+_0x4a0eb1[_0x47f3c6(0x25c)]+';';let _0x1adc34=_0x4a0eb1[_0x47f3c6(0x21e)]?_0x47f3c6(0x208)+_0x4a0eb1['imageCaption']+_0x47f3c6(0x283):'',_0xe8493a=_0x4a0eb1[_0x47f3c6(0x238)]===_0x47f3c6(0x1f3)?_0x47f3c6(0x27b):'img-stacked-wrap',_0x33aaf7='<div\x20class=\x22'+_0xe8493a+_0x47f3c6(0x22e)+_0x52f8bc+_0x47f3c6(0x1fd)+_0x4a0eb1[_0x47f3c6(0x253)]+_0x47f3c6(0x2a2)+_0x4a0eb1[_0x47f3c6(0x24f)]+_0x47f3c6(0x21d)+_0x13ad69+_0x47f3c6(0x21f)+_0x1adc34+'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22img-resize-handle\x20resizer-br\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22resize-dim-badge\x22>0\x20x\x200</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20</div>';return{'h':_0x33aaf7,'r':_0x4a0eb1[_0x47f3c6(0x238)]===_0x47f3c6(0x1f3)};},app[_0x48189f(0x26d)]=function(_0x4f7a68){const _0x1c4196=_0x48189f,_0xd7c9fd=document['createElement'](_0x1c4196(0x27a));_0xd7c9fd[_0x1c4196(0x1b8)]='q-wrap',_0xd7c9fd[_0x1c4196(0x236)](_0x1c4196(0x26f),_0x1c4196(0x1d5)+_0x4f7a68[_0x1c4196(0x253)]+'\x22)'),_0xd7c9fd[_0x1c4196(0x1f0)][_0x1c4196(0x1a5)]=_0x1c4196(0x246),_0xd7c9fd[_0x1c4196(0x2a0)]=_0x1c4196(0x250);if(_0x4f7a68[_0x1c4196(0x1f9)]===_0x1c4196(0x1c9)||_0x4f7a68['type']===_0x1c4196(0x25e))_0xd7c9fd[_0x1c4196(0x1f0)][_0x1c4196(0x1eb)]='auto';let _0x54a4d2=EXAM[_0x1c4196(0x1f4)]['mode']===_0x1c4196(0x1e2),_0x369e5e=_0x4f7a68[_0x1c4196(0x24b)]||'';if(EXAM['config'][_0x1c4196(0x1b2)]&&_0x4f7a68[_0x1c4196(0x25f)]){let _0x3d32f9=_0x4f7a68[_0x1c4196(0x259)]?'\x20('+_0x4f7a68[_0x1c4196(0x259)]+')':'';_0x369e5e=_0x1c4196(0x22c)+_0x4f7a68[_0x1c4196(0x25f)]+_0x3d32f9+_0x1c4196(0x29f)+String(_0x369e5e)[_0x1c4196(0x243)](/^Câu\s+\d+.*:\s*/i,'');}else _0x4f7a68[_0x1c4196(0x25f)]&&(_0x369e5e=String(_0x369e5e)[_0x1c4196(0x243)](/^(Câu\s+\d+.*:)\s*/i,_0x1c4196(0x231)));if(_0x4f7a68[_0x1c4196(0x1f9)]===_0x1c4196(0x223)){let _0xbdef69=_0x1c4196(0x211)+_0x4f7a68[_0x1c4196(0x2a0)]+_0x1c4196(0x283);if(!_0x54a4d2&&_0x4f7a68[_0x1c4196(0x232)]&&_0x4f7a68[_0x1c4196(0x220)]>0x0){let _0x3c4700=_0x4f7a68['_count'],_0x55c7a2=_0x3c4700<=0x10?_0x3c4700:Math[_0x1c4196(0x1d2)](_0x3c4700/0x2);if(_0x3c4700>0x18)_0x55c7a2=Math[_0x1c4196(0x1d2)](_0x3c4700/0x3);let _0x1e76a4=Math[_0x1c4196(0x1d2)](_0x3c4700/_0x55c7a2);for(let _0xcc6d73=0x0;_0xcc6d73<_0x1e76a4;_0xcc6d73++){let _0xfa120d='',_0x2adba2='';for(let _0x239d49=0x0;_0x239d49<_0x55c7a2;_0x239d49++){let _0x126ab7=_0xcc6d73*_0x55c7a2+_0x239d49;_0x126ab7<_0x3c4700?(_0xfa120d+='<th>'+(_0x4f7a68[_0x1c4196(0x20a)]+_0x126ab7)+_0x1c4196(0x26b),_0x2adba2+=_0x1c4196(0x251)):(_0xfa120d+=_0x1c4196(0x25a),_0x2adba2+='<td></td>');}_0xbdef69+=_0x1c4196(0x289)+_0xfa120d+_0x1c4196(0x2a9)+_0x2adba2+'</tr></table>';}}_0xd7c9fd['innerHTML']=_0xbdef69;}else{if(_0x4f7a68[_0x1c4196(0x1f9)]===_0x1c4196(0x22f)){if(_0x4f7a68[_0x1c4196(0x261)])this[_0x1c4196(0x299)][_0x1c4196(0x245)]({'q':_0x4f7a68[_0x1c4196(0x25f)],'a':_0x4f7a68[_0x1c4196(0x261)]});let _0x495928=this[_0x1c4196(0x228)](_0x4f7a68);const _0x2bc402=_0x13e884=>typeof _0x13e884==='string'&&(/\.(png|jpe?g|gif|svg|webp)$/i[_0x1c4196(0x202)](_0x13e884['trim']())||_0x13e884[_0x1c4196(0x260)]('drive.google.com/thumbnail')||_0x13e884['includes'](_0x1c4196(0x1ff)));let _0x54c32c=(_0x4f7a68[_0x1c4196(0x1a2)]||[])[_0x1c4196(0x1d6)](_0x45aa6c=>_0x2bc402(_0x45aa6c)),_0x5d041c=_0x54c32c?_0x1c4196(0x234):_0x4f7a68[_0x1c4196(0x2a5)]==0x1?'grid-1':_0x4f7a68[_0x1c4196(0x2a5)]==0x2?_0x1c4196(0x234):_0x1c4196(0x1df);if(!_0x54c32c&&!_0x4f7a68[_0x1c4196(0x2a5)]){let _0x26619b=0x0;(_0x4f7a68[_0x1c4196(0x1a2)]||[])[_0x1c4196(0x1bf)](_0x1ccec9=>{const _0x5e4b22=_0x1c4196;let _0x28fd5b=app[_0x5e4b22(0x1e7)](_0x1ccec9);if(_0x28fd5b>_0x26619b)_0x26619b=_0x28fd5b;});if(_0x26619b>0x28)_0x5d041c=_0x1c4196(0x1e4);else{if(_0x26619b>0xc)_0x5d041c=_0x1c4196(0x234);}}let _0x41a244=_0x4f7a68['optImgHeight']||_0x1c4196(0x207),_0x257bd6=(_0x4f7a68[_0x1c4196(0x1a2)]||[])[_0x1c4196(0x219)]((_0x52b2c1,_0x596f4a)=>{const _0x481bd8=_0x1c4196;let _0x5e0e7a=String[_0x481bd8(0x1a8)](0x41+_0x596f4a),_0x59c8ca=_0x54a4d2&&_0x4f7a68[_0x481bd8(0x261)]===_0x5e0e7a?_0x481bd8(0x1ea):'',_0x17d851=String(_0x52b2c1)[_0x481bd8(0x243)](/^[A-D]\.\s*/,'')[_0x481bd8(0x23e)](),_0x219977=_0x2bc402(_0x17d851)?'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22margin-top:\x205px;\x20display:\x20inline-block;\x20width:\x20auto;\x22\x20class=\x22img-resizable-wrapper\x20opt-resizable\x22\x20data-qid=\x22'+_0x4f7a68['_id']+_0x481bd8(0x201)+_0x17d851+_0x481bd8(0x248)+_0x41a244+_0x481bd8(0x1bc):'\x20'+_0x17d851;return _0x481bd8(0x212)+_0x59c8ca+'\x22><b>'+_0x5e0e7a+'.</b>'+_0x219977+'</div>';})[_0x1c4196(0x203)]('');_0xd7c9fd['innerHTML']=(_0x495928['r']?_0x495928['h']:'')+'<div\x20class=\x22q-block\x22>'+_0x369e5e+'</div>'+(!_0x495928['r']?_0x495928['h']:'')+_0x1c4196(0x1a1)+_0x5d041c+'\x22>'+_0x257bd6+_0x1c4196(0x283);}else{if(_0x4f7a68[_0x1c4196(0x1f9)]===_0x1c4196(0x293)){if(_0x54a4d2)this[_0x1c4196(0x1c4)][_0x1c4196(0x245)]({'q':_0x4f7a68[_0x1c4196(0x25f)],'s':_0x4f7a68[_0x1c4196(0x285)]});let _0x2c71f7=this[_0x1c4196(0x228)](_0x4f7a68);const _0x5671cc=_0x3c68d2=>typeof _0x3c68d2==='string'&&(/\.(png|jpe?g|gif|svg|webp)$/i[_0x1c4196(0x202)](_0x3c68d2[_0x1c4196(0x23e)]())||_0x3c68d2[_0x1c4196(0x260)](_0x1c4196(0x1e9))||_0x3c68d2[_0x1c4196(0x260)](_0x1c4196(0x1ff)));let _0x3762c6=(_0x4f7a68[_0x1c4196(0x285)]||[])[_0x1c4196(0x219)](_0x4030d9=>{const _0xa4b41=_0x1c4196;let _0xc798af=_0x4030d9['text'][_0xa4b41(0x243)](/^[a-e]\)\s*/,'')['trim'](),_0x2891e8=_0x5671cc(_0xc798af)?_0xa4b41(0x1a7)+_0xc798af+'\x22\x20style=\x22max-height:\x20100px;\x20object-fit:\x20contain;\x22>':_0xc798af,_0x3d1aa2=_0x54a4d2&&_0x4030d9[_0xa4b41(0x281)]==='Đ'?_0xa4b41(0x209):'',_0x401f6e=_0x54a4d2&&_0x4030d9['ans']==='S'?_0xa4b41(0x1ab):'';return'<tr><td\x20style=\x22text-align:left;\x20padding:\x206px\x2010px;\x22><b>'+_0x4030d9['text'][_0xa4b41(0x254)](0x0)+_0xa4b41(0x279)+_0x2891e8+'</td><td\x20style=\x22padding:\x206px\x200;\x22>'+_0x3d1aa2+_0xa4b41(0x1b6)+_0x401f6e+_0xa4b41(0x19e);})[_0x1c4196(0x203)]('');_0xd7c9fd[_0x1c4196(0x218)]=(_0x2c71f7['r']?_0x2c71f7['h']:'')+_0x1c4196(0x21a)+_0x369e5e+'</div>'+(!_0x2c71f7['r']?_0x2c71f7['h']:'')+_0x1c4196(0x1ad)+_0x3762c6+'</table>';}else{if(_0x4f7a68[_0x1c4196(0x1f9)]===_0x1c4196(0x25e)){let _0x1fd59b=this[_0x1c4196(0x228)](_0x4f7a68),_0x3c2b18=(_0x1fd59b['r']?_0x1fd59b['h']:'')+_0x1c4196(0x1bd)+_0x4f7a68['content']+_0x1c4196(0x283)+(!_0x1fd59b['r']?_0x1fd59b['h']:'');(_0x4f7a68[_0x1c4196(0x272)]||[])[_0x1c4196(0x1bf)]((_0x3a5788,_0x13aedd)=>{const _0x3db6ba=_0x1c4196;if(_0x3a5788[_0x3db6ba(0x261)])this[_0x3db6ba(0x299)][_0x3db6ba(0x245)]({'q':_0x4f7a68[_0x3db6ba(0x25f)]+'.'+(_0x13aedd+0x1),'a':_0x3a5788[_0x3db6ba(0x261)]});let _0x33f744=_0x3db6ba(0x1df),_0x11d78a=0x0;(_0x3a5788['options']||[])[_0x3db6ba(0x1bf)](_0x4ef062=>{let _0x26a560=app['getTextLength'](_0x4ef062);if(_0x26a560>_0x11d78a)_0x11d78a=_0x26a560;});if(_0x11d78a>0x19)_0x33f744=_0x3db6ba(0x1e4);else{if(_0x11d78a>0xc)_0x33f744=_0x3db6ba(0x234);}let _0x5bc48d=(_0x3a5788[_0x3db6ba(0x1a2)]||[])[_0x3db6ba(0x219)]((_0xdde0f8,_0x4e41a7)=>{const _0x506512=_0x3db6ba;let _0xf43b80=String[_0x506512(0x1a8)](0x41+_0x4e41a7),_0x190f0d=_0x54a4d2&&_0x3a5788[_0x506512(0x261)]===_0xf43b80?'correct-answer':'',_0x3323c7=String(_0xdde0f8)['replace'](/^[A-D]\.\s*/,'');return'<div\x20class=\x22'+_0x190f0d+_0x506512(0x1dc)+_0xf43b80+_0x506512(0x1f2)+_0x3323c7+_0x506512(0x283);})[_0x3db6ba(0x203)]('');_0x3c2b18+=_0x3db6ba(0x1dd)+_0x3a5788[_0x3db6ba(0x24b)]+_0x3db6ba(0x222)+_0x33f744+'\x22>'+_0x5bc48d+_0x3db6ba(0x283);}),_0xd7c9fd['innerHTML']='<div\x20class=\x22q-block\x22>'+_0x369e5e+_0x1c4196(0x283)+_0x3c2b18;}else{if(_0x4f7a68[_0x1c4196(0x1f9)]===_0x1c4196(0x249)){if(_0x54a4d2)this[_0x1c4196(0x288)][_0x1c4196(0x245)]({'q':_0x4f7a68[_0x1c4196(0x25f)],'a':'Giáo\x20viên\x20xem\x20bảng\x20nối\x20cột\x20ở\x20đề.'});let _0x19e45b=this[_0x1c4196(0x228)](_0x4f7a68);const _0x3b74e3=_0x366cba=>typeof _0x366cba===_0x1c4196(0x206)&&(/\.(png|jpe?g|gif|svg|webp)$/i[_0x1c4196(0x202)](_0x366cba[_0x1c4196(0x23e)]())||_0x366cba[_0x1c4196(0x260)](_0x1c4196(0x1e9))||_0x366cba[_0x1c4196(0x260)](_0x1c4196(0x1ff)));let _0x5a697f=Math['max']((_0x4f7a68['colA']||[])[_0x1c4196(0x265)],(_0x4f7a68['colB']||[])[_0x1c4196(0x265)]),_0x6474b2='';for(let _0xd78313=0x0;_0xd78313<_0x5a697f;_0xd78313++){let _0x3db994=_0x4f7a68[_0x1c4196(0x216)][_0xd78313]||'',_0x320249=_0x4f7a68[_0x1c4196(0x1ec)][_0xd78313]||'',_0x190d15=_0x3b74e3(_0x3db994)?_0x1c4196(0x1a7)+_0x3db994+_0x1c4196(0x1a6):_0x3db994,_0x9dc2d8=_0x3b74e3(_0x320249)?_0x1c4196(0x1a7)+_0x320249+_0x1c4196(0x1a6):_0x320249,_0x3346af=_0x320249?_0x1c4196(0x1f6)+String[_0x1c4196(0x1a8)](0x41+_0xd78313)+_0x1c4196(0x1f2):'';_0x6474b2+=_0x1c4196(0x23d)+(_0xd78313+0x1)+_0x1c4196(0x1f2)+_0x190d15+'</td><td\x20style=\x22width:\x204%;\x20border:none\x22></td><td\x20style=\x22width:\x2048%;\x20padding:\x204px\x200;\x20border:\x20none;\x20vertical-align:\x20middle;\x22>'+_0x3346af+_0x9dc2d8+_0x1c4196(0x19e);}let _0x280c24=(_0x4f7a68['colA']||[])[_0x1c4196(0x219)]((_0x16e348,_0x1612b4)=>_0x1c4196(0x1f6)+(_0x1612b4+0x1)+_0x1c4196(0x22b))[_0x1c4196(0x203)](_0x1c4196(0x2a1));_0xd7c9fd[_0x1c4196(0x218)]=(_0x19e45b['r']?_0x19e45b['h']:'')+'<div\x20class=\x22q-block\x22>'+_0x369e5e+_0x1c4196(0x283)+(!_0x19e45b['r']?_0x19e45b['h']:'')+_0x1c4196(0x20d)+_0x6474b2+'</table><div\x20style=\x22margin-top:\x2010px;\x22><i>Đáp\x20án:</i>\x20&nbsp;\x20'+_0x280c24+_0x1c4196(0x283);}else{if(_0x4f7a68[_0x1c4196(0x1f9)]==='fill-blank'){if(_0x54a4d2)this[_0x1c4196(0x288)][_0x1c4196(0x245)]({'q':_0x4f7a68[_0x1c4196(0x25f)],'a':_0x4f7a68[_0x1c4196(0x261)]});let _0x596bc2=this[_0x1c4196(0x228)](_0x4f7a68);const _0x41417b=_0x1bf9cc=>typeof _0x1bf9cc===_0x1c4196(0x206)&&(/\.(png|jpe?g|gif|svg|webp)$/i[_0x1c4196(0x202)](_0x1bf9cc[_0x1c4196(0x23e)]())||_0x1bf9cc[_0x1c4196(0x260)](_0x1c4196(0x1e9))||_0x1bf9cc[_0x1c4196(0x260)]('drive.google.com/uc'));let _0x21b042=_0x54a4d2?'<div\x20class=\x22answer-box\x22><b>Đáp\x20án:</b><br>'+(_0x41417b(_0x4f7a68[_0x1c4196(0x261)])?_0x1c4196(0x1a7)+_0x4f7a68[_0x1c4196(0x261)]+_0x1c4196(0x297):_0x4f7a68[_0x1c4196(0x261)])+_0x1c4196(0x283):'',_0x3f9ced=(_0x4f7a68[_0x1c4196(0x1ef)]||[])[_0x1c4196(0x219)](_0x598538=>_0x1c4196(0x28f)+_0x598538+_0x1c4196(0x200))['join']('');_0xd7c9fd[_0x1c4196(0x218)]=(_0x596bc2['r']?_0x596bc2['h']:'')+_0x1c4196(0x21a)+_0x369e5e+_0x1c4196(0x283)+(!_0x596bc2['r']?_0x596bc2['h']:'')+_0x3f9ced+_0x21b042;}else{if(_0x4f7a68['type']==='essay'||_0x4f7a68[_0x1c4196(0x1f9)]===_0x1c4196(0x241)){if(_0x54a4d2)this[_0x1c4196(0x288)][_0x1c4196(0x245)]({'q':_0x4f7a68[_0x1c4196(0x25f)],'a':_0x4f7a68['answer']});let _0x15ce83=this[_0x1c4196(0x228)](_0x4f7a68);const _0x59f6be=_0x29ff78=>typeof _0x29ff78===_0x1c4196(0x206)&&(/\.(png|jpe?g|gif|svg|webp)$/i[_0x1c4196(0x202)](_0x29ff78[_0x1c4196(0x23e)]())||_0x29ff78[_0x1c4196(0x260)](_0x1c4196(0x1e9))||_0x29ff78[_0x1c4196(0x260)](_0x1c4196(0x1ff)));let _0x71ca38=_0x4f7a68['paperStyle']||'line',_0x3cd890=_0x4f7a68[_0x1c4196(0x1c8)]||0x5,_0x3ff1e4='';if(_0x54a4d2)_0x3ff1e4=_0x1c4196(0x2a3)+(_0x59f6be(_0x4f7a68[_0x1c4196(0x261)])?'<img\x20src=\x22'+_0x4f7a68[_0x1c4196(0x261)]+_0x1c4196(0x1de):_0x4f7a68[_0x1c4196(0x261)]||_0x1c4196(0x1be))+_0x1c4196(0x283);else{if(_0x71ca38==='line'){let _0x115594='';for(let _0x412535=0x1;_0x412535<_0x3cd890;_0x412535++)_0x115594+=_0x1c4196(0x1b5);_0x3ff1e4='<div\x20class=\x22essay-wrapper\x22><div\x20class=\x22first-line\x22><div\x20class=\x22first-line-label\x22>Bài\x20làm:</div></div>'+_0x115594+_0x1c4196(0x283);}else _0x71ca38==='grid'?_0x3ff1e4=_0x1c4196(0x1af)+_0x3cd890+_0x1c4196(0x291):_0x3ff1e4=_0x1c4196(0x1e0)+_0x3cd890+_0x1c4196(0x1e3);}_0xd7c9fd['innerHTML']=(_0x15ce83['r']?_0x15ce83['h']:'')+'<div\x20class=\x22q-block\x22>'+_0x369e5e+_0x1c4196(0x283)+(!_0x15ce83['r']?_0x15ce83['h']:'')+_0x3ff1e4;}else{if(_0x4f7a68['type']===_0x1c4196(0x237)){let _0x441bb2=this[_0x1c4196(0x228)](_0x4f7a68);const _0x3a2e2f=_0x2b9b50=>typeof _0x2b9b50===_0x1c4196(0x206)&&(/\.(png|jpe?g|gif|svg|webp)$/i['test'](_0x2b9b50[_0x1c4196(0x23e)]())||_0x2b9b50[_0x1c4196(0x260)]('drive.google.com/thumbnail')||_0x2b9b50['includes'](_0x1c4196(0x1ff)));let _0x33c09f=(_0x441bb2['r']?_0x441bb2['h']:'')+_0x1c4196(0x21a)+_0x369e5e+_0x1c4196(0x283)+(!_0x441bb2['r']?_0x441bb2['h']:'');(_0x4f7a68['subQuestions']||[])[_0x1c4196(0x1bf)](_0x182efd=>{const _0x181b0d=_0x1c4196;let _0x31a566=_0x182efd[_0x181b0d(0x20f)][_0x181b0d(0x290)](')')[0x0]+')';if(_0x54a4d2)this['ansEssay'][_0x181b0d(0x245)]({'q':_0x31a566,'a':_0x182efd['answer'],'parent':_0x4f7a68[_0x181b0d(0x25f)]});_0x33c09f+=_0x181b0d(0x21b)+_0x182efd[_0x181b0d(0x20f)]+'</b></div>';if(_0x54a4d2)_0x33c09f+=_0x181b0d(0x2a3)+(_0x3a2e2f(_0x182efd['answer'])?'<img\x20src=\x22'+_0x182efd['answer']+_0x181b0d(0x1de):_0x182efd[_0x181b0d(0x261)]||_0x181b0d(0x1be))+_0x181b0d(0x283);else{let _0x3fcef9=_0x182efd[_0x181b0d(0x275)]||_0x181b0d(0x1fc),_0x2f54e8=_0x182efd[_0x181b0d(0x1c8)]||0x3;if(_0x3fcef9==='line'){let _0x1aba8e='';for(let _0x24a783=0x1;_0x24a783<_0x2f54e8;_0x24a783++)_0x1aba8e+=_0x181b0d(0x1b5);_0x33c09f+=_0x181b0d(0x1c3)+_0x1aba8e+_0x181b0d(0x283);}else _0x3fcef9===_0x181b0d(0x2ae)?_0x33c09f+=_0x181b0d(0x1af)+_0x2f54e8+_0x181b0d(0x291):_0x33c09f+=_0x181b0d(0x1e0)+_0x2f54e8+');\x22><div\x20class=\x22blank-hint\x22>Bài\x20làm</div></div>';}}),_0xd7c9fd[_0x1c4196(0x218)]=_0x33c09f;}else _0x4f7a68[_0x1c4196(0x1f9)]==='reading'&&(_0xd7c9fd['innerHTML']=_0x1c4196(0x1bd)+_0x4f7a68['content']+'</div>');}}}}}}}return _0xd7c9fd;},app['renderMasterSummary']=function(_0x4eeb1b){const _0x2602af=_0x48189f;let _0x3dff86=document['createElement']('div');_0x3dff86[_0x2602af(0x1b8)]='page-container';let _0x77a505=document['createElement'](_0x2602af(0x27a));_0x77a505['className']=_0x2602af(0x27d);let _0x1fcc89='<div\x20class=\x22summary-title\x22\x20style=\x22text-align:center;\x20font-size:16pt;\x20font-weight:bold;\x20margin-bottom:\x2020px;\x22>BẢNG\x20TỔNG\x20HỢP\x20ĐÁP\x20ÁN\x20TRẮC\x20NGHIỆM</div>',_0x1a89c0=this[_0x2602af(0x1ee)][_0x2602af(0x219)](_0x4ea25d=>_0x4ea25d['maDe']);if(_0x1a89c0[_0x2602af(0x265)]>0x0&&this['masterKeys'][_0x1a89c0[0x0]][_0x2602af(0x22f)]['length']>0x0){let _0x467ecf=this['masterKeys'][_0x1a89c0[0x0]][_0x2602af(0x22f)]['length'];_0x1fcc89+='<table\x20border=\x221\x22\x20style=\x22width:100%;\x20border-collapse:\x20collapse;\x20text-align:center;\x22>',_0x1fcc89+=_0x2602af(0x1d3)+_0x1a89c0[_0x2602af(0x219)](_0x1f8a5e=>_0x2602af(0x1e6)+_0x1f8a5e+_0x2602af(0x26b))[_0x2602af(0x203)]('')+_0x2602af(0x221);for(let _0x3d98e0=0x0;_0x3d98e0<_0x467ecf;_0x3d98e0++){let _0x56ee5b=this[_0x2602af(0x1c6)][_0x1a89c0[0x0]][_0x2602af(0x22f)][_0x3d98e0]['q'];_0x1fcc89+=_0x2602af(0x269)+_0x56ee5b+_0x2602af(0x1cc),_0x1a89c0[_0x2602af(0x1bf)](_0x560254=>{const _0x4b1202=_0x2602af;let _0xa458fd=this[_0x4b1202(0x1c6)][_0x560254][_0x4b1202(0x22f)][_0x3d98e0],_0x16b76e=_0xa458fd?_0xa458fd['a']:'?';_0x1fcc89+=_0x4b1202(0x1b7)+_0x16b76e+_0x4b1202(0x277);}),_0x1fcc89+='</tr>';}_0x1fcc89+=_0x2602af(0x23a);}else _0x1fcc89+=_0x2602af(0x278);_0x77a505[_0x2602af(0x218)]=_0x1fcc89,_0x3dff86[_0x2602af(0x27c)](_0x77a505),_0x4eeb1b[_0x2602af(0x27c)](_0x3dff86);},app['createNewPage']=function(_0x2448f8,_0x3ee150){const _0x4a913c=_0x48189f;this[_0x4a913c(0x1f7)]++;let _0x36340a=document['createElement']('div');_0x36340a[_0x4a913c(0x1b8)]=_0x4a913c(0x19f),_0x36340a[_0x4a913c(0x236)](_0x4a913c(0x28c),_0x3ee150);let _0x47d180=document['getElementById'](this[_0x4a913c(0x1f7)]===0x1?_0x4a913c(0x267):'tpl-header-page-n')[_0x4a913c(0x1b9)][_0x4a913c(0x1ae)](!![]);if(this['pageCount']===0x1){const _0x23ddba=EXAM[_0x4a913c(0x1f4)];if(_0x47d180[_0x4a913c(0x20b)]('.cfg-truong'))_0x47d180[_0x4a913c(0x20b)](_0x4a913c(0x28d))[_0x4a913c(0x218)]='<b\x20style=\x22font-size:10.5pt\x22>'+_0x23ddba[_0x4a913c(0x24d)]+_0x4a913c(0x276);if(_0x47d180[_0x4a913c(0x20b)](_0x4a913c(0x1a3)))_0x47d180['querySelector']('.cfg-exam')[_0x4a913c(0x218)]='<b>'+_0x23ddba['kyThi']+_0x4a913c(0x276);if(_0x47d180['querySelector'](_0x4a913c(0x23f)))_0x47d180['querySelector'](_0x4a913c(0x23f))['innerHTML']='<b>'+_0x23ddba[_0x4a913c(0x244)]+_0x4a913c(0x276);if(_0x47d180[_0x4a913c(0x20b)]('.cfg-diemthi'))_0x47d180[_0x4a913c(0x20b)](_0x4a913c(0x20c))['innerHTML']=_0x4a913c(0x1f6)+_0x23ddba['diemThi']+'</b>';if(_0x47d180[_0x4a913c(0x20b)](_0x4a913c(0x25b))){let _0x1159d7=_0x4a913c(0x294)+_0x23ddba[_0x4a913c(0x255)]+_0x4a913c(0x29c);if(_0x3ee150)_0x1159d7+=_0x4a913c(0x1e1)+_0x3ee150+_0x4a913c(0x1fb);_0x47d180[_0x4a913c(0x20b)](_0x4a913c(0x25b))[_0x4a913c(0x218)]=_0x1159d7;}}_0x36340a[_0x4a913c(0x27c)](_0x47d180);let _0x3dd93a=document[_0x4a913c(0x1f1)](_0x4a913c(0x27a));_0x3dd93a['className']=_0x4a913c(0x27d);if(this[_0x4a913c(0x1f7)]===0x1){_0x3dd93a[_0x4a913c(0x1d4)][_0x4a913c(0x270)](_0x4a913c(0x240));let _0x3cce14=document[_0x4a913c(0x1f1)](_0x4a913c(0x27a));_0x3cce14[_0x4a913c(0x1b8)]=_0x4a913c(0x24c);let _0x22abf0=_0x4a913c(0x1db);for(let _0x3ff095=0x1;_0x3ff095<=(EXAM[_0x4a913c(0x1f4)]['soPhan']||this[_0x4a913c(0x1e8)]||0x1);_0x3ff095++)_0x22abf0+=_0x4a913c(0x1d9)+_0x3ff095+_0x4a913c(0x214);_0x22abf0+=_0x4a913c(0x1f8),_0x3cce14[_0x4a913c(0x218)]=_0x22abf0,_0x3dd93a[_0x4a913c(0x27c)](_0x3cce14);let _0x36df41=document['createElement'](_0x4a913c(0x27a));_0x36df41[_0x4a913c(0x1b8)]='center\x20bold',_0x36df41[_0x4a913c(0x25d)]='BÀI\x20LÀM',_0x36df41[_0x4a913c(0x1f0)][_0x4a913c(0x1bb)]=_0x4a913c(0x1cd),_0x3dd93a['appendChild'](_0x36df41);}return _0x36340a[_0x4a913c(0x27c)](_0x3dd93a),_0x2448f8[_0x4a913c(0x27c)](_0x36340a),{'pageElement':_0x36340a,'contentElement':_0x3dd93a};},app[_0x48189f(0x2ad)]=function(_0x307ef9){return new Promise(_0x409b77=>{const _0x3c46eb=_0x1846;let _0x4fd720=[];const _0xc74a30=_0x59d328=>{const _0x1b23e8=_0x1846;if(typeof _0x59d328!=='string')return![];let _0x5d86a1=_0x59d328['trim']();return/\.(png|jpe?g|gif|svg|webp)$/i[_0x1b23e8(0x202)](_0x5d86a1)||_0x5d86a1['includes'](_0x1b23e8(0x1e9))||_0x5d86a1['includes'](_0x1b23e8(0x1ff));},_0x2e6b4b=_0x194ae4=>{const _0x5d647d=_0x1846;if(!_0x194ae4)return;if(typeof _0x194ae4===_0x5d647d(0x206)&&_0xc74a30(_0x194ae4))_0x4fd720[_0x5d647d(0x245)](_0x194ae4['trim']());else{if(Array[_0x5d647d(0x1c0)](_0x194ae4))_0x194ae4[_0x5d647d(0x1bf)](_0x2e6b4b);else typeof _0x194ae4===_0x5d647d(0x217)&&Object['values'](_0x194ae4)[_0x5d647d(0x1bf)](_0x2e6b4b);}};_0x2e6b4b(_0x307ef9),_0x4fd720=[...new Set(_0x4fd720)];if(_0x4fd720[_0x3c46eb(0x265)]===0x0){_0x409b77();return;}let _0x58c48f=0x0;_0x4fd720[_0x3c46eb(0x1bf)](_0x32b208=>{const _0x506897=_0x3c46eb;let _0x5e10a1=new Image();_0x5e10a1[_0x506897(0x266)]=_0x5e10a1['onerror']=()=>{_0x58c48f++;if(_0x58c48f===_0x4fd720['length'])_0x409b77();},_0x5e10a1[_0x506897(0x271)]=_0x32b208;});});},app['initImageResizing']=function(){const _0x3ebcd4=_0x48189f,_0x244fd9=document[_0x3ebcd4(0x215)]('exam-paper');if(!_0x244fd9)return;document[_0x3ebcd4(0x1b4)](_0x3ebcd4(0x258),function(_0x19bfbc){const _0x302144=_0x3ebcd4;!_0x19bfbc['target']['closest']('.img-resizable-wrapper')&&_0x244fd9[_0x302144(0x213)]('.img-resizable-wrapper.active-resize')[_0x302144(0x1bf)](_0x5c4b94=>_0x5c4b94[_0x302144(0x1d4)][_0x302144(0x1b1)]('active-resize'));});const _0x32841f=_0x244fd9[_0x3ebcd4(0x213)](_0x3ebcd4(0x2a8));_0x32841f[_0x3ebcd4(0x1bf)](_0x1cf2b4=>{const _0x4db160=_0x3ebcd4,_0x54f11b=_0x1cf2b4[_0x4db160(0x20b)](_0x4db160(0x228));if(!_0x54f11b)return;_0x1cf2b4[_0x4db160(0x1b4)](_0x4db160(0x29a),function(_0x38795a){const _0x341bcf=_0x4db160;_0x38795a['stopPropagation'](),_0x244fd9[_0x341bcf(0x213)](_0x341bcf(0x224))[_0x341bcf(0x1bf)](_0x22b0c6=>_0x22b0c6[_0x341bcf(0x1d4)]['remove'](_0x341bcf(0x1b0))),this['classList']['add'](_0x341bcf(0x1b0));});const _0x3bc101=_0x1cf2b4[_0x4db160(0x20b)]('.resizer-br');if(!_0x3bc101)return;let _0x79cdd1,_0x3f9418,_0x4b53d2,_0x1aaf8a,_0x483bbc;const _0x3ec300=_0x1cf2b4[_0x4db160(0x20b)](_0x4db160(0x225)),_0x75fc2a=_0x1cf2b4[_0x4db160(0x1d4)]['contains'](_0x4db160(0x227)),_0x34ea8e=_0xb0136d=>{const _0x1ea66f=_0x4db160;_0xb0136d[_0x1ea66f(0x233)](),_0xb0136d[_0x1ea66f(0x1ba)](),_0x79cdd1=_0xb0136d[_0x1ea66f(0x295)],_0x3f9418=_0xb0136d['clientY'];const _0x284504=_0x54f11b[_0x1ea66f(0x1a0)]();_0x4b53d2=_0x284504[_0x1ea66f(0x26e)],_0x1aaf8a=_0x284504['height'],_0x483bbc=_0x4b53d2/_0x1aaf8a,_0x3ec300&&(_0x3ec300['style']['display']=_0x1ea66f(0x24a),_0x3ec300[_0x1ea66f(0x25d)]=_0x75fc2a?'Cao:\x20'+Math[_0x1ea66f(0x2a6)](_0x1aaf8a)+'px':Math['round'](_0x4b53d2)+'px'),document[_0x1ea66f(0x1b4)](_0x1ea66f(0x1d7),_0x23fcd1),document[_0x1ea66f(0x1b4)](_0x1ea66f(0x28e),_0x19674b),document['body'][_0x1ea66f(0x1f0)][_0x1ea66f(0x1a5)]=_0x1ea66f(0x274);},_0x23fcd1=_0x24e804=>{const _0x2df2cd=_0x4db160;if(_0x75fc2a){const _0x5bf0b5=_0x24e804[_0x2df2cd(0x1c5)]-_0x3f9418;let _0x415d68=_0x1aaf8a+_0x5bf0b5;if(_0x415d68<0x1e)_0x415d68=0x1e;const _0x4ebcdd=_0x244fd9[_0x2df2cd(0x213)](_0x2df2cd(0x280)+_0x1cf2b4[_0x2df2cd(0x1d1)][_0x2df2cd(0x29e)]+_0x2df2cd(0x239));_0x4ebcdd[_0x2df2cd(0x1bf)](_0x54640b=>_0x54640b[_0x2df2cd(0x1f0)][_0x2df2cd(0x1d8)]=_0x415d68+'px');if(_0x3ec300)_0x3ec300['innerText']=_0x2df2cd(0x226)+Math[_0x2df2cd(0x2a6)](_0x415d68)+'px';}else{const _0x2224b7=_0x24e804[_0x2df2cd(0x295)]-_0x79cdd1;let _0x2ce8df=_0x4b53d2+_0x2224b7;if(_0x2ce8df<0x1e)_0x2ce8df=0x1e;const _0x231da=_0x2ce8df/_0x483bbc;_0x54f11b[_0x2df2cd(0x1f0)][_0x2df2cd(0x26e)]=_0x2ce8df+'px',_0x54f11b[_0x2df2cd(0x1f0)][_0x2df2cd(0x1d8)]=_0x231da+'px';if(_0x3ec300)_0x3ec300[_0x2df2cd(0x25d)]=Math[_0x2df2cd(0x2a6)](_0x2ce8df)+'px';const _0x1171e7=_0x1cf2b4[_0x2df2cd(0x27f)]('.img-stacked-wrap,\x20.img-right-wrap');if(_0x1171e7)_0x1171e7[_0x2df2cd(0x1f0)]['width']=_0x2ce8df+'px';}},_0x19674b=()=>{const _0x770c61=_0x4db160;document[_0x770c61(0x284)](_0x770c61(0x1d7),_0x23fcd1),document[_0x770c61(0x284)]('mouseup',_0x19674b),document['body'][_0x770c61(0x1f0)]['cursor']='';if(_0x3ec300)_0x3ec300[_0x770c61(0x1f0)][_0x770c61(0x229)]=_0x770c61(0x2ab);const _0x2434e4=_0x1cf2b4['dataset'][_0x770c61(0x29e)];if(_0x2434e4){if(_0x75fc2a){const _0x13d515=_0x54f11b['style'][_0x770c61(0x1d8)];let _0x57aa97=app['workingData']['find'](_0x901109=>_0x901109[_0x770c61(0x253)]===_0x2434e4);if(_0x57aa97)_0x57aa97['optImgHeight']=_0x13d515;app[_0x770c61(0x1ee)]['forEach'](_0x49106c=>{const _0x3a4b45=_0x770c61;let _0xa5ac5c=_0x49106c[_0x3a4b45(0x1a4)][_0x3a4b45(0x1a9)](_0x5aaba7=>_0x5aaba7[_0x3a4b45(0x253)]===_0x2434e4);if(_0xa5ac5c)_0xa5ac5c['optImgHeight']=_0x13d515;});}else{const _0x1270a8=_0x54f11b[_0x770c61(0x1f0)][_0x770c61(0x26e)];let _0x42513e=app['workingData']['find'](_0x1a7f19=>_0x1a7f19['_id']===_0x2434e4);if(_0x42513e){_0x42513e[_0x770c61(0x1ac)]=_0x1270a8;if(_0x42513e[_0x770c61(0x25c)])delete _0x42513e['imageHeight'];}app[_0x770c61(0x1ee)]['forEach'](_0x3bf665=>{const _0x18fdff=_0x770c61;let _0xa4246a=_0x3bf665[_0x18fdff(0x1a4)][_0x18fdff(0x1a9)](_0x142014=>_0x142014[_0x18fdff(0x253)]===_0x2434e4);if(_0xa4246a){_0xa4246a['imageWidth']=_0x1270a8;if(_0xa4246a[_0x18fdff(0x25c)])delete _0xa4246a['imageHeight'];}});}app[_0x770c61(0x1e5)]();}};_0x3bc101['addEventListener']('mousedown',_0x34ea8e);});});
+// ==========================================
+// MODULE 3: RENDER GIAO DIỆN & IN ẤN (V5.6 HỖ TRỢ ĐỒNG BỘ 4 ẢNH ĐÁP ÁN)
+// ==========================================
+
+app.updateUI = function() {
+    let btn = document.getElementById('btn-mode');
+    btn.innerHTML = (EXAM.config.mode === 'key') ? "👁️ ĐÁP ÁN" : "👁️ ĐỀ THI";
+    btn.style.backgroundColor = (EXAM.config.mode === 'key') ? "#dc3545" : "#007bff";
+    if (EXAM.config.inTrangDen) document.body.classList.add('print-grayscale');
+    else document.body.classList.remove('print-grayscale');
+    document.getElementById('ui-font').innerText = EXAM.config.fontSize;
+    document.getElementById('ui-lh').innerText = EXAM.config.lineHeight;
+};
+
+app.changeFont = function(delta) { EXAM.config.fontSize += delta; this.updateUI(); this.autoFit(); };
+app.changeLineHeight = function(delta) { EXAM.config.lineHeight = parseFloat((EXAM.config.lineHeight + delta).toFixed(2)); this.updateUI(); this.autoFit(); };
+app.getTextLength = function(htmlString) { let tmp = document.createElement('div'); tmp.innerHTML = htmlString || ''; return tmp.textContent.trim().length; };
+
+app.autoFit = function() {
+    document.documentElement.style.setProperty('--font-family', EXAM.config.fontFamily || '"Times New Roman"');
+    document.documentElement.style.setProperty('--line-height', EXAM.config.lineHeight || 1.15); 
+    this.renderDOM(EXAM.config.fontSize || 14, 6);
+};
+
+app.renderDOM = function(fontSize, marginBottom) {
+    document.documentElement.style.setProperty('--main-font-size', fontSize + 'pt');
+    document.documentElement.style.setProperty('--q-margin-bottom', marginBottom + 'px');
+    
+    const paper = document.getElementById('exam-paper'); 
+    paper.innerHTML = ''; 
+    this.masterKeys = {}; 
+    
+    this.examVersions.forEach((version, vIndex) => {
+        this.pageCount = 0; 
+        this.ansMCQ = []; this.ansTF = []; this.ansEssay = [];
+        let currentPage = this.createNewPage(paper, version.maDe);
+        
+        version.data.forEach(item => {
+            const el = this.createEl(item);
+            if (window.renderMathInElement) renderMathInElement(el, { delimiters: [{left: '$$', right: '$$', display: true}, {left: '$', right: '$', display: false}], throwOnError: false });
+            currentPage.contentElement.appendChild(el);
+            
+            if (currentPage.pageElement.scrollHeight > currentPage.pageElement.offsetHeight) {
+                currentPage.contentElement.removeChild(el); 
+                currentPage = this.createNewPage(paper, version.maDe); 
+                currentPage.contentElement.appendChild(el);
+            }
+        });
+        
+        let allPages = paper.querySelectorAll(`.page-container[data-made="${version.maDe}"]`);
+        allPages.forEach((pageContainer, index) => {
+            const footer = document.createElement('div'); footer.className = 'page-footer';
+            footer.innerHTML = `<span>${EXAM.config.footerText}</span><span>Trang ${index + 1}/${allPages.length} - Mã đề: <b>${version.maDe}</b></span>`;
+            pageContainer.appendChild(footer);
+        });
+
+        if (vIndex < this.examVersions.length - 1) {
+            let splitMarker = document.createElement('div'); splitMarker.className = "end-marker no-print"; 
+            splitMarker.innerHTML = `✂️ --- HẾT MÃ ĐỀ ${version.maDe} --- ✂️`;
+            paper.appendChild(splitMarker);
+        }
+        this.masterKeys[version.maDe] = { mcq: this.ansMCQ, tf: this.ansTF, essay: this.ansEssay };
+    });
+
+    if (EXAM.config.mode === 'key') {
+        let keyTitle = document.createElement('div'); keyTitle.className = "end-marker no-print"; 
+        keyTitle.innerHTML = `🌟 --- KHU VỰC ĐÁP ÁN DÀNH CHO GIÁO VIÊN --- 🌟`;
+        paper.appendChild(keyTitle);
+        this.renderMasterSummary(paper);
+    }
+    
+    // Kích hoạt tính năng kéo tay
+    this.initImageResizing();
+};
+
+app.img = function(d) {
+    if (!d.image) return { h: '', r: false };
+    
+    let w = d.imageWidth ? String(d.imageWidth).trim() : '';
+    if (w && !w.includes('px') && !w.includes('cm') && !w.includes('%')) w += 'cm'; 
+    
+    let wrapStyle = w ? `width: ${w};` : 'max-width: 100%;';
+    let imgStyle = w ? `width: 100%; max-width: 100%;` : 'max-width: 100%;';
+    if (d.imageHeight) imgStyle += `height: ${d.imageHeight};`; 
+
+    let caption = d.imageCaption ? `<div class="img-caption">${d.imageCaption}</div>` : '';
+    let wrapClass = d.imageLayout === 'right' ? 'img-right-wrap' : 'img-stacked-wrap';
+    
+    let html = `<div class="${wrapClass}" style="${wrapStyle}">
+        <div class="img-resizable-wrapper" data-qid="${d._id}">
+            <img src="${d.image}" class="img-fluid editable-img" style="${imgStyle}">
+            ${caption}
+            <div class="img-resize-handle resizer-br"></div>
+            <div class="resize-dim-badge">0 x 0</div>
+        </div>
+    </div>`;
+    
+    return { h: html, r: (d.imageLayout === 'right') };
+};
+
+app.createEl = function(data) {
+    const wrap = document.createElement('div');
+    wrap.className = 'q-wrap';
+    
+    wrap.setAttribute('ondblclick', 'app.openQuickEdit("' + data._id + '")');
+    wrap.style.cursor = "pointer";
+    wrap.title = "✏️ Nhấp đúp chuột để sửa nội dung";
+
+    if (data.type === 'reading' || data.type === 'cloze') wrap.style.pageBreakInside = 'auto';
+
+    let isKey = (EXAM.config.mode === 'key');
+    let qTitle = data.question || "";
+    
+    if (EXAM.config.autoNumbering && data._qIdx) {
+        let ptsText = data.points ? ` (${data.points})` : '';
+        qTitle = `<b>Câu ${data._qIdx}${ptsText}:</b> ${String(qTitle).replace(/^Câu\s+\d+.*:\s*/i, '')}`;
+    } else if (data._qIdx) {
+        qTitle = String(qTitle).replace(/^(Câu\s+\d+.*:)\s*/i, '<b>$1</b> ');
+    }
+
+    if (data.type === "section") {
+        let html = `<div class="q-block" style="font-weight: bold; font-size: 110%; text-transform: uppercase; border-bottom: 1.5px solid #333; padding-bottom: 2px; margin-top: 8px; margin-bottom: 2px;">${data.title}</div>`;
+        if (!isKey && data.showMCQTable && data._count > 0) {
+            let total = data._count; let cols = total <= 16 ? total : Math.ceil(total / 2); if (total > 24) cols = Math.ceil(total / 3); 
+            let rows = Math.ceil(total / cols);
+            for (let r = 0; r < rows; r++) {
+                let hRow = '', bRow = '';
+                for (let c = 0; c < cols; c++) {
+                    let idx = r * cols + c;
+                    if (idx < total) { hRow += `<th>${data._start + idx}</th>`; bRow += `<td></td>`; } 
+                    else { hRow += `<th></th>`; bRow += `<td></td>`; }
+                }
+                html += `<table class="student-table"><tr><th style="width:45px">Câu</th>${hRow}</tr><tr><th>TL</th>${bRow}</tr></table>`;
+            }
+        }
+        wrap.innerHTML = html;
+    } 
+    else if (data.type === "mcq") {
+        if (data.answer) this.ansMCQ.push({ q: data._qIdx, a: data.answer }); 
+        let img = this.img(data);
+        const isImg = (text) => typeof text === 'string' && (/\.(png|jpe?g|gif|svg|webp)$/i.test(text.trim()) || text.includes('drive.google.com/thumbnail') || text.includes('drive.google.com/uc'));
+        let hasImageOption = (data.options || []).some(opt => isImg(opt));
+
+        let gridClass = hasImageOption ? 'grid-2' : (data.columns == 1 ? 'grid-1' : (data.columns == 2 ? 'grid-2' : 'grid-4'));
+        if (!hasImageOption && !data.columns) {
+            let maxLen = 0; (data.options || []).forEach(o => { let l = app.getTextLength(o); if(l > maxLen) maxLen = l; });
+            if (maxLen > 40) gridClass = 'grid-1'; else if (maxLen > 12) gridClass = 'grid-2';
+        }
+
+        // ✨ BIẾN CHỨA CHIỀU CAO ẢNH ĐÁP ÁN (Mặc định 150px nếu chưa kéo)
+        let optH = data.optImgHeight || "150px"; 
+        
+        let optsHTML = (data.options || []).map((opt, i) => {
+            let charOpt = String.fromCharCode(65 + i);
+            let isCorrectClass = (isKey && data.answer === charOpt) ? 'correct-answer' : '';
+            let cleanOpt = String(opt).replace(/^[A-D]\.\s*/, '').trim();
+            
+            // ✨ BỌC ẢNH ĐÁP ÁN VÀO WRAPPER CÓ TAY CẦM KÉO
+            let contentHTML = isImg(cleanOpt) ? `
+                <div style="margin-top: 5px; display: inline-block; width: auto;" class="img-resizable-wrapper opt-resizable" data-qid="${data._id}">
+                    <img src="${cleanOpt}" style="max-width: 100%; height: ${optH}; object-fit: contain; display: block;">
+                    <div class="img-resize-handle resizer-br"></div>
+                    <div class="resize-dim-badge">0px</div>
+                </div>` : ` ${cleanOpt}`;
+                
+            return `<div class="${isCorrectClass}"><b>${charOpt}.</b>${contentHTML}</div>`;
+        }).join('');
+        wrap.innerHTML = `${img.r ? img.h : ''}<div class="q-block">${qTitle}</div>${!img.r ? img.h : ''}<div class="mcq-grid ${gridClass}">${optsHTML}</div>`;
+    }
+    else if (data.type === "true-false") {
+        if (isKey) this.ansTF.push({ q: data._qIdx, s: data.statements });
+        let img = this.img(data);
+        const isImg = (text) => typeof text === 'string' && (/\.(png|jpe?g|gif|svg|webp)$/i.test(text.trim()) || text.includes('drive.google.com/thumbnail') || text.includes('drive.google.com/uc'));
+        let rows = (data.statements || []).map(s => {
+            let cleanTxt = s.text.replace(/^[a-e]\)\s*/, '').trim();
+            let contentHTML = isImg(cleanTxt) ? `<img src="${cleanTxt}" style="max-height: 100px; object-fit: contain;">` : cleanTxt;
+            let d = (isKey && s.ans === "Đ") ? '<b style="color:red">Đ</b>' : '';
+            let sa = (isKey && s.ans === "S") ? '<b style="color:red">S</b>' : '';
+            return `<tr><td style="text-align:left; padding: 6px 10px;"><b>${s.text.charAt(0)})</b> ${contentHTML}</td><td style="padding: 6px 0;">${d}</td><td style="padding: 6px 0;">${sa}</td></tr>`;
+        }).join('');
+        wrap.innerHTML = `${img.r ? img.h : ''}<div class="q-block">${qTitle}</div>${!img.r ? img.h : ''}<table border="1" style="border-collapse: collapse; width: 100%; text-align:center; margin-top: 8px; margin-bottom: 0px;"><tr><th style="padding: 6px 0; background-color: #f9f9f9;">Phát biểu</th><th style="width:60px; padding: 6px 0; background-color: #f9f9f9;">Đúng</th><th style="width:60px; padding: 6px 0; background-color: #f9f9f9;">Sai</th></tr>${rows}</table>`;
+    }
+    else if (data.type === "cloze") {
+        let img = this.img(data); let clozeHTML = `${img.r ? img.h : ''}<div class="q-reading">${data.content}</div>${!img.r ? img.h : ''}`;
+        (data.questions || []).forEach((q, qidx) => {
+            if (q.answer) this.ansMCQ.push({ q: `${data._qIdx}.${qidx + 1}`, a: q.answer });
+            let gridClass = 'grid-4'; let maxLen = 0;
+            (q.options || []).forEach(o => { let l = app.getTextLength(o); if(l > maxLen) maxLen = l; });
+            if (maxLen > 25) gridClass = 'grid-1'; else if (maxLen > 12) gridClass = 'grid-2';
+            let optsHTML = (q.options || []).map((opt, i) => {
+                let charOpt = String.fromCharCode(65 + i);
+                let isCorrectClass = (isKey && q.answer === charOpt) ? 'correct-answer' : '';
+                let cleanOpt = String(opt).replace(/^[A-D]\.\s*/, '');
+                return `<div class="${isCorrectClass}"><b>${charOpt}.</b> ${cleanOpt}</div>`;
+            }).join('');
+            clozeHTML += `<div style="margin-top:10px"><b>${q.question}</b></div><div class="mcq-grid ${gridClass}">${optsHTML}</div>`;
+        });
+        wrap.innerHTML = `<div class="q-block">${qTitle}</div>${clozeHTML}`;
+    }
+    else if (data.type === "matching") {
+        if (isKey) this.ansEssay.push({ q: data._qIdx, a: "Giáo viên xem bảng nối cột ở đề." });
+        let img = this.img(data); 
+        const isImg = (text) => typeof text === 'string' && (/\.(png|jpe?g|gif|svg|webp)$/i.test(text.trim()) || text.includes('drive.google.com/thumbnail') || text.includes('drive.google.com/uc'));
+        let rowCount = Math.max((data.colA || []).length, (data.colB || []).length); let trs = '';
+        for (let i = 0; i < rowCount; i++) {
+            let aTxt = data.colA[i] || ""; let bTxt = data.colB[i] || "";
+            let aHTML = isImg(aTxt) ? `<img src="${aTxt}" style="max-height: 80px;">` : aTxt; let bHTML = isImg(bTxt) ? `<img src="${bTxt}" style="max-height: 80px;">` : bTxt;
+            let lblB = bTxt ? `<b>${String.fromCharCode(65 + i)}.</b> ` : "";
+            trs += `<tr><td style="width: 48%; padding: 4px 0; border: none; vertical-align: middle;"><b>${i + 1}.</b> ${aHTML}</td><td style="width: 4%; border:none"></td><td style="width: 48%; padding: 4px 0; border: none; vertical-align: middle;">${lblB}${bHTML}</td></tr>`;
+        }
+        let slots = (data.colA || []).map((_, idx) => `<b>${idx + 1} - ....</b>`).join(' &nbsp;&nbsp; ');
+        wrap.innerHTML = `${img.r ? img.h : ''}<div class="q-block">${qTitle}</div>${!img.r ? img.h : ''}<table style="width: 100%; border-collapse: collapse;">${trs}</table><div style="margin-top: 10px;"><i>Đáp án:</i> &nbsp; ${slots}</div>`;
+    }
+    else if (data.type === "fill-blank") {
+        if (isKey) this.ansEssay.push({ q: data._qIdx, a: data.answer });
+        let img = this.img(data); 
+        const isImg = (text) => typeof text === 'string' && (/\.(png|jpe?g|gif|svg|webp)$/i.test(text.trim()) || text.includes('drive.google.com/thumbnail') || text.includes('drive.google.com/uc'));
+        let ansHTML = isKey ? `<div class="answer-box"><b>Đáp án:</b><br>${isImg(data.answer) ? `<img src="${data.answer}" style="max-height:100px">` : data.answer}</div>` : '';
+        let itemsHTML = (data.items || []).map(it => `<div style="margin-top: 8px;">${it}</div><div class="essay-wrapper"><div class="first-line"></div></div>`).join('');
+        wrap.innerHTML = `${img.r ? img.h : ''}<div class="q-block">${qTitle}</div>${!img.r ? img.h : ''}${itemsHTML}${ansHTML}`;
+    }
+    else if (data.type === "essay" || data.type === "drawing") {
+        if (isKey) this.ansEssay.push({ q: data._qIdx, a: data.answer });
+        let img = this.img(data); 
+        const isImg = (text) => typeof text === 'string' && (/\.(png|jpe?g|gif|svg|webp)$/i.test(text.trim()) || text.includes('drive.google.com/thumbnail') || text.includes('drive.google.com/uc'));
+        let pStyle = data.paperStyle || "line";
+        let numLines = data.lines || 5;
+        let workspaceHTML = "";
+        
+        if (isKey) { 
+            workspaceHTML = `<div class="answer-box"><b>Đáp án:</b><br>${isImg(data.answer) ? `<img src="${data.answer}" style="max-width:100%">` : (data.answer || "(Chưa có)") }</div>`; 
+        } 
+        else {
+            if (pStyle === "line") { 
+                let linesHTML = ""; 
+                for (let i = 1; i < numLines; i++) linesHTML += `<div class="essay-line"></div>`; 
+                workspaceHTML = `<div class="essay-wrapper"><div class="first-line"><div class="first-line-label">Bài làm:</div></div>${linesHTML}</div>`; 
+            } 
+            else if (pStyle === "grid") { 
+                workspaceHTML = `<div class="paper-grid" style="min-height: calc(var(--line-spacing) * ${numLines});"></div>`; 
+            } 
+            else { 
+                workspaceHTML = `<div class="paper-blank" style="min-height: calc(var(--line-spacing) * ${numLines});"><div class="blank-hint">Bài làm</div></div>`; 
+            }
+        }
+        wrap.innerHTML = `${img.r ? img.h : ''}<div class="q-block">${qTitle}</div>${!img.r ? img.h : ''}${workspaceHTML}`;
+    }
+    else if (data.type === "essay-multi") {
+        let img = this.img(data); 
+        const isImg = (text) => typeof text === 'string' && (/\.(png|jpe?g|gif|svg|webp)$/i.test(text.trim()) || text.includes('drive.google.com/thumbnail') || text.includes('drive.google.com/uc'));
+        let html = `${img.r ? img.h : ''}<div class="q-block">${qTitle}</div>${!img.r ? img.h : ''}`;
+        (data.subQuestions || []).forEach(sub => {
+            let subQNum = sub.text.split(')')[0] + ')';
+            if (isKey) this.ansEssay.push({ q: subQNum, a: sub.answer, parent: data._qIdx });
+            html += `<div style="margin-top:8px"><b>${sub.text}</b></div>`;
+            if (isKey) { 
+                html += `<div class="answer-box"><b>Đáp án:</b><br>${isImg(sub.answer) ? `<img src="${sub.answer}" style="max-width:100%">` : (sub.answer || "(Chưa có)")}</div>`; 
+            } 
+            else {
+                let pStyle = sub.paperStyle || "line";
+                let numLines = sub.lines || 3;
+                if (pStyle === "line") { 
+                    let linesHTML = ""; 
+                    for (let i = 1; i < numLines; i++) linesHTML += `<div class="essay-line"></div>`; 
+                    html += `<div class="essay-wrapper"><div class="first-line"><div class="first-line-label">Bài làm:</div></div>${linesHTML}</div>`; 
+                } 
+                else if (pStyle === "grid") { 
+                    html += `<div class="paper-grid" style="min-height: calc(var(--line-spacing) * ${numLines});"></div>`; 
+                } 
+                else { 
+                    html += `<div class="paper-blank" style="min-height: calc(var(--line-spacing) * ${numLines});"><div class="blank-hint">Bài làm</div></div>`; 
+                }
+            }
+        });
+        wrap.innerHTML = html;
+    }
+    else if (data.type === "reading") { wrap.innerHTML = `<div class="q-reading">${data.content}</div>`; }
+    return wrap;
+};
+
+app.renderMasterSummary = function(paper) {
+    let pageDiv = document.createElement('div'); pageDiv.className = 'page-container';
+    let contentArea = document.createElement('div'); contentArea.className = 'content-area';
+    let html = `<div class="summary-title" style="text-align:center; font-size:16pt; font-weight:bold; margin-bottom: 20px;">BẢNG TỔNG HỢP ĐÁP ÁN TRẮC NGHIỆM</div>`;
+    let codes = this.examVersions.map(v => v.maDe);
+    if (codes.length > 0 && this.masterKeys[codes[0]].mcq.length > 0) {
+        let maxQ = this.masterKeys[codes[0]].mcq.length;
+        html += `<table border="1" style="width:100%; border-collapse: collapse; text-align:center;">`;
+        html += `<tr style="background:#f4f4f4"><th>Câu \\ Mã đề</th>` + codes.map(c => `<th>${c}</th>`).join('') + `</tr>`;
+        for (let i = 0; i < maxQ; i++) {
+            let qNum = this.masterKeys[codes[0]].mcq[i].q;
+            html += `<tr><td><b>${qNum}</b></td>`;
+            codes.forEach(c => { let ansObj = this.masterKeys[c].mcq[i]; let ans = ansObj ? ansObj.a : '?'; html += `<td style="color:red; font-weight:bold;">${ans}</td>`; });
+            html += `</tr>`;
+        }
+        html += `</table>`;
+    } else { html += `<div style="text-align:center"><i>Đề này không có câu hỏi Trắc nghiệm MCQ.</i></div>`; }
+    contentArea.innerHTML = html; pageDiv.appendChild(contentArea); paper.appendChild(pageDiv);
+};
+
+app.createNewPage = function(containerElement, maDe) {
+    this.pageCount++; let pageDiv = document.createElement('div'); pageDiv.className = 'page-container'; pageDiv.setAttribute('data-made', maDe); 
+    let tplClone = document.getElementById((this.pageCount === 1) ? 'tpl-header-page-1' : 'tpl-header-page-n').content.cloneNode(true);
+    if (this.pageCount === 1) {
+        const cfg = EXAM.config;
+        if(tplClone.querySelector('.cfg-truong')) tplClone.querySelector('.cfg-truong').innerHTML = `<b style="font-size:10.5pt">${cfg.truong}</b>`;
+        if(tplClone.querySelector('.cfg-exam')) tplClone.querySelector('.cfg-exam').innerHTML = `<b>${cfg.kyThi}</b>`;
+        if(tplClone.querySelector('.cfg-khoangay')) tplClone.querySelector('.cfg-khoangay').innerHTML = `<b>${cfg.khoaNgay}</b>`;
+        if(tplClone.querySelector('.cfg-diemthi')) tplClone.querySelector('.cfg-diemthi').innerHTML = `<b>${cfg.diemThi}</b>`;
+        if(tplClone.querySelector('.cfg-subject')) { let txt = `<span style="font-size: 11pt; font-weight: bold;">${cfg.monThi}</span>`; if (maDe) txt += `<br><span style="font-size:9pt; font-weight:normal">(Mã đề: ${maDe})</span>`; tplClone.querySelector('.cfg-subject').innerHTML = txt; }
+    }
+    pageDiv.appendChild(tplClone); let contentAreaDiv = document.createElement('div'); contentAreaDiv.className = 'content-area';
+    if (this.pageCount === 1) {
+        contentAreaDiv.classList.add('first-page-content');
+        let sidebarDiv = document.createElement('div'); sidebarDiv.className = 'score-sidebar';
+        let sHTML = '<div class="bold" style="margin-bottom:5px; font-size: 11pt;">Điểm phần:</div>';
+        for (let i = 1; i <= (EXAM.config.soPhan || this.totalSecs || 1); i++) sHTML += `<div class="score-item"><span>Phần ${i}:</span><span>......đ</span></div>`;
+        sHTML += `<div class="score-total" style="margin-top:auto"><span>Tổng:</span><span>.......đ</span></div>`;
+        sidebarDiv.innerHTML = sHTML; contentAreaDiv.appendChild(sidebarDiv);
+        let titleDiv = document.createElement('div'); titleDiv.className = 'center bold'; titleDiv.innerText = 'BÀI LÀM'; titleDiv.style.cssText = 'font-size:13pt; margin-bottom:10px'; contentAreaDiv.appendChild(titleDiv);
+    }
+    pageDiv.appendChild(contentAreaDiv); containerElement.appendChild(pageDiv);
+    return { pageElement: pageDiv, contentElement: contentAreaDiv };
+};
+
+app.preloadImages = function(dataArray) {
+    return new Promise((resolve) => {
+        let imageUrls = [];
+
+        const isImgUrl = (text) => {
+            if (typeof text !== 'string') return false;
+            let t = text.trim();
+            return /\.(png|jpe?g|gif|svg|webp)$/i.test(t) || t.includes('drive.google.com/thumbnail') || t.includes('drive.google.com/uc');
+        };
+
+        const findImages = (obj) => {
+            if (!obj) return;
+            if (typeof obj === 'string' && isImgUrl(obj)) {
+                imageUrls.push(obj.trim());
+            } else if (Array.isArray(obj)) {
+                obj.forEach(findImages);
+            } else if (typeof obj === 'object') {
+                Object.values(obj).forEach(findImages);
+            }
+        };
+
+        findImages(dataArray);
+
+        imageUrls = [...new Set(imageUrls)];
+
+        if (imageUrls.length === 0) {
+            resolve();
+            return;
+        }
+
+        let loaded = 0;
+        imageUrls.forEach(url => {
+            let img = new Image();
+            img.onload = img.onerror = () => { 
+                loaded++;
+                if (loaded === imageUrls.length) resolve();
+            };
+            img.src = url;
+        });
+    });
+};
+
+// ==========================================
+// MỚI: ĐỘNG CƠ CO GIÃN HÌNH ẢNH TRỰC TIẾP TRÊN WEB
+// ==========================================
+app.initImageResizing = function() {
+    const paper = document.getElementById('exam-paper');
+    if (!paper) return;
+
+    document.addEventListener('mousedown', function(e) {
+        if (!e.target.closest('.img-resizable-wrapper')) {
+            paper.querySelectorAll('.img-resizable-wrapper.active-resize').forEach(w => w.classList.remove('active-resize'));
+        }
+    });
+
+    const wrappers = paper.querySelectorAll('.img-resizable-wrapper');
+    wrappers.forEach(wrapper => {
+        const img = wrapper.querySelector('img');
+        if (!img) return;
+
+        wrapper.addEventListener('click', function(e) {
+            e.stopPropagation(); 
+            paper.querySelectorAll('.img-resizable-wrapper.active-resize').forEach(w => w.classList.remove('active-resize'));
+            this.classList.add('active-resize');
+        });
+
+        const resizer = wrapper.querySelector('.resizer-br');
+        if (!resizer) return;
+
+        let startX, startY, startWidth, startHeight, ratio;
+        const badge = wrapper.querySelector('.resize-dim-badge');
+        
+        // Cảm biến xem đây là Ảnh câu hỏi hay Ảnh Đáp án
+        const isOpt = wrapper.classList.contains('opt-resizable');
+
+        const onMouseDown = (e) => {
+            e.stopPropagation();
+            e.preventDefault();
+            startX = e.clientX;
+            startY = e.clientY; 
+            const rect = img.getBoundingClientRect();
+            startWidth = rect.width;
+            startHeight = rect.height;
+            ratio = startWidth / startHeight;
+
+            if (badge) {
+                badge.style.display = 'block';
+                // Đáp án thì báo chiều cao, Ảnh gốc thì báo chiều rộng
+                badge.innerText = isOpt ? `Cao: ${Math.round(startHeight)}px` : `${Math.round(startWidth)}px`;
+            }
+
+            document.addEventListener('mousemove', onMouseMove);
+            document.addEventListener('mouseup', onMouseUp);
+            document.body.style.cursor = 'se-resize'; 
+        };
+
+        const onMouseMove = (e) => {
+            if (isOpt) {
+                // 1. CHẾ ĐỘ ẢNH ĐÁP ÁN: Kéo chuột lên/xuống đổi CHIỀU CAO
+                const dy = e.clientY - startY;
+                let newHeight = startHeight + dy;
+                if (newHeight < 30) newHeight = 30; // Min 30px để ko bị biến mất
+                
+                // ✨ PHÉP THUẬT NẰM Ở ĐÂY: Quét 1 phát lấy CẢ 4 ẢNH TRONG CÂU HỎI ĐÓ và chỉnh chiều cao đồng loạt
+                const allOptImgs = paper.querySelectorAll(`.opt-resizable[data-qid="${wrapper.dataset.qid}"] img`);
+                allOptImgs.forEach(im => im.style.height = `${newHeight}px`);
+                
+                if (badge) badge.innerText = `Cao: ${Math.round(newHeight)}px`;
+            } else {
+                // 2. CHẾ ĐỘ ẢNH CÂU HỎI BÌNH THƯỜNG: Kéo ngang đổi CHIỀU RỘNG, giữ tỷ lệ
+                const dx = e.clientX - startX;
+                let newWidth = startWidth + dx;
+                if (newWidth < 30) newWidth = 30; 
+                
+                const newHeight = newWidth / ratio;
+                img.style.width = `${newWidth}px`;
+                img.style.height = `${newHeight}px`; 
+                
+                if (badge) badge.innerText = `${Math.round(newWidth)}px`;
+                
+                const outerWrap = wrapper.closest('.img-stacked-wrap, .img-right-wrap');
+                if (outerWrap) outerWrap.style.width = `${newWidth}px`;
+            }
+        };
+
+        const onMouseUp = () => {
+            document.removeEventListener('mousemove', onMouseMove);
+            document.removeEventListener('mouseup', onMouseUp);
+            document.body.style.cursor = ''; 
+            
+            if (badge) badge.style.display = 'none';
+
+            // CHỐT KÍCH THƯỚC MỚI VÀO DATA VÀ CHIA TRANG LẠI
+            const qid = wrapper.dataset.qid;
+            if (qid) {
+                if (isOpt) {
+                    const finalHeight = img.style.height; 
+                    
+                    let item = app.workingData.find(x => x._id === qid);
+                    if (item) item.optImgHeight = finalHeight;
+                    
+                    app.examVersions.forEach(version => {
+                        let vItem = version.data.find(x => x._id === qid);
+                        if (vItem) vItem.optImgHeight = finalHeight;
+                    });
+                } else {
+                    const finalWidth = img.style.width; 
+                    
+                    let item = app.workingData.find(x => x._id === qid);
+                    if (item) { item.imageWidth = finalWidth; if (item.imageHeight) delete item.imageHeight; }
+                    
+                    app.examVersions.forEach(version => {
+                        let vItem = version.data.find(x => x._id === qid);
+                        if (vItem) { vItem.imageWidth = finalWidth; if (vItem.imageHeight) delete vItem.imageHeight; }
+                    });
+                }
+                app.autoFit(); 
+            }
+        };
+
+        resizer.addEventListener('mousedown', onMouseDown);
+    });
+};
