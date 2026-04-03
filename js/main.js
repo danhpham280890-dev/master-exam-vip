@@ -1,1 +1,139 @@
-function _0x163b(_0x25b826,_0x423867){_0x25b826=_0x25b826-0xba;const _0x4a976d=_0x4a97();let _0x163ba0=_0x4a976d[_0x25b826];return _0x163ba0;}function _0x4a97(){const _0x3dd470=['flex','onload','9679842lCWhPA','915216BmJqoZ','className','preloadImages','getElementById','updateUI','52874SPaAhH','display','then','openImportModal','run','config','stringify','930215rWtUDX','none','⚠️\x20Điểm:\x20','getItem','parse','42USZpnS','key','status-err','maDe','mode','mcq','showMCQTable','soLuongMaDe','cfg-monthi','openSettings','workingData','cfg-made','_qIdx','answer','_id','val-ans','import-modal','cfg-kythi','data','cloze','trim','val-score','✅\x20Đủ\x20đ/a','totalSecs','generateExamVersions','exam','essay-multi','validate','removeItem','style','value','970376uxCCAL','forEach','cfg-truong','cfg-sophan','kyThi','true-false','autoFit','khoaNgay','length','init','truong','101','closeSettings','level','_start','212583HkTyxC','cfg-diemthi','6jQXfMZ','toFixed','section','totalExpectedScore','buildCatalog','diemThi','MASTER_EXAM_API_URL','fill-blank','setItem','toggleMode','đ\x20(Lệch)','points','1366939NvAIHC','now','cfg-api-url','cfg-khoangay','innerHTML','abs','matching','matrix','type','settings-modal','saveSettings','monThi','status-ok','cfg-soluong'];_0x4a97=function(){return _0x3dd470;};return _0x4a97();}const _0x2bbc9f=_0x163b;(function(_0x39d914,_0x107569){const _0x14c5b5=_0x163b,_0x6595ac=_0x39d914();while(!![]){try{const _0x197d65=parseInt(_0x14c5b5(0xc9))/0x1+-parseInt(_0x14c5b5(0xed))/0x2*(parseInt(_0x14c5b5(0xf9))/0x3)+-parseInt(_0x14c5b5(0xe8))/0x4+-parseInt(_0x14c5b5(0xf4))/0x5*(parseInt(_0x14c5b5(0xcb))/0x6)+-parseInt(_0x14c5b5(0xd7))/0x7+-parseInt(_0x14c5b5(0xba))/0x8+parseInt(_0x14c5b5(0xe7))/0x9;if(_0x197d65===_0x107569)break;else _0x6595ac['push'](_0x6595ac['shift']());}catch(_0x16e837){_0x6595ac['push'](_0x6595ac['shift']());}}}(_0x4a97,0x2d8d6),app[_0x2bbc9f(0xc3)]=function(){const _0x5570e=_0x2bbc9f;this['originalData']=JSON[_0x5570e(0xf8)](JSON[_0x5570e(0xf3)](EXAM[_0x5570e(0x10b)])),this[_0x5570e(0x103)]=[],this[_0x5570e(0xcf)](),this[_0x5570e(0xec)]();},app[_0x2bbc9f(0xf1)]=function(){const _0x11633a=_0x2bbc9f;if(this[_0x11633a(0x103)][_0x11633a(0xc2)]===0x0)return;this['preprocess'](),this[_0x11633a(0x114)](),this[_0x11633a(0xec)]();let _0x5cd0c6=document[_0x11633a(0xeb)](_0x11633a(0xe4)),_0x780ce0=parseInt(EXAM[_0x11633a(0xf2)]['soLuongMaDe'])||(_0x5cd0c6?parseInt(_0x5cd0c6['value']):0x1)||0x1;this[_0x11633a(0x111)]?this[_0x11633a(0x111)](_0x780ce0):alert('⚠️\x20Báo\x20lỗi:\x20Chưa\x20nạp\x20file\x20app-shuffler.js'),this[_0x11633a(0xea)](this[_0x11633a(0x103)])[_0x11633a(0xef)](()=>this[_0x11633a(0xc0)]());},app[_0x2bbc9f(0xd4)]=function(){const _0x33343b=_0x2bbc9f;EXAM[_0x33343b(0xf2)][_0x33343b(0xfd)]=EXAM['config'][_0x33343b(0xfd)]==='exam'?_0x33343b(0xfa):_0x33343b(0x112),this[_0x33343b(0xf1)]();},app['preprocess']=function(){const _0x37e569=_0x2bbc9f;this[_0x37e569(0x110)]=0x0,this[_0x37e569(0xde)]={'NB':0x0,'TH':0x0,'VD':0x0,'VDC':0x0};let _0x4fd60f='',_0x41007f=0x1;this[_0x37e569(0x103)][_0x37e569(0xbb)]((_0x4f4f7e,_0x218487)=>{const _0x166c69=_0x37e569;if(!_0x4f4f7e[_0x166c69(0x107)])_0x4f4f7e['_id']='q_'+Date[_0x166c69(0xd8)]()+'_'+_0x218487;if(_0x4f4f7e['type']===_0x166c69(0xcd)){this[_0x166c69(0x110)]++,_0x4fd60f=_0x4f4f7e['pointsPerQuestion']||'';let _0xfe4303=0x0,_0x29f4c5=0x0,_0x49c648=-0x1;for(let _0x6e9f0f=_0x218487+0x1;_0x6e9f0f<this[_0x166c69(0x103)][_0x166c69(0xc2)];_0x6e9f0f++){if(this['workingData'][_0x6e9f0f][_0x166c69(0xdf)]===_0x166c69(0xcd))break;let _0x3f12a0=[_0x166c69(0xfe),_0x166c69(0xbf),_0x166c69(0x10c),_0x166c69(0xdd),_0x166c69(0xd2),'essay',_0x166c69(0x113)];if(_0x3f12a0['includes'](this[_0x166c69(0x103)][_0x6e9f0f][_0x166c69(0xdf)])){if(this[_0x166c69(0x103)][_0x6e9f0f][_0x166c69(0xdf)]===_0x166c69(0xfe)){if(_0x49c648===-0x1)_0x49c648=_0x41007f+_0x29f4c5;_0xfe4303++;}_0x29f4c5++;}}_0xfe4303>0x0?(_0x4f4f7e[_0x166c69(0xff)]=!![],_0x4f4f7e['_count']=_0xfe4303,_0x4f4f7e[_0x166c69(0xc8)]=_0x49c648):_0x4f4f7e[_0x166c69(0xff)]=![];}else{if(_0x4f4f7e[_0x166c69(0xdf)]!=='reading'){if(!_0x4f4f7e[_0x166c69(0xd6)]&&_0x4fd60f)_0x4f4f7e['points']=_0x4fd60f;_0x4f4f7e[_0x166c69(0x105)]=_0x41007f++;if(_0x4f4f7e[_0x166c69(0xc7)]&&this[_0x166c69(0xde)][_0x4f4f7e[_0x166c69(0xc7)]]!==undefined)this['matrix'][_0x4f4f7e[_0x166c69(0xc7)]]++;}}});},app[_0x2bbc9f(0x114)]=function(){const _0x5eb342=_0x2bbc9f;let _0x2b5e43=0x0,_0xd97def=0x0;this[_0x5eb342(0x103)][_0x5eb342(0xbb)](_0x353223=>{const _0x4c1d17=_0x5eb342;if(_0x353223['points']){let _0x39ddfb=parseFloat(String(_0x353223[_0x4c1d17(0xd6)])['replace'](',','.'));if(!isNaN(_0x39ddfb))_0x2b5e43+=_0x39ddfb;}if(_0x353223['type']===_0x4c1d17(0xfe)&&!_0x353223[_0x4c1d17(0x106)])_0xd97def++;});let _0x308c20=document['getElementById'](_0x5eb342(0x10e));_0x308c20[_0x5eb342(0xdb)]=Math[_0x5eb342(0xdc)](_0x2b5e43-EXAM[_0x5eb342(0xf2)]['totalExpectedScore'])>0.01?_0x5eb342(0xf6)+_0x2b5e43[_0x5eb342(0xcc)](0x2)+_0x5eb342(0xd5):'✅\x20Điểm:\x20'+_0x2b5e43[_0x5eb342(0xcc)](0x2)+'đ',_0x308c20[_0x5eb342(0xe9)]=Math[_0x5eb342(0xdc)](_0x2b5e43-EXAM[_0x5eb342(0xf2)][_0x5eb342(0xce)])>0.01?_0x5eb342(0xfb):_0x5eb342(0xe3);let _0x3a1046=document[_0x5eb342(0xeb)](_0x5eb342(0x108));_0x3a1046['innerHTML']=_0xd97def>0x0?'⚠️\x20Thiếu\x20'+_0xd97def+'\x20đ/a':_0x5eb342(0x10f),_0x3a1046[_0x5eb342(0xe9)]=_0xd97def>0x0?_0x5eb342(0xfb):_0x5eb342(0xe3);},app[_0x2bbc9f(0x102)]=function(){const _0x2e72e0=_0x2bbc9f;document[_0x2e72e0(0xeb)](_0x2e72e0(0xbc))[_0x2e72e0(0x117)]=EXAM['config'][_0x2e72e0(0xc4)]||'',document['getElementById'](_0x2e72e0(0x10a))[_0x2e72e0(0x117)]=EXAM[_0x2e72e0(0xf2)][_0x2e72e0(0xbe)]||'',document[_0x2e72e0(0xeb)](_0x2e72e0(0xda))['value']=EXAM[_0x2e72e0(0xf2)][_0x2e72e0(0xc1)]||'',document[_0x2e72e0(0xeb)](_0x2e72e0(0xca))[_0x2e72e0(0x117)]=EXAM[_0x2e72e0(0xf2)][_0x2e72e0(0xd0)]||'',document[_0x2e72e0(0xeb)](_0x2e72e0(0x101))['value']=EXAM[_0x2e72e0(0xf2)][_0x2e72e0(0xe2)]||'',document[_0x2e72e0(0xeb)](_0x2e72e0(0x104))[_0x2e72e0(0x117)]=EXAM['config'][_0x2e72e0(0xfc)]||_0x2e72e0(0xc5),document['getElementById'](_0x2e72e0(0xe4))[_0x2e72e0(0x117)]=EXAM[_0x2e72e0(0xf2)][_0x2e72e0(0x100)]||0x1,document[_0x2e72e0(0xeb)](_0x2e72e0(0xbd))['value']=EXAM['config']['soPhan']||this[_0x2e72e0(0x110)]||0x1;let _0x3455c3=localStorage[_0x2e72e0(0xf7)](_0x2e72e0(0xd1))||'',_0x24ee22=document[_0x2e72e0(0xeb)](_0x2e72e0(0xd9));if(_0x24ee22)_0x24ee22[_0x2e72e0(0x117)]=_0x3455c3;document[_0x2e72e0(0xeb)]('settings-modal')[_0x2e72e0(0x116)][_0x2e72e0(0xee)]=_0x2e72e0(0xe5);},app[_0x2bbc9f(0xc6)]=function(){const _0x5faf9b=_0x2bbc9f;document[_0x5faf9b(0xeb)](_0x5faf9b(0xe0))[_0x5faf9b(0x116)]['display']=_0x5faf9b(0xf5);},app[_0x2bbc9f(0xe1)]=function(){const _0x499a1b=_0x2bbc9f;EXAM[_0x499a1b(0xf2)][_0x499a1b(0xc4)]=document['getElementById'](_0x499a1b(0xbc))['value'],EXAM[_0x499a1b(0xf2)]['kyThi']=document[_0x499a1b(0xeb)]('cfg-kythi')[_0x499a1b(0x117)],EXAM[_0x499a1b(0xf2)][_0x499a1b(0xc1)]=document[_0x499a1b(0xeb)](_0x499a1b(0xda))[_0x499a1b(0x117)],EXAM['config'][_0x499a1b(0xd0)]=document[_0x499a1b(0xeb)](_0x499a1b(0xca))['value'],EXAM[_0x499a1b(0xf2)]['monThi']=document[_0x499a1b(0xeb)](_0x499a1b(0x101))[_0x499a1b(0x117)],EXAM[_0x499a1b(0xf2)][_0x499a1b(0xfc)]=document[_0x499a1b(0xeb)]('cfg-made')[_0x499a1b(0x117)],EXAM[_0x499a1b(0xf2)][_0x499a1b(0x100)]=parseInt(document[_0x499a1b(0xeb)]('cfg-soluong')[_0x499a1b(0x117)])||0x1,EXAM['config']['soPhan']=parseInt(document['getElementById']('cfg-sophan')['value'])||this[_0x499a1b(0x110)];let _0x51b07f=document[_0x499a1b(0xeb)]('cfg-api-url');if(_0x51b07f){let _0x2d313e=_0x51b07f[_0x499a1b(0x117)][_0x499a1b(0x10d)]();_0x2d313e?localStorage[_0x499a1b(0xd3)]('MASTER_EXAM_API_URL',_0x2d313e):localStorage[_0x499a1b(0x115)](_0x499a1b(0xd1));}this[_0x499a1b(0xc6)](),this[_0x499a1b(0xf1)]();},app[_0x2bbc9f(0xf0)]=function(){const _0x2ed70a=_0x2bbc9f;document[_0x2ed70a(0xeb)](_0x2ed70a(0x109))[_0x2ed70a(0x116)][_0x2ed70a(0xee)]=_0x2ed70a(0xe5);},app['closeImportModal']=function(){const _0x28c1f8=_0x2bbc9f;document[_0x28c1f8(0xeb)]('import-modal')[_0x28c1f8(0x116)][_0x28c1f8(0xee)]=_0x28c1f8(0xf5);},window[_0x2bbc9f(0xe6)]=()=>{const _0x5a89d3=_0x2bbc9f;app[_0x5a89d3(0xc3)]();});
+// ==========================================
+// CÔNG TẮC KHỞI ĐỘNG & ĐIỀU PHỐI CHUNG
+// ==========================================
+
+app.init = function() {
+    this.originalData = JSON.parse(JSON.stringify(EXAM.data));
+    this.workingData = []; 
+    this.buildCatalog();
+    this.updateUI(); 
+};
+
+app.run = function() {
+    if (this.workingData.length === 0) return; 
+    
+    this.preprocess();
+    this.validate();
+    this.updateUI();
+
+    let inputSoLuong = document.getElementById('cfg-soluong');
+    let soLuong = parseInt(EXAM.config.soLuongMaDe) || (inputSoLuong ? parseInt(inputSoLuong.value) : 1) || 1;
+    
+    if (this.generateExamVersions) {
+        this.generateExamVersions(soLuong);
+    } else {
+        alert("⚠️ Báo lỗi: Chưa nạp file app-shuffler.js");
+    }
+
+    this.preloadImages(this.workingData).then(() => this.autoFit());
+};
+
+app.toggleMode = function() {
+    EXAM.config.mode = (EXAM.config.mode === 'exam') ? 'key' : 'exam';
+    this.run();
+};
+
+app.preprocess = function() {
+    this.totalSecs = 0;
+    this.matrix = { NB: 0, TH: 0, VD: 0, VDC: 0 };
+    let currentPts = "";
+    let tIdx = 1; 
+    
+    this.workingData.forEach((item, idx) => {
+        if (!item._id) item._id = "q_" + Date.now() + "_" + idx; 
+        
+        if (item.type === "section") {
+            this.totalSecs++;
+            currentPts = item.pointsPerQuestion || "";
+            let mcqCount = 0; let qOffset = 0; let start = -1;
+            
+            for (let j = idx + 1; j < this.workingData.length; j++) {
+                if (this.workingData[j].type === "section") break;
+                let types = ["mcq", "true-false", "cloze", "matching", "fill-blank", "essay", "essay-multi"];
+                if (types.includes(this.workingData[j].type)) {
+                    if (this.workingData[j].type === "mcq") {
+                        if (start === -1) start = tIdx + qOffset;
+                        mcqCount++;
+                    }
+                    qOffset++;
+                }
+            }
+            if (mcqCount > 0) { item.showMCQTable = true; item._count = mcqCount; item._start = start; } 
+            else { item.showMCQTable = false; }
+            
+        } else if (item.type !== "reading") {
+            if (!item.points && currentPts) item.points = currentPts;
+            item._qIdx = tIdx++;
+            if (item.level && this.matrix[item.level] !== undefined) this.matrix[item.level]++;
+        }
+    });
+};
+
+app.validate = function() {
+    let total = 0; let missing = 0;
+    this.workingData.forEach(item => {
+        if (item.points) { 
+            let num = parseFloat(String(item.points).replace(',', '.')); 
+            if (!isNaN(num)) total += num; 
+        }
+        if (item.type === 'mcq' && !item.answer) missing++;
+    });
+    
+    let sEl = document.getElementById('val-score');
+    sEl.innerHTML = (Math.abs(total - EXAM.config.totalExpectedScore) > 0.01) ? `⚠️ Điểm: ${total.toFixed(2)}đ (Lệch)` : `✅ Điểm: ${total.toFixed(2)}đ`;
+    sEl.className = (Math.abs(total - EXAM.config.totalExpectedScore) > 0.01) ? "status-err" : "status-ok";
+    
+    let aEl = document.getElementById('val-ans');
+    aEl.innerHTML = (missing > 0) ? `⚠️ Thiếu ${missing} đ/a` : `✅ Đủ đ/a`;
+    aEl.className = (missing > 0) ? "status-err" : "status-ok";
+};
+
+app.openSettings = function() {
+    document.getElementById('cfg-truong').value = EXAM.config.truong || "";
+    document.getElementById('cfg-kythi').value = EXAM.config.kyThi || "";
+    document.getElementById('cfg-khoangay').value = EXAM.config.khoaNgay || "";
+    document.getElementById('cfg-diemthi').value = EXAM.config.diemThi || "";
+    document.getElementById('cfg-monthi').value = EXAM.config.monThi || "";
+    document.getElementById('cfg-made').value = EXAM.config.maDe || "101";
+    document.getElementById('cfg-soluong').value = EXAM.config.soLuongMaDe || 1;
+    document.getElementById('cfg-sophan').value = EXAM.config.soPhan || this.totalSecs || 1;
+    
+    // Lấy API URL từ localStorage gắn lên giao diện
+    let savedApi = localStorage.getItem('MASTER_EXAM_API_URL') || "";
+    let inputApi = document.getElementById('cfg-api-url');
+    if(inputApi) inputApi.value = savedApi;
+
+    document.getElementById('settings-modal').style.display = 'flex';
+};
+
+app.closeSettings = function() { document.getElementById('settings-modal').style.display = 'none'; };
+
+app.saveSettings = function() {
+    EXAM.config.truong = document.getElementById('cfg-truong').value;
+    EXAM.config.kyThi = document.getElementById('cfg-kythi').value;
+    EXAM.config.khoaNgay = document.getElementById('cfg-khoangay').value;
+    EXAM.config.diemThi = document.getElementById('cfg-diemthi').value;
+    EXAM.config.monThi = document.getElementById('cfg-monthi').value;
+    EXAM.config.maDe = document.getElementById('cfg-made').value;
+    EXAM.config.soLuongMaDe = parseInt(document.getElementById('cfg-soluong').value) || 1;
+    EXAM.config.soPhan = parseInt(document.getElementById('cfg-sophan').value) || this.totalSecs;
+    
+    // Lưu API URL xuống localStorage
+    let inputApi = document.getElementById('cfg-api-url');
+    if(inputApi) {
+        let apiUrl = inputApi.value.trim();
+        if (apiUrl) {
+            localStorage.setItem('MASTER_EXAM_API_URL', apiUrl);
+        } else {
+            localStorage.removeItem('MASTER_EXAM_API_URL');
+        }
+    }
+
+    this.closeSettings();
+    this.run(); 
+};
+
+// --- Modal Nạp Dữ Liệu ---
+app.openImportModal = function() { document.getElementById('import-modal').style.display = 'flex'; };
+app.closeImportModal = function() { document.getElementById('import-modal').style.display = 'none'; };
+window.onload = () => { app.init(); };
