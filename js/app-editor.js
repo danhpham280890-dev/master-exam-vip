@@ -1,1 +1,291 @@
-function _0x14c0(_0x2b94cc,_0x4d5a6c){_0x2b94cc=_0x2b94cc-0xef;const _0x52f2f3=_0x52f2();let _0x14c012=_0x52f2f3[_0x2b94cc];return _0x14c012;}const _0x3215f7=_0x14c0;(function(_0x3bc7e5,_0x39f237){const _0x13fab9=_0x14c0,_0x275be8=_0x3bc7e5();while(!![]){try{const _0x13f58d=parseInt(_0x13fab9(0x162))/0x1*(-parseInt(_0x13fab9(0x13d))/0x2)+parseInt(_0x13fab9(0x119))/0x3*(parseInt(_0x13fab9(0xf0))/0x4)+-parseInt(_0x13fab9(0x114))/0x5+-parseInt(_0x13fab9(0x16a))/0x6*(-parseInt(_0x13fab9(0x128))/0x7)+-parseInt(_0x13fab9(0x124))/0x8+parseInt(_0x13fab9(0x152))/0x9+parseInt(_0x13fab9(0x117))/0xa;if(_0x13f58d===_0x39f237)break;else _0x275be8['push'](_0x275be8['shift']());}catch(_0x259264){_0x275be8['push'](_0x275be8['shift']());}}}(_0x52f2,0x8288d),app['openQuickEdit']=function(_0x38dfb8){const _0x4aa217=_0x14c0;document[_0x4aa217(0x141)](_0x4aa217(0x15d))[_0x4aa217(0x12a)][_0x4aa217(0x108)]=_0x38dfb8;let _0x271e6c=this['workingData'][_0x4aa217(0x125)](_0x54b978=>_0x54b978[_0x4aa217(0x104)]===_0x38dfb8);if(!_0x271e6c)return;let _0x2024a6=_0x271e6c[_0x4aa217(0x15e)]||_0x271e6c[_0x4aa217(0x15b)]||_0x271e6c[_0x4aa217(0x10d)]||'';document[_0x4aa217(0x141)]('edit-q')['value']=_0x2024a6,document[_0x4aa217(0x141)](_0x4aa217(0xf1))['value']=_0x271e6c[_0x4aa217(0xf7)]||_0x271e6c['pointsPerQuestion']||'',document[_0x4aa217(0x141)](_0x4aa217(0x151))[_0x4aa217(0x11d)]=_0x271e6c['answer']||'';let _0x38e092=document[_0x4aa217(0x141)](_0x4aa217(0x150)),_0x31de7a=document[_0x4aa217(0x141)]('edit-tf-area'),_0x2974e7=document['getElementById'](_0x4aa217(0xf8)),_0x3bbaef=document[_0x4aa217(0x141)]('complex-container');if(_0x38e092)_0x38e092['style']['display']='none';if(_0x31de7a)_0x31de7a['style']['display']=_0x4aa217(0xfc);if(_0x2974e7)_0x2974e7[_0x4aa217(0x166)]['display']=_0x4aa217(0xfc);if(_0x3bbaef)_0x3bbaef[_0x4aa217(0xf2)]='';if(_0x271e6c[_0x4aa217(0x13a)]===_0x4aa217(0x10e)&&_0x271e6c[_0x4aa217(0x154)])_0x38e092&&(_0x38e092[_0x4aa217(0x166)][_0x4aa217(0x120)]='block',document[_0x4aa217(0x141)](_0x4aa217(0x12d))[_0x4aa217(0x11d)]=_0x271e6c[_0x4aa217(0x154)][0x0]||'',document[_0x4aa217(0x141)]('edit-opt-1')['value']=_0x271e6c['options'][0x1]||'',document['getElementById'](_0x4aa217(0x127))[_0x4aa217(0x11d)]=_0x271e6c[_0x4aa217(0x154)][0x2]||'',document[_0x4aa217(0x141)]('edit-opt-3')['value']=_0x271e6c[_0x4aa217(0x154)][0x3]||'');else{if(_0x271e6c[_0x4aa217(0x13a)]===_0x4aa217(0x12f)&&_0x271e6c[_0x4aa217(0x112)]){if(_0x31de7a){_0x31de7a['style'][_0x4aa217(0x120)]=_0x4aa217(0x13f);for(let _0x197af6=0x0;_0x197af6<0x4;_0x197af6++){let _0x2e901a=_0x271e6c[_0x4aa217(0x112)][_0x197af6]||{'text':'','ans':'Đ'},_0x5730c4=_0x2e901a[_0x4aa217(0x132)][_0x4aa217(0x12b)](/^[a-d]\)\s*/i,'');document['getElementById'](_0x4aa217(0x142)+_0x197af6)[_0x4aa217(0x11d)]=_0x5730c4,document[_0x4aa217(0x141)](_0x4aa217(0x126)+_0x197af6)[_0x4aa217(0x11d)]=_0x2e901a[_0x4aa217(0x131)]||'Đ';}}}else{if(_0x2974e7&&_0x3bbaef){let _0x2c9a6c='';if(_0x271e6c[_0x4aa217(0x13a)]==='essay'||_0x271e6c[_0x4aa217(0x13a)]===_0x4aa217(0x14b)){_0x2974e7['style'][_0x4aa217(0x120)]='block';let _0x1b5ccf=_0x271e6c['paperStyle']||_0x4aa217(0x168);_0x2c9a6c+='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22form-group\x22\x20style=\x22display:flex;\x20gap:15px;\x20align-items:center;\x20margin-bottom:\x2010px;\x20background:\x20#e0f7fa;\x20padding:\x2010px;\x20border-radius:\x205px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<label\x20style=\x22color:#007bff;\x20font-weight:bold;\x20margin:0;\x22>Loại\x20giấy\x20in:</label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<select\x20id=\x22complex-essay-style\x22\x20style=\x22padding:\x206px;\x20border-radius:\x204px;\x20border:\x201px\x20solid\x20#ccc;\x20font-size:\x2013px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<option\x20value=\x22line\x22\x20'+(_0x1b5ccf===_0x4aa217(0x168)?_0x4aa217(0x11a):'')+'>Dòng\x20kẻ</option>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<option\x20value=\x22grid\x22\x20'+(_0x1b5ccf===_0x4aa217(0x137)?'selected':'')+'>Ô\x20ly</option>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<option\x20value=\x22blank\x22\x20'+(_0x1b5ccf==='blank'?_0x4aa217(0x11a):'')+_0x4aa217(0x13b)+(_0x271e6c[_0x4aa217(0x14c)]||0x5)+'\x22\x20min=\x221\x22\x20style=\x22width:70px;\x20padding:\x206px;\x20text-align:center;\x20border-radius:\x204px;\x20border:\x201px\x20solid\x20#ccc;\x20font-size:\x2013px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20style=\x22font-size:11px;\x20color:#666;\x20font-style:italic;\x22>(Tăng/giảm\x20để\x20ép\x20trang\x20in)</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>';}else{if(_0x271e6c['type']===_0x4aa217(0x138)&&_0x271e6c[_0x4aa217(0x12e)])_0x2974e7[_0x4aa217(0x166)]['display']=_0x4aa217(0x13f),_0x271e6c[_0x4aa217(0x12e)][_0x4aa217(0x15f)]((_0xc656a0,_0x5d3b9f)=>{const _0x244c7b=_0x4aa217;let _0xafed24=_0xc656a0[_0x244c7b(0x164)]||'line';_0x2c9a6c+=_0x244c7b(0xf6)+(_0x5d3b9f+0x1)+'</label><input\x20type=\x22text\x22\x20id=\x22complex-em-q-'+_0x5d3b9f+'\x22\x20value=\x22'+(_0xc656a0[_0x244c7b(0x132)]||'')+_0x244c7b(0xff)+_0x5d3b9f+'\x22\x20style=\x22padding:\x204px;\x20border-radius:\x203px;\x20border:\x201px\x20solid\x20#ccc;\x20font-size:12px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<option\x20value=\x22line\x22\x20'+(_0xafed24===_0x244c7b(0x168)?_0x244c7b(0x11a):'')+_0x244c7b(0x140)+(_0xafed24===_0x244c7b(0x137)?_0x244c7b(0x11a):'')+_0x244c7b(0x157)+(_0xafed24===_0x244c7b(0x10a)?_0x244c7b(0x11a):'')+_0x244c7b(0x121)+_0x5d3b9f+_0x244c7b(0x105)+(_0xc656a0[_0x244c7b(0x14c)]||0x3)+_0x244c7b(0x145)+(_0x5d3b9f+0x1)+_0x244c7b(0x133)+_0x5d3b9f+'\x22\x20style=\x22height:50px;\x22>'+(_0xc656a0[_0x244c7b(0x158)]||'')+_0x244c7b(0x103);});else{if(_0x271e6c[_0x4aa217(0x13a)]===_0x4aa217(0x11b)&&_0x271e6c[_0x4aa217(0x148)])_0x2974e7['style'][_0x4aa217(0x120)]='block',_0x271e6c[_0x4aa217(0x148)][_0x4aa217(0x15f)]((_0x379300,_0x325b92)=>{const _0x5a72e0=_0x4aa217;_0x2c9a6c+=_0x5a72e0(0x139)+(_0x325b92+0x1)+'</label><input\x20type=\x22text\x22\x20id=\x22complex-fb-i-'+_0x325b92+_0x5a72e0(0x105)+(_0x379300||'')+'\x22></div>';}),_0x2c9a6c+=_0x4aa217(0x118);else{if(_0x271e6c[_0x4aa217(0x13a)]===_0x4aa217(0x14f)){_0x2974e7['style'][_0x4aa217(0x120)]=_0x4aa217(0x13f),_0x2c9a6c+='<table\x20style=\x22width:100%;\x20font-size:12px;\x20border-collapse:collapse;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<thead><tr\x20style=\x22background:#eee\x22><th>STT</th><th>Vế\x20Trái\x20(Cột\x20A)</th><th>Vế\x20Phải\x20(Cột\x20B)</th></tr></thead><tbody>';let _0x1d762b=Math[_0x4aa217(0x167)]((_0x271e6c[_0x4aa217(0x163)]||[])[_0x4aa217(0x149)],(_0x271e6c['colB']||[])[_0x4aa217(0x149)]);for(let _0x268671=0x0;_0x268671<_0x1d762b;_0x268671++){let _0x2d15ad=_0x271e6c[_0x4aa217(0x163)]&&_0x271e6c[_0x4aa217(0x163)][_0x268671]?_0x271e6c[_0x4aa217(0x163)][_0x268671]:'',_0x6a33a0=_0x271e6c['colB']&&_0x271e6c[_0x4aa217(0xfa)][_0x268671]?_0x271e6c['colB'][_0x268671]:'';_0x2c9a6c+='<tr><td\x20style=\x22text-align:center\x22>'+(_0x268671+0x1)+_0x4aa217(0xfb)+_0x268671+_0x4aa217(0x105)+_0x2d15ad+_0x4aa217(0xf5)+_0x268671+_0x4aa217(0x105)+_0x6a33a0+'\x22\x20style=\x22width:95%\x22></td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</tr>';}_0x2c9a6c+='</tbody></table><div\x20style=\x22font-size:11px;\x20color:#6c757d;\x20margin-top:8px;\x22><i>💡\x20Hệ\x20thống\x20sẽ\x20tự\x20động\x20bắt\x20cặp\x20các\x20hàng\x20ngang\x20với\x20nhau\x20(Trái\x201\x20nối\x20Phải\x201).</i></div>';}else _0x271e6c[_0x4aa217(0x13a)]==='cloze'&&_0x271e6c[_0x4aa217(0x134)]&&(_0x2974e7[_0x4aa217(0x166)][_0x4aa217(0x120)]='block',_0x2c9a6c+=_0x4aa217(0x144),_0x271e6c[_0x4aa217(0x134)]['forEach']((_0x447979,_0x58e40d)=>{const _0x265b73=_0x4aa217;let _0x55976a=_0x447979[_0x265b73(0x154)]&&_0x447979['options'][0x0]?_0x447979[_0x265b73(0x154)][0x0]:'',_0x48a714=_0x447979[_0x265b73(0x154)]&&_0x447979[_0x265b73(0x154)][0x1]?_0x447979[_0x265b73(0x154)][0x1]:'',_0x1a44cf=_0x447979[_0x265b73(0x154)]&&_0x447979[_0x265b73(0x154)][0x2]?_0x447979[_0x265b73(0x154)][0x2]:'',_0xc00c85=_0x447979[_0x265b73(0x154)]&&_0x447979['options'][0x3]?_0x447979[_0x265b73(0x154)][0x3]:'';_0x2c9a6c+=_0x265b73(0xf9)+_0x58e40d+_0x265b73(0x105)+(_0x447979[_0x265b73(0x15e)]||'')+_0x265b73(0x15a)+_0x58e40d+_0x265b73(0x105)+(_0x447979[_0x265b73(0x158)]||'')+'\x22\x20style=\x22width:20%;\x20color:red;\x20font-weight:bold;\x20text-align:center;\x22\x20placeholder=\x22Đ/A\x20(VD:\x20A)\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:flex;\x20gap:5px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22text\x22\x20id=\x22complex-cloze-opt-'+_0x58e40d+'-0\x22\x20value=\x22'+_0x55976a+_0x265b73(0x11c)+_0x58e40d+_0x265b73(0x146)+_0x48a714+_0x265b73(0x15c)+_0x58e40d+_0x265b73(0x101)+_0x1a44cf+'\x22\x20placeholder=\x22C\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22text\x22\x20id=\x22complex-cloze-opt-'+_0x58e40d+_0x265b73(0x155)+_0xc00c85+'\x22\x20placeholder=\x22D\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>';}));}}}_0x3bbaef['innerHTML']=_0x2c9a6c;}}}document['getElementById'](_0x4aa217(0x14a))[_0x4aa217(0x166)]['display']=_0x4aa217(0xfc),document[_0x4aa217(0x141)](_0x4aa217(0x15d))[_0x4aa217(0x166)][_0x4aa217(0x120)]=_0x4aa217(0xef),this['updatePreview']();},app[_0x3215f7(0x100)]=function(){const _0x397a96=_0x3215f7;let _0x50edc3=document[_0x397a96(0x141)](_0x397a96(0x14a));_0x50edc3[_0x397a96(0x166)][_0x397a96(0x120)]=_0x50edc3[_0x397a96(0x166)][_0x397a96(0x120)]===_0x397a96(0xfc)?_0x397a96(0x13f):'none';},app[_0x3215f7(0x107)]=function(_0x4d6484){const _0x5f5aee=_0x3215f7;let _0x15074d=document[_0x5f5aee(0x141)](_0x5f5aee(0x109)),_0x504cfd=_0x15074d[_0x5f5aee(0x143)],_0x3148bb=_0x15074d['selectionEnd'],_0x2b1200=_0x15074d['value'];_0x15074d[_0x5f5aee(0x11d)]=_0x2b1200[_0x5f5aee(0x156)](0x0,_0x504cfd)+_0x4d6484+_0x2b1200[_0x5f5aee(0x156)](_0x3148bb,_0x2b1200['length']),_0x15074d[_0x5f5aee(0xfe)]();let _0x193321=_0x504cfd+_0x4d6484['length'];_0x15074d[_0x5f5aee(0x106)](_0x193321,_0x193321),this[_0x5f5aee(0x135)]();},app[_0x3215f7(0x135)]=function(){const _0x5cb948=_0x3215f7;let _0x20856c=document[_0x5cb948(0x141)](_0x5cb948(0x109))['value']||'';_0x20856c=_0x20856c[_0x5cb948(0x12b)](/\n/g,'<br>');let _0x502b50=_0x5cb948(0x110)+_0x20856c+'</div>',_0x2375c3=document['getElementById'](_0x5cb948(0x150)),_0x45f71f=document[_0x5cb948(0x141)](_0x5cb948(0xf4));if(_0x2375c3&&_0x2375c3['style'][_0x5cb948(0x120)]!==_0x5cb948(0xfc)){let _0x563307=document[_0x5cb948(0x141)](_0x5cb948(0x12d))[_0x5cb948(0x11d)]||'',_0x3420e1=document[_0x5cb948(0x141)](_0x5cb948(0x159))['value']||'',_0x46edd7=document['getElementById'](_0x5cb948(0x127))[_0x5cb948(0x11d)]||'',_0x372c07=document['getElementById'](_0x5cb948(0x147))[_0x5cb948(0x11d)]||'';_0x502b50+=_0x5cb948(0x129)+_0x563307+'</div><div><b>B.</b>\x20'+_0x3420e1+_0x5cb948(0x169)+_0x46edd7+_0x5cb948(0x130)+_0x372c07+_0x5cb948(0x12c);}if(_0x45f71f&&_0x45f71f[_0x5cb948(0x166)][_0x5cb948(0x120)]!==_0x5cb948(0xfc)){_0x502b50+='<table\x20border=\x221\x22\x20style=\x22width:100%;\x20border-collapse:collapse;\x20margin-top:10px;\x20text-align:center;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<tr\x20style=\x22background:#eee\x22><th>Phát\x20biểu</th><th\x20style=\x22width:50px\x22>Đ/S</th></tr>';for(let _0x3786f6=0x0;_0x3786f6<0x4;_0x3786f6++){let _0x2a037d=document[_0x5cb948(0x141)](_0x5cb948(0x142)+_0x3786f6)['value']||'',_0x2c8487=document['getElementById'](_0x5cb948(0x126)+_0x3786f6)[_0x5cb948(0x11d)]||'Đ',_0x53c8d3=_0x2c8487==='Đ'?'green':_0x5cb948(0x11f);_0x502b50+=_0x5cb948(0x153)+['a','b','c','d'][_0x3786f6]+_0x5cb948(0x10c)+_0x2a037d+_0x5cb948(0x161)+_0x53c8d3+'\x22>'+_0x2c8487+_0x5cb948(0x14d);}_0x502b50+=_0x5cb948(0x102);}let _0x3bb36a=document['getElementById'](_0x5cb948(0x10b));_0x3bb36a[_0x5cb948(0xf2)]=_0x502b50,window['renderMathInElement']&&renderMathInElement(_0x3bb36a,{'delimiters':[{'left':'$$','right':'$$','display':!![]},{'left':'$','right':'$','display':![]}],'throwOnError':![]});},app[_0x3215f7(0x165)]=function(){const _0x4124bb=_0x3215f7;let _0x4212ea=document['getElementById'](_0x4124bb(0x15d))[_0x4124bb(0x12a)][_0x4124bb(0x108)];if(!_0x4212ea)return;let _0x5902d3=this[_0x4124bb(0xf3)][_0x4124bb(0x125)](_0x45d306=>_0x45d306[_0x4124bb(0x104)]===_0x4212ea);if(!_0x5902d3)return;let _0x60de49=document[_0x4124bb(0x141)]('edit-q')['value'];if(_0x5902d3[_0x4124bb(0x15e)]!==undefined)_0x5902d3[_0x4124bb(0x15e)]=_0x60de49;if(_0x5902d3[_0x4124bb(0x15b)]!==undefined)_0x5902d3[_0x4124bb(0x15b)]=_0x60de49;if(_0x5902d3[_0x4124bb(0x10d)]!==undefined)_0x5902d3[_0x4124bb(0x10d)]=_0x60de49;_0x5902d3[_0x4124bb(0xf7)]=document[_0x4124bb(0x141)](_0x4124bb(0xf1))[_0x4124bb(0x11d)],_0x5902d3[_0x4124bb(0x158)]=document['getElementById'](_0x4124bb(0x151))[_0x4124bb(0x11d)];if(_0x5902d3[_0x4124bb(0x13a)]===_0x4124bb(0x10e)&&_0x5902d3[_0x4124bb(0x154)])_0x5902d3['options'][0x0]=document['getElementById'](_0x4124bb(0x12d))[_0x4124bb(0x11d)],_0x5902d3['options'][0x1]=document[_0x4124bb(0x141)]('edit-opt-1')[_0x4124bb(0x11d)],_0x5902d3[_0x4124bb(0x154)][0x2]=document[_0x4124bb(0x141)]('edit-opt-2')[_0x4124bb(0x11d)],_0x5902d3['options'][0x3]=document[_0x4124bb(0x141)](_0x4124bb(0x147))[_0x4124bb(0x11d)];else{if(_0x5902d3[_0x4124bb(0x13a)]===_0x4124bb(0x12f)&&_0x5902d3['statements'])for(let _0x12abea=0x0;_0x12abea<0x4;_0x12abea++){let _0x1a97d5=document['getElementById'](_0x4124bb(0x142)+_0x12abea)['value'],_0x3958de=document[_0x4124bb(0x141)]('edit-tf-ans-'+_0x12abea)[_0x4124bb(0x11d)];_0x5902d3[_0x4124bb(0x112)][_0x12abea]&&(_0x5902d3[_0x4124bb(0x112)][_0x12abea][_0x4124bb(0x132)]=['a','b','c','d'][_0x12abea]+')\x20'+_0x1a97d5,_0x5902d3['statements'][_0x12abea][_0x4124bb(0x131)]=_0x3958de);}else{if(_0x5902d3['type']===_0x4124bb(0xfd)||_0x5902d3[_0x4124bb(0x13a)]==='drawing'){let _0x5a6475=document[_0x4124bb(0x141)](_0x4124bb(0x11e)),_0x54834c=document[_0x4124bb(0x141)]('complex-essay-lines');if(_0x5a6475)_0x5902d3[_0x4124bb(0x164)]=_0x5a6475[_0x4124bb(0x11d)];if(_0x54834c)_0x5902d3[_0x4124bb(0x14c)]=parseInt(_0x54834c[_0x4124bb(0x11d)])||0x5;}else{if(_0x5902d3[_0x4124bb(0x13a)]===_0x4124bb(0x138)&&_0x5902d3[_0x4124bb(0x12e)])_0x5902d3['subQuestions'][_0x4124bb(0x15f)]((_0x33c6c9,_0x29a4d5)=>{const _0xbe61b8=_0x4124bb;_0x33c6c9['text']=document[_0xbe61b8(0x141)](_0xbe61b8(0x123)+_0x29a4d5)['value'],_0x33c6c9[_0xbe61b8(0x158)]=document[_0xbe61b8(0x141)]('complex-em-a-'+_0x29a4d5)[_0xbe61b8(0x11d)];let _0x1bc2ad=document[_0xbe61b8(0x141)](_0xbe61b8(0x113)+_0x29a4d5),_0x28fa75=document[_0xbe61b8(0x141)](_0xbe61b8(0x136)+_0x29a4d5);if(_0x1bc2ad)_0x33c6c9[_0xbe61b8(0x164)]=_0x1bc2ad[_0xbe61b8(0x11d)];if(_0x28fa75)_0x33c6c9[_0xbe61b8(0x14c)]=parseInt(_0x28fa75[_0xbe61b8(0x11d)])||0x3;});else{if(_0x5902d3[_0x4124bb(0x13a)]===_0x4124bb(0x11b)&&_0x5902d3[_0x4124bb(0x148)])_0x5902d3[_0x4124bb(0x148)][_0x4124bb(0x15f)]((_0x393e2d,_0x544f73)=>{const _0x34d877=_0x4124bb;_0x5902d3[_0x34d877(0x148)][_0x544f73]=document[_0x34d877(0x141)](_0x34d877(0x116)+_0x544f73)[_0x34d877(0x11d)];});else{if(_0x5902d3[_0x4124bb(0x13a)]===_0x4124bb(0x14f)&&_0x5902d3[_0x4124bb(0x163)]&&_0x5902d3[_0x4124bb(0xfa)]){let _0x379932=Math[_0x4124bb(0x167)]((_0x5902d3[_0x4124bb(0x163)]||[])[_0x4124bb(0x149)],(_0x5902d3[_0x4124bb(0xfa)]||[])[_0x4124bb(0x149)]);for(let _0x261d56=0x0;_0x261d56<_0x379932;_0x261d56++){_0x5902d3['colA'][_0x261d56]=document[_0x4124bb(0x141)](_0x4124bb(0x13e)+_0x261d56)[_0x4124bb(0x11d)],_0x5902d3['colB'][_0x261d56]=document['getElementById'](_0x4124bb(0x160)+_0x261d56)[_0x4124bb(0x11d)];}}else _0x5902d3[_0x4124bb(0x13a)]===_0x4124bb(0x111)&&_0x5902d3[_0x4124bb(0x134)]&&_0x5902d3[_0x4124bb(0x134)][_0x4124bb(0x15f)]((_0x490998,_0x8f51ea)=>{const _0x5d0c55=_0x4124bb;_0x490998[_0x5d0c55(0x15e)]=document[_0x5d0c55(0x141)](_0x5d0c55(0x10f)+_0x8f51ea)['value'],_0x490998[_0x5d0c55(0x158)]=document['getElementById'](_0x5d0c55(0x14e)+_0x8f51ea)['value'],_0x490998['options']&&(_0x490998[_0x5d0c55(0x154)][0x0]=document[_0x5d0c55(0x141)](_0x5d0c55(0x115)+_0x8f51ea+'-0')[_0x5d0c55(0x11d)],_0x490998['options'][0x1]=document[_0x5d0c55(0x141)](_0x5d0c55(0x115)+_0x8f51ea+'-1')[_0x5d0c55(0x11d)],_0x490998[_0x5d0c55(0x154)][0x2]=document[_0x5d0c55(0x141)](_0x5d0c55(0x115)+_0x8f51ea+'-2')[_0x5d0c55(0x11d)],_0x490998[_0x5d0c55(0x154)][0x3]=document[_0x5d0c55(0x141)](_0x5d0c55(0x115)+_0x8f51ea+'-3')[_0x5d0c55(0x11d)]);});}}}}}document[_0x4124bb(0x141)](_0x4124bb(0x15d))[_0x4124bb(0x166)][_0x4124bb(0x120)]=_0x4124bb(0xfc);let _0x226c37=document[_0x4124bb(0x141)](_0x4124bb(0x13c));_0x226c37&&_0x226c37[_0x4124bb(0x166)][_0x4124bb(0x120)]!==_0x4124bb(0xfc)?this[_0x4124bb(0x122)]():this['run']();});function _0x52f2(){const _0x595c19=['updatePreview','complex-em-lines-','grid','essay-multi','<div\x20class=\x22form-group\x22><label>Nội\x20dung\x20Ý\x20','type','>Giấy\x20trắng</option>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</select>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<label\x20style=\x22color:#e83e8c;\x20font-weight:bold;\x20margin:0;\x20margin-left:\x2010px;\x22>Số\x20dòng\x20(Độ\x20cao):</label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22number\x22\x20id=\x22complex-essay-lines\x22\x20value=\x22','staging-modal','8jjgziV','complex-match-a-','block','>Dòng\x20kẻ</option>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<option\x20value=\x22grid\x22\x20','getElementById','edit-tf-txt-','selectionStart','<div\x20style=\x22font-size:11px;\x20color:red;\x20margin-bottom:10px;\x22><i>⚠️\x20Ô\x20Câu\x20hỏi\x20phía\x20trên\x20là\x20Đoạn\x20văn\x20gốc.\x20Dưới\x20đây\x20là\x20các\x20chỗ\x20đục\x20lỗ:</i></div>','\x22\x20min=\x221\x22\x20style=\x22width:60px;\x20text-align:center;\x20padding:\x204px;\x20font-size:12px;\x20border:\x201px\x20solid\x20#ccc;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22form-group\x22><label\x20style=\x22color:#28a745\x22>Đáp\x20án\x20ý\x20','-1\x22\x20value=\x22','edit-opt-3','items','length','math-guide','drawing','lines','</b></td></tr>','complex-cloze-ans-','matching','edit-options-area','edit-ans','8849637dEalnq','<tr><td\x20style=\x22text-align:left;\x20padding:5px;\x22><b>','options','-3\x22\x20value=\x22','substring','>Ô\x20ly</option>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<option\x20value=\x22blank\x22\x20','answer','edit-opt-1','\x22\x20style=\x22width:40%\x22\x20placeholder=\x22Tiêu\x20đề\x20(VD:\x20Chỗ\x20trống\x201)\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22text\x22\x20id=\x22complex-cloze-ans-','content','\x22\x20placeholder=\x22B\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22text\x22\x20id=\x22complex-cloze-opt-','edit-modal','question','forEach','complex-match-b-','</td><td><b\x20style=\x22color:','104136VJiMtW','colA','paperStyle','saveQuickEdit','style','max','line','</div><div><b>C.</b>\x20','630690dxperW','flex','1020dhNsIa','edit-pts','innerHTML','workingData','edit-tf-area','\x22\x20style=\x22width:95%\x22></td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td><input\x20type=\x22text\x22\x20id=\x22complex-match-b-','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22margin-bottom:10px;\x20border-bottom:1px\x20dashed\x20#ffeeba;\x20padding-bottom:10px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22form-group\x22\x20style=\x22margin-bottom:\x208px;\x22><label\x20style=\x22color:#007bff\x22>Nội\x20dung\x20ý\x20phụ\x20','points','edit-complex-area','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22margin-bottom:10px;\x20border-bottom:1px\x20dashed\x20#ffeeba;\x20padding-bottom:10px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:flex;\x20gap:10px;\x20margin-bottom:5px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22text\x22\x20id=\x22complex-cloze-q-','colB','</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td><input\x20type=\x22text\x22\x20id=\x22complex-match-a-','none','essay','focus','\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22form-group\x22\x20style=\x22display:flex;\x20gap:10px;\x20align-items:center;\x20margin-bottom:\x208px;\x20background:\x20#e0f7fa;\x20padding:\x205px\x2010px;\x20border-radius:\x204px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<label\x20style=\x22color:#666;\x20font-size:12px;\x20font-weight:bold;\x22>Loại\x20giấy:</label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<select\x20id=\x22complex-em-style-','toggleGuide','-2\x22\x20value=\x22','</table>','</textarea></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>','_id','\x22\x20value=\x22','setSelectionRange','insertMath','editingId','edit-q','blank','edit-preview',')</b>\x20','title','mcq','complex-cloze-q-','<div\x20style=\x22margin-bottom:\x2010px;\x22><b>Câu\x20hỏi:</b>\x20','cloze','statements','complex-em-style-','4399385QRySaQ','complex-cloze-opt-','complex-fb-i-','6498770fgdRlr','<div\x20style=\x22font-size:11px;\x20color:#6c757d;\x22><i>💡\x20Đáp\x20án\x20của\x20câu\x20Điền\x20khuyết\x20này\x20bồ\x20sửa\x20ở\x20ô\x20\x22Đáp\x20án\x20đúng\x22\x20phía\x20dưới\x20cùng\x20nhé.</i></div>','8157cbNSon','selected','fill-blank','\x22\x20placeholder=\x22A\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22text\x22\x20id=\x22complex-cloze-opt-','value','complex-essay-style','red','display','>Trắng</option>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</select>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<label\x20style=\x22color:#666;\x20font-size:12px;\x20margin-left:10px;\x20font-weight:bold;\x22>Số\x20dòng:</label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22number\x22\x20id=\x22complex-em-lines-','openStagingModal','complex-em-q-','8168000BAhgwB','find','edit-tf-ans-','edit-opt-2','35pxiGuX','<div\x20style=\x22display:grid;\x20grid-template-columns:\x201fr\x201fr;\x20gap:10px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div><b>A.</b>\x20','dataset','replace','</div></div>','edit-opt-0','subQuestions','true-false','</div><div><b>D.</b>\x20','ans','text','</label><textarea\x20id=\x22complex-em-a-','questions'];_0x52f2=function(){return _0x595c19;};return _0x52f2();}
+// ==========================================
+// MODULE: LIVE EDITOR VẠN NĂNG (ĐỌC ĐÚNG DATA EXCEL)
+// ==========================================
+
+app.openQuickEdit = function(id) {
+    document.getElementById('edit-modal').dataset.editingId = id; 
+    let item = this.workingData.find(x => x._id === id);
+    if (!item) return;
+
+    // 1. Nhét dữ liệu phần CHUNG
+    let qText = item.question || item.content || item.title || "";
+    document.getElementById('edit-q').value = qText;
+    document.getElementById('edit-pts').value = item.points || item.pointsPerQuestion || "";
+    document.getElementById('edit-ans').value = item.answer || ""; // Tự luận/Điền khuyết nhét vô đây
+
+    let optArea = document.getElementById('edit-options-area');
+    let tfArea = document.getElementById('edit-tf-area');       
+    let complexArea = document.getElementById('edit-complex-area'); 
+    let complexContainer = document.getElementById('complex-container');
+
+    // Ẩn tất cả đi, lát cần cái nào hiện cái đó
+    if (optArea) optArea.style.display = 'none';
+    if (tfArea) tfArea.style.display = 'none';
+    if (complexArea) complexArea.style.display = 'none';
+    if (complexContainer) complexContainer.innerHTML = ''; 
+
+    // 2. Nhét dữ liệu TRẮC NGHIỆM
+    if (item.type === 'mcq' && item.options) {
+        if (optArea) {
+            optArea.style.display = 'block';
+            document.getElementById('edit-opt-0').value = item.options[0] || "";
+            document.getElementById('edit-opt-1').value = item.options[1] || "";
+            document.getElementById('edit-opt-2').value = item.options[2] || "";
+            document.getElementById('edit-opt-3').value = item.options[3] || "";
+        }
+    } 
+    // 3. Nhét dữ liệu ĐÚNG/SAI
+    else if (item.type === 'true-false' && item.statements) {
+        if (tfArea) {
+            tfArea.style.display = 'block';
+            for(let i=0; i<4; i++) {
+                let st = item.statements[i] || {text: "", ans: "Đ"};
+                let cleanText = st.text.replace(/^[a-d]\)\s*/i, ''); 
+                document.getElementById('edit-tf-txt-' + i).value = cleanText;
+                document.getElementById('edit-tf-ans-' + i).value = st.ans || "Đ";
+            }
+        }
+    }
+    // 4. Nhét dữ liệu ĐÁM PHỨC TẠP
+    else if (complexArea && complexContainer) {
+        let html = '';
+        
+        // [MỚI] TỰ LUẬN ĐƠN (Essay / Drawing) -> Có chỉnh số dòng & loại giấy
+        if (item.type === 'essay' || item.type === 'drawing') {
+            complexArea.style.display = 'block';
+            let pStyle = item.paperStyle || 'line';
+            html += `
+            <div class="form-group" style="display:flex; gap:15px; align-items:center; margin-bottom: 10px; background: #e0f7fa; padding: 10px; border-radius: 5px;">
+                <label style="color:#007bff; font-weight:bold; margin:0;">Loại giấy in:</label>
+                <select id="complex-essay-style" style="padding: 6px; border-radius: 4px; border: 1px solid #ccc; font-size: 13px;">
+                    <option value="line" ${pStyle==='line'?'selected':''}>Dòng kẻ</option>
+                    <option value="grid" ${pStyle==='grid'?'selected':''}>Ô ly</option>
+                    <option value="blank" ${pStyle==='blank'?'selected':''}>Giấy trắng</option>
+                </select>
+                <label style="color:#e83e8c; font-weight:bold; margin:0; margin-left: 10px;">Số dòng (Độ cao):</label>
+                <input type="number" id="complex-essay-lines" value="${item.lines || 5}" min="1" style="width:70px; padding: 6px; text-align:center; border-radius: 4px; border: 1px solid #ccc; font-size: 13px;">
+                <span style="font-size:11px; color:#666; font-style:italic;">(Tăng/giảm để ép trang in)</span>
+            </div>`;
+        }
+        // A. TỰ LUẬN NHIỀU Ý (Essay-multi) -> Có các ý phụ (sub-essay)
+        else if (item.type === 'essay-multi' && item.subQuestions) {
+            complexArea.style.display = 'block';
+            item.subQuestions.forEach((sub, idx) => {
+                let pStyle = sub.paperStyle || 'line';
+                html += `
+                <div style="margin-bottom:10px; border-bottom:1px dashed #ffeeba; padding-bottom:10px;">
+                    <div class="form-group" style="margin-bottom: 8px;"><label style="color:#007bff">Nội dung ý phụ ${idx+1}</label><input type="text" id="complex-em-q-${idx}" value="${sub.text || ""}"></div>
+                    <div class="form-group" style="display:flex; gap:10px; align-items:center; margin-bottom: 8px; background: #e0f7fa; padding: 5px 10px; border-radius: 4px;">
+                        <label style="color:#666; font-size:12px; font-weight:bold;">Loại giấy:</label>
+                        <select id="complex-em-style-${idx}" style="padding: 4px; border-radius: 3px; border: 1px solid #ccc; font-size:12px;">
+                            <option value="line" ${pStyle==='line'?'selected':''}>Dòng kẻ</option>
+                            <option value="grid" ${pStyle==='grid'?'selected':''}>Ô ly</option>
+                            <option value="blank" ${pStyle==='blank'?'selected':''}>Trắng</option>
+                        </select>
+                        <label style="color:#666; font-size:12px; margin-left:10px; font-weight:bold;">Số dòng:</label>
+                        <input type="number" id="complex-em-lines-${idx}" value="${sub.lines || 3}" min="1" style="width:60px; text-align:center; padding: 4px; font-size:12px; border: 1px solid #ccc;">
+                    </div>
+                    <div class="form-group"><label style="color:#28a745">Đáp án ý ${idx+1}</label><textarea id="complex-em-a-${idx}" style="height:50px;">${sub.answer || ""}</textarea></div>
+                </div>`;
+            });
+        }
+        
+        // B. ĐIỀN KHUYẾT NGẮN (Fill-blank)
+        else if (item.type === 'fill-blank' && item.items) {
+            complexArea.style.display = 'block';
+            item.items.forEach((it, idx) => {
+                html += `<div class="form-group"><label>Nội dung Ý ${idx+1}</label><input type="text" id="complex-fb-i-${idx}" value="${it || ""}"></div>`;
+            });
+            html += `<div style="font-size:11px; color:#6c757d;"><i>💡 Đáp án của câu Điền khuyết này bồ sửa ở ô "Đáp án đúng" phía dưới cùng nhé.</i></div>`;
+        }
+        
+        // C. NỐI CỘT (Matching)
+        else if (item.type === 'matching') {
+            complexArea.style.display = 'block';
+            html += `<table style="width:100%; font-size:12px; border-collapse:collapse;">
+                    <thead><tr style="background:#eee"><th>STT</th><th>Vế Trái (Cột A)</th><th>Vế Phải (Cột B)</th></tr></thead><tbody>`;
+            let maxRows = Math.max((item.colA || []).length, (item.colB || []).length);
+            for(let i=0; i<maxRows; i++) {
+                let aVal = (item.colA && item.colA[i]) ? item.colA[i] : "";
+                let bVal = (item.colB && item.colB[i]) ? item.colB[i] : "";
+                html += `<tr><td style="text-align:center">${i+1}</td>
+                    <td><input type="text" id="complex-match-a-${i}" value="${aVal}" style="width:95%"></td>
+                    <td><input type="text" id="complex-match-b-${i}" value="${bVal}" style="width:95%"></td>
+                    </tr>`;
+            }
+            html += `</tbody></table><div style="font-size:11px; color:#6c757d; margin-top:8px;"><i>💡 Hệ thống sẽ tự động bắt cặp các hàng ngang với nhau (Trái 1 nối Phải 1).</i></div>`;
+        }
+
+        // D. ĐOẠN VĂN ĐỤC LỖ (Cloze)
+        else if (item.type === 'cloze' && item.questions) {
+            complexArea.style.display = 'block';
+            html += `<div style="font-size:11px; color:red; margin-bottom:10px;"><i>⚠️ Ô Câu hỏi phía trên là Đoạn văn gốc. Dưới đây là các chỗ đục lỗ:</i></div>`;
+            item.questions.forEach((cq, idx) => {
+                let o0 = (cq.options && cq.options[0]) ? cq.options[0] : "";
+                let o1 = (cq.options && cq.options[1]) ? cq.options[1] : "";
+                let o2 = (cq.options && cq.options[2]) ? cq.options[2] : "";
+                let o3 = (cq.options && cq.options[3]) ? cq.options[3] : "";
+                html += `
+                <div style="margin-bottom:10px; border-bottom:1px dashed #ffeeba; padding-bottom:10px;">
+                    <div style="display:flex; gap:10px; margin-bottom:5px;">
+                        <input type="text" id="complex-cloze-q-${idx}" value="${cq.question || ""}" style="width:40%" placeholder="Tiêu đề (VD: Chỗ trống 1)">
+                        <input type="text" id="complex-cloze-ans-${idx}" value="${cq.answer || ""}" style="width:20%; color:red; font-weight:bold; text-align:center;" placeholder="Đ/A (VD: A)">
+                    </div>
+                    <div style="display:flex; gap:5px;">
+                        <input type="text" id="complex-cloze-opt-${idx}-0" value="${o0}" placeholder="A">
+                        <input type="text" id="complex-cloze-opt-${idx}-1" value="${o1}" placeholder="B">
+                        <input type="text" id="complex-cloze-opt-${idx}-2" value="${o2}" placeholder="C">
+                        <input type="text" id="complex-cloze-opt-${idx}-3" value="${o3}" placeholder="D">
+                    </div>
+                </div>`;
+            });
+        }
+
+        complexContainer.innerHTML = html;
+    }
+
+    document.getElementById('math-guide').style.display = 'none';
+    document.getElementById('edit-modal').style.display = 'flex';
+    this.updatePreview(); 
+};
+
+app.toggleGuide = function() {
+    let guide = document.getElementById('math-guide');
+    guide.style.display = (guide.style.display === 'none') ? 'block' : 'none';
+};
+
+app.insertMath = function(mathTag) {
+    let textarea = document.getElementById('edit-q');
+    let startPos = textarea.selectionStart;
+    let endPos = textarea.selectionEnd;
+    let text = textarea.value;
+    textarea.value = text.substring(0, startPos) + mathTag + text.substring(endPos, text.length);
+    textarea.focus();
+    let newCursorPos = startPos + mathTag.length;
+    textarea.setSelectionRange(newCursorPos, newCursorPos);
+    this.updatePreview();
+};
+
+app.updatePreview = function() {
+    let qText = document.getElementById('edit-q').value || "";
+    qText = qText.replace(/\n/g, "<br>");
+    let previewHTML = `<div style="margin-bottom: 10px;"><b>Câu hỏi:</b> ${qText}</div>`;
+    
+    let optArea = document.getElementById('edit-options-area');
+    let tfArea = document.getElementById('edit-tf-area');
+
+    if (optArea && optArea.style.display !== 'none') {
+        let o0 = document.getElementById('edit-opt-0').value || "";
+        let o1 = document.getElementById('edit-opt-1').value || "";
+        let o2 = document.getElementById('edit-opt-2').value || "";
+        let o3 = document.getElementById('edit-opt-3').value || "";
+        previewHTML += `<div style="display:grid; grid-template-columns: 1fr 1fr; gap:10px;">
+            <div><b>A.</b> ${o0}</div><div><b>B.</b> ${o1}</div><div><b>C.</b> ${o2}</div><div><b>D.</b> ${o3}</div></div>`;
+    }
+
+    if (tfArea && tfArea.style.display !== 'none') {
+        previewHTML += `<table border="1" style="width:100%; border-collapse:collapse; margin-top:10px; text-align:center;">
+            <tr style="background:#eee"><th>Phát biểu</th><th style="width:50px">Đ/S</th></tr>`;
+        for(let i=0; i<4; i++) {
+            let txt = document.getElementById('edit-tf-txt-' + i).value || "";
+            let ans = document.getElementById('edit-tf-ans-' + i).value || "Đ";
+            let ansColor = ans === 'Đ' ? 'green' : 'red';
+            previewHTML += `<tr><td style="text-align:left; padding:5px;"><b>${['a','b','c','d'][i]})</b> ${txt}</td><td><b style="color:${ansColor}">${ans}</b></td></tr>`;
+        }
+        previewHTML += `</table>`;
+    }
+
+    let previewBox = document.getElementById('edit-preview');
+    previewBox.innerHTML = previewHTML;
+    if (window.renderMathInElement) {
+        renderMathInElement(previewBox, {
+            delimiters: [{left: '$$', right: '$$', display: true}, {left: '$', right: '$', display: false}],
+            throwOnError: false
+        });
+    }
+};
+
+app.saveQuickEdit = function() {
+    let id = document.getElementById('edit-modal').dataset.editingId;
+    if (!id) return;
+    let item = this.workingData.find(x => x._id === id);
+    if (!item) return;
+
+    // 1. Lấy dữ liệu chung
+    let newQ = document.getElementById('edit-q').value;
+    if (item.question !== undefined) item.question = newQ;
+    if (item.content !== undefined) item.content = newQ;
+    if (item.title !== undefined) item.title = newQ; 
+    
+    item.points = document.getElementById('edit-pts').value;
+    item.answer = document.getElementById('edit-ans').value; 
+
+    // 2. Lấy dữ liệu Trắc nghiệm
+    if (item.type === 'mcq' && item.options) {
+        item.options[0] = document.getElementById('edit-opt-0').value;
+        item.options[1] = document.getElementById('edit-opt-1').value;
+        item.options[2] = document.getElementById('edit-opt-2').value;
+        item.options[3] = document.getElementById('edit-opt-3').value;
+    } 
+    // 3. Lấy dữ liệu Đúng/Sai
+    else if (item.type === 'true-false' && item.statements) {
+        for(let i=0; i<4; i++) {
+            let txt = document.getElementById('edit-tf-txt-' + i).value;
+            let ans = document.getElementById('edit-tf-ans-' + i).value;
+            if(item.statements[i]) {
+                item.statements[i].text = ['a', 'b', 'c', 'd'][i] + ') ' + txt; 
+                item.statements[i].ans = ans;
+            }
+        }
+    }
+    // 4. Lấy dữ liệu Đám phức tạp
+    else if (item.type === 'essay' || item.type === 'drawing') {
+        let styleVal = document.getElementById('complex-essay-style');
+        let linesVal = document.getElementById('complex-essay-lines');
+        if (styleVal) item.paperStyle = styleVal.value;
+        if (linesVal) item.lines = parseInt(linesVal.value) || 5;
+    }
+    else if (item.type === 'essay-multi' && item.subQuestions) {
+        item.subQuestions.forEach((sub, idx) => {
+            sub.text = document.getElementById('complex-em-q-' + idx).value;
+            sub.answer = document.getElementById('complex-em-a-' + idx).value;
+            let sStyle = document.getElementById('complex-em-style-' + idx);
+            let sLines = document.getElementById('complex-em-lines-' + idx);
+            if (sStyle) sub.paperStyle = sStyle.value;
+            if (sLines) sub.lines = parseInt(sLines.value) || 3;
+        });
+    }
+    else if (item.type === 'fill-blank' && item.items) {
+        item.items.forEach((_, idx) => {
+            item.items[idx] = document.getElementById('complex-fb-i-' + idx).value;
+        });
+    }
+    else if (item.type === 'matching' && item.colA && item.colB) {
+        let maxRows = Math.max((item.colA || []).length, (item.colB || []).length);
+        for(let i=0; i<maxRows; i++) {
+            item.colA[i] = document.getElementById('complex-match-a-' + i).value;
+            item.colB[i] = document.getElementById('complex-match-b-' + i).value;
+        }
+    }
+    else if (item.type === 'cloze' && item.questions) {
+        item.questions.forEach((cq, idx) => {
+            cq.question = document.getElementById('complex-cloze-q-' + idx).value;
+            cq.answer = document.getElementById('complex-cloze-ans-' + idx).value;
+            if(cq.options) {
+                cq.options[0] = document.getElementById('complex-cloze-opt-' + idx + '-0').value;
+                cq.options[1] = document.getElementById('complex-cloze-opt-' + idx + '-1').value;
+                cq.options[2] = document.getElementById('complex-cloze-opt-' + idx + '-2').value;
+                cq.options[3] = document.getElementById('complex-cloze-opt-' + idx + '-3').value;
+            }
+        });
+    }
+
+    document.getElementById('edit-modal').style.display = 'none';
+    
+    let stagingModal = document.getElementById('staging-modal');
+    if (stagingModal && stagingModal.style.display !== 'none') {
+        this.openStagingModal(); 
+    } else {
+        this.run(); 
+    }
+};
