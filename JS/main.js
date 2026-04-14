@@ -27,7 +27,8 @@ app.init = function() {
     this.workingData = []; 
     
     // 3. Cập nhật giao diện (Màu sắc nút, cỡ chữ...)
-    this.updateUI(); 
+    this.updateUI();
+    this.checkBackup(); 
 };
 
 app.run = function() {
@@ -47,6 +48,7 @@ app.run = function() {
     }
 
     this.preloadImages(this.workingData).then(() => this.autoFit());
+    this.saveBackup();
 };
 
 app.toggleMode = function() {
@@ -203,4 +205,28 @@ app.showLoading = function(text = 'Đang xử lý...') {
 app.hideLoading = function() {
     let overlay = document.getElementById('loading-overlay');
     if (overlay) overlay.style.display = 'none';
+};
+// Tự động lưu vào ổ cứng trình duyệt
+app.saveBackup = function() {
+    if (this.workingData.length > 0) {
+        localStorage.setItem('master_exam_backup', JSON.stringify({
+            workingData: this.workingData,
+            config: window.EXAM.config,
+            timestamp: new Date().toLocaleString('vi-VN')
+        }));
+    }
+};
+
+// Kiểm tra bản nháp khi vừa mở web
+app.checkBackup = function() {
+    const saved = localStorage.getItem('master_exam_backup');
+    if (saved) {
+        const backup = JSON.parse(saved);
+        if (confirm(`🚨 PHÁT HIỆN BẢN NHÁP!\nBạn có muốn khôi phục đề đang làm dở lúc ${backup.timestamp} không?`)) {
+            this.workingData = backup.workingData;
+            window.EXAM.config = backup.config;
+            this.run();
+            app.toast("Đã khôi phục đề cũ!", "success");
+        }
+    }
 };
