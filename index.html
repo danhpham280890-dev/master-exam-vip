@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Master Exam V14 - Trạm Kiểm Duyệt & Sửa Vạn Năng</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="katex/katex.min.css">
+    
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
+    <script defer src="katex/katex.min.js"></script>
+    <script defer src="katex/contrib/auto-render.min.js"></script>
+    <script src="https://cdn.sheetjs.com/xlsx-0.19.3/package/dist/xlsx.full.min.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dompurify/3.0.6/purify.min.js"></script>
+
+    <style>
+        .modal-overlay { position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.6); display: flex; align-items: center; justify-content: center; backdrop-filter: blur(3px); }
+        .modal-content { background: white; padding: 25px 30px; border-radius: 10px; width: 480px; box-shadow: 0 10px 30px rgba(0,0,0,0.3); font-family: Arial, sans-serif; }
+        .modal-content.large { width: 750px; max-height: 90vh; overflow-y: auto; }
+        .form-group { margin-bottom: 15px; }
+        .form-group label { display: block; font-size: 10pt; font-weight: bold; margin-bottom: 5px; color: #444; }
+        .form-group input, .form-group textarea, .form-group select { width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px; font-size: 11pt; transition: 0.3s; box-sizing: border-box; font-family: inherit;}
+        .form-group input:focus, .form-group textarea:focus { border-color: #007bff; outline: none; box-shadow: 0 0 5px rgba(0,123,255,0.3); }
+        
+        .matrix-table th { background: #f4f4f4; padding: 10px; border: 1px solid #ccc; font-size: 10pt; }
+        .matrix-table td { padding: 8px; border: 1px solid #eee; text-align: center; }
+        .matrix-table input { width: 60px; padding: 6px; text-align: center; border: 1px solid #ccc; border-radius: 4px; }
+        
+        /* CSS cho phần đăng nhập Google */
+        .auth-status { padding: 10px; border-bottom: 1px solid #333; margin-bottom: 15px; text-align: center; }
+        #user-info { font-size: 11px; color: #20c997; margin-top: 5px; display: none; word-break: break-all; }
+    </style>
+</head>
+<body>
+
+    <div class="sidebar no-print">
+        <div class="sidebar-logo">🚀 MASTER EXAM</div>
+
+        <div class="auth-status">
+            <div id="g_id_onload"
+                 data-client_id="311746969264-r0pmr0ksf29futus4vcld8aeq75j22aq.apps.googleusercontent.com"
+                 data-callback="handleCredentialResponse"
+                 data-auto_prompt="false">
+            </div>
+            <div class="g_id_signin" data-type="standard" data-theme="filled_blue" data-text="signin_with" data-shape="rectangular" data-logo_alignment="left"></div>
+            <div id="user-info"></div>
+        </div>
+
+        <div class="sidebar-menu">
+            <button class="btn-sidebar btn-print" onclick="window.print()">🖨️ In Đề</button>
+            <button class="btn-sidebar btn-import" onclick="app.openImportModal()">📂 Nạp Dữ Liệu</button>
+            <button class="btn-sidebar btn-matrix" onclick="app.openMatrixModal()">📊 Ma Trận Bốc Đề</button>
+            <button class="btn-sidebar btn-mode" onclick="app.toggleMode()" id="btn-mode">👁️ ĐỀ THI</button>
+            <button class="btn-sidebar btn-settings" onclick="app.openSettings()">⚙️ Cài đặt Đề</button>
+        </div>
+
+        <div class="sidebar-tools">
+            <div class="tool-group">
+                <label>Cỡ chữ:</label>
+                <div><button class="btn-tiny" onclick="app.changeFont(-0.25)">➖</button> <span id="ui-font" style="display:inline-block; width: 30px; text-align:center;">14</span> <button class="btn-tiny" onclick="app.changeFont(0.25)">➕</button></div>
+            </div>
+            <div class="tool-group">
+                <label>Giãn dòng:</label>
+                <div><button class="btn-tiny" onclick="app.changeLineHeight(-0.05)">➖</button> <span id="ui-lh" style="display:inline-block; width: 30px; text-align:center;">1.15</span> <button class="btn-tiny" onclick="app.changeLineHeight(0.05)">➕</button></div>
+            </div>
+        </div>
+
+        <div class="validation-bar">
+            <div id="val-score" class="status-ok">Điểm: ...</div>
+            <div id="val-ans" class="status-ok">Đáp án: ...</div>
+        </div>
+    </div>
+
+    <div id="exam-paper">
+        <div id="welcome-screen" class="no-print" style="text-align: center; padding: 50px 20px; font-family: Arial, sans-serif; color: #444; background: white; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); max-width: 600px; margin: 40px auto;">
+            <h1 style="color: #007bff; margin-bottom: 10px;">🚀 MASTER EXAM V14</h1>
+            <p style="font-size: 12pt; color: #666; margin-bottom: 30px;">Hệ thống trộn đề thi thông minh - Chuẩn in ấn</p>
+            
+            <div id="auth-warning" style="color: #d9534f; margin-bottom: 20px; font-weight: bold; background: #fdf7f7; padding: 10px; border-radius: 5px; border: 1px solid #d9534f;">⚠️ Hãy Đăng nhập Google để dùng tính năng "Hút Data" VIP!</div>
+            
+            <div style="text-align: left; display: inline-block; font-size: 11pt; line-height: 1.8;">
+                <b>👉 Hướng dẫn sử dụng nhanh:</b><br>
+                <span style="display: inline-block; width: 25px;">1️⃣</span> Bấm <b style="color:#20c997">📂 Nạp Kho Đạn</b> để tải file Excel/Link Google Sheets.<br>
+                <span style="display: inline-block; width: 25px;">2️⃣</span> Bấm <b style="color:#e83e8c">📊 Ma Trận Bốc Đề</b> để chọn số lượng câu.<br>
+                <span style="display: inline-block; width: 25px;">3️⃣</span> Duyệt qua các câu hỏi tại <b style="color:#fd7e14">Trạm Kiểm Duyệt</b>.<br>
+                <span style="display: inline-block; width: 25px;">4️⃣</span> Bấm <b style="color:#007bff">🖨️ In Đề</b> (hoặc lưu file PDF).<br>
+                <br><i>💡 <b>Mẹo:</b> Nhấp đúp chuột (Double-click) vào bất kỳ câu hỏi nào trên màn hình để chỉnh sửa nội dung/đáp án trực tiếp!</i>
+            </div>
+        </div>
+    </div>
+
+    <div id="import-modal" class="modal-overlay no-print" style="display: none; z-index: 10000;">
+        <div class="modal-content">
+            <h2 style="margin-top:0; border-bottom: 2px solid #eee; padding-bottom: 10px; color: #20c997;">📂 Nạp Kho Đạn</h2>
+            
+            <div style="margin-bottom: 20px; padding: 15px; background: #e0f7fa; border: 1px solid #00acc1; border-radius: 8px;">
+                <label style="font-weight: bold; color: #00838f; display: block; margin-bottom: 8px;">☁️ TỪ GOOGLE SHEETS (Khuyên dùng):</label>
+                <input type="text" id="cloud-link" placeholder="Dán link Google Sheets của Tổ bộ môn vào đây..." style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; margin-bottom: 10px; font-size: 13px;">
+                <button id="cloud-btn" onclick="app.importFromCloud()" class="btn-cp" style="background: #00838f; width: 100%;">⚡ Hút Data</button>
+                <div style="font-size: 11px; color: #006064; margin-top: 8px; text-align: center;"><i>* File Google Sheets phải được mở quyền "Bất kỳ ai có liên kết".</i></div>
+            </div>
+            
+            <div style="text-align: center; margin-bottom: 20px; color: #888; font-weight: bold;">--- HOẶC ---</div>
+            
+            <div style="padding: 15px; background: #f8f9fa; border: 1px solid #ccc; border-radius: 8px; text-align: center;">
+                <label style="font-weight: bold; color: #444; display: block; margin-bottom: 8px;">📁 TỪ FILE EXCEL OFFLINE:</label>
+                <input type="file" id="excel-input" style="display:none" accept=".xlsx, .xls" onchange="app.importExcel(this); app.closeImportModal();">
+                <button class="btn-cp" onclick="document.getElementById('excel-input').click()" style="background-color: #20c997; color: black; width: 100%;">Tải lên file Excel</button>
+            </div>
+
+            <div style="text-align: center; margin-bottom: 20px; margin-top: 20px; color: #888; font-weight: bold;">--- HOẶC ---</div>
+            
+            <div style="padding: 15px; background: #fff3cd; border: 1px solid #ffeeba; border-radius: 8px; text-align: center;">
+                <label style="font-weight: bold; color: #856404; display: block; margin-bottom: 8px;">🤖 DÁN MÃ JSON (Từ AI / Word):</label>
+                <textarea id="json-input" placeholder="Dán mã JSON bồ nhờ AI tạo vào đây..." style="width: 100%; height: 80px; padding: 10px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; margin-bottom: 10px; font-family: monospace; font-size: 12px;"></textarea>
+                <button class="btn-cp" onclick="app.importFastJSON()" style="background-color: #ffc107; color: black; width: 100%; font-weight: bold;">⚡ Nạp JSON Thần Tốc</button>
+            </div>
+
+            <div style="text-align: right; margin-top: 15px;">
+                <button class="btn-cp" onclick="app.closeImportModal()" style="background: #6c757d;">Đóng</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="settings-modal" class="modal-overlay no-print" style="display: none; z-index: 10000;">
+        <div class="modal-content">
+            <h2 style="margin-top:0; border-bottom: 2px solid #eee; padding-bottom: 10px;">⚙️ Cấu Hình Thông Tin Đề</h2>
+            <div class="form-group"><label>Trường / Đơn vị:</label><input type="text" id="cfg-truong"></div>
+            <div class="form-group"><label>Kỳ Thi:</label><input type="text" id="cfg-kythi"></div>
+            <div class="form-group" style="display:flex; gap:15px;">
+                <div style="flex:1;"><label>Khóa ngày:</label><input type="text" id="cfg-khoangay"></div>
+                <div style="flex:1;"><label>Điểm thi:</label><input type="text" id="cfg-diemthi"></div>
+            </div>
+            <div class="form-group"><label>Môn Thi:</label><input type="text" id="cfg-monthi"></div>
+            <div class="form-group" style="display:flex; gap:15px;">
+                <div style="flex:1;"><label>Mã Đề (Bắt đầu):</label><input type="text" id="cfg-made"></div>
+                <div style="flex:1;"><label>Số lượng Mã đề:</label><input type="number" id="cfg-soluong" min="1" max="24" value="1"></div>
+                <div style="flex:1;"><label>Phần (Bảng Điểm):</label><input type="number" id="cfg-sophan" min="1" max="10"></div>
+            </div>
+            <div class="form-group" style="margin-top: 15px; padding-top: 15px; border-top: 1px dashed #ccc;">
+                <label>Dòng chữ Chân trang (Footer):</label>
+                <input type="text" id="cfg-footer" placeholder="VD: Trang web chia sẻ tài liệu miễn phí...">
+            </div>
+            <div class="form-group" style="margin-top: 15px; padding-top: 15px; border-top: 1px dashed #ccc;">
+                <label style="color: #00838f;">🔗 Link API SYSTEM_LOG (Google Apps Script):</label>
+                <input type="text" id="cfg-api-url" placeholder="Dán link Web App URL của Google Script vào đây...">
+                <div style="font-size: 11px; color: #666; margin-top: 5px;"><i>Mẹo: Để trống nếu bồ muốn xài API mặc định của hệ thống.</i></div>
+            </div>
+
+            <div style="text-align: right; margin-top: 25px;">
+                <button class="btn-cp" onclick="app.closeSettings()" style="background: #6c757d;">Hủy</button>
+                <button class="btn-cp" onclick="app.saveSettings()" style="background: #28a745;">💾 Lưu Cập Nhật</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="matrix-modal" class="modal-overlay no-print" style="display: none; z-index: 10000;">
+        <div class="modal-content large">
+            <h2 style="margin-top:0; border-bottom: 2px solid #eee; padding-bottom: 10px; color: #e83e8c;">📊 Lập Ma Trận Bốc Đề</h2>
+            <div style="margin-bottom: 15px; font-size: 11pt; color: #444;">
+                Ngân hàng dữ liệu hiện có: <b id="matrix-total-q" style="color: #007bff;">0</b> câu hỏi.
+                <br><i>Nhập số lượng câu hỏi bạn muốn bốc ngẫu nhiên cho từng Chương/Bài/Mức độ.</i>
+            </div>
+            <table class="matrix-table" style="width: 100%; border-collapse: collapse; margin-bottom: 20px;">
+                <thead>
+                    <tr>
+                        <th style="text-align: left;">Chương / Bài</th>
+                        <th style="width: 70px;">NB</th>
+                        <th style="width: 70px;">TH</th>
+                        <th style="width: 70px;">VD</th>
+                        <th style="width: 70px;">VDC</th>
+                    </tr>
+                </thead>
+                <tbody id="matrix-tbody"></tbody>
+            </table>
+            <div style="text-align: right; margin-top: 15px;">
+                <button class="btn-cp" onclick="app.closeMatrixModal()" style="background: #6c757d;">Hủy</button>
+                <button class="btn-cp" onclick="app.generateFromMatrix()" style="background: #e83e8c; font-weight: bold;">🎲 BỐC ĐỀ TỚI TRẠM DUYỆT</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="staging-modal" class="modal-overlay no-print" style="display: none; z-index: 10001;">
+        <div class="modal-content large" style="width: 950px; max-height: 95vh; overflow-y: auto; border-top: 5px solid #fd7e14;">
+            <h2 style="margin-top:0; border-bottom: 2px solid #eee; padding-bottom: 10px; color: #fd7e14;">🔎 TRẠM KIỂM DUYỆT (TRƯỚC KHI IN)</h2>
+            <div style="margin-bottom: 15px; font-size: 11pt; color: #444;">
+                Hệ thống đã bốc xong các câu hỏi từ Ma trận. Vui lòng rà soát lại!<br>
+                <i>💡 Bấm <b>Sửa</b> để chỉnh nội dung, hoặc bấm <b>Đổi câu</b> để hệ thống bốc ngẫu nhiên 1 câu khác.</i>
+            </div>
+            <table style="width: 100%; border-collapse: collapse; font-size: 11pt;">
+                <thead>
+                    <tr style="background: #f4f4f4;">
+                        <th style="padding: 10px; border: 1px solid #ccc; width: 50px;">STT</th>
+                        <th style="padding: 10px; border: 1px solid #ccc; width: 110px;">ID / Cấp độ</th>
+                        <th style="padding: 10px; border: 1px solid #ccc;">Nội dung câu hỏi (Xem trước)</th>
+                        <th style="padding: 10px; border: 1px solid #ccc; width: 60px;">Đ/A</th>
+                        <th style="padding: 10px; border: 1px solid #ccc; width: 100px;">Thao tác</th>
+                    </tr>
+                </thead>
+                <tbody id="staging-tbody"></tbody>
+            </table>
+            <div style="text-align: right; margin-top: 20px; position: sticky; bottom: -25px; background: white; padding: 15px 0; border-top: 1px solid #eee;">
+                <button class="btn-cp" onclick="app.closeStagingModal()" style="background: #6c757d;">Hủy & Bốc lại</button>
+                <button class="btn-cp" onclick="app.confirmStaging()" style="background: #28a745; font-size: 14pt; padding: 12px 25px;">✅ CHỐT! ĐẨY RA GIẤY THI</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="edit-modal" class="modal-overlay no-print" style="display: none; z-index: 10005;">
+        <div class="modal-content large" style="border-top: 5px solid #007bff; width: 800px; max-height: 90vh; overflow-y: auto;">
+            
+            <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid #eee; padding-bottom: 10px; margin-bottom: 15px;">
+                <h2 style="margin: 0; color: #007bff;">✏️ Sửa nhanh Câu hỏi & Đáp án</h2>
+                <button onclick="app.toggleGuide()" class="btn-cp" style="background: #17a2b8; font-size: 13px;">❓ Hướng dẫn gõ Toán/Hóa</button>
+            </div>
+
+            <div id="math-guide" style="display: none; background: #e0f7fa; border: 1px solid #00acc1; padding: 15px; border-radius: 5px; margin-bottom: 15px; font-size: 13px;">
+                <h4 style="margin-top: 0; color: #00838f;">💡 Bí kíp gõ công thức (KaTeX)</h4>
+                <ul style="margin-bottom: 0; padding-left: 20px;">
+                    <li><b>Luật sinh tử:</b> Phải kẹp công thức vào giữa 2 dấu đô-la. VD gõ: <code>$x^2$</code> sẽ ra $x^2$.</li>
+                    <li><b>Toán học:</b> Phân số: <code>\frac{Tử}{Mẫu}</code> | Căn: <code>\sqrt{Số}</code></li>
+                </ul>
+            </div>
+
+            <div style="background: #f8f9fa; padding: 8px; border: 1px solid #ccc; border-bottom: none; border-radius: 5px 5px 0 0; display: flex; gap: 5px;">
+                <span style="font-size: 12px; font-weight: bold; margin-right: 10px; line-height: 28px;">Chèn nhanh:</span>
+                <button onclick="app.insertMath('$\\frac{Tử}{Mẫu}$')" style="cursor:pointer;" title="Phân số">a/b</button>
+                <button onclick="app.insertMath('$\\sqrt{x}$')" style="cursor:pointer;" title="Căn bậc 2">√x</button>
+                <button onclick="app.insertMath('$x^2$')" style="cursor:pointer;" title="Mũ 2">x²</button>
+            </div>
+
+            <div class="form-group" style="margin-bottom: 15px;">
+                <textarea id="edit-q" oninput="app.updatePreview()" style="width:100%; height:100px; padding: 10px; font-family: monospace; font-size: 14px; border: 1px solid #ccc; border-radius: 0 0 5px 5px;"></textarea>
+            </div>
+            
+            <div id="edit-options-area" style="display:none; background: #f8f9fa; padding: 10px; border-radius: 5px; margin-bottom: 15px;">
+                <div class="form-group" style="display:flex; gap:10px; align-items:center; margin-bottom: 12px; background: #e0f7fa; padding: 8px; border-radius: 4px;">
+                    <label style="color:#007bff; font-weight:bold; margin:0;">Số cột hiển thị:</label>
+                    <select id="edit-mcq-cols" onchange="app.updatePreview()" style="padding: 5px; border-radius: 4px; border: 1px solid #ccc; font-size: 13px;">
+                        <option value="auto">Tự động (Dựa theo độ dài)</option>
+                        <option value="1">1 Cột (Dọc)</option>
+                        <option value="2">2 Cột (Vuông)</option>
+                        <option value="4">4 Cột (Ngang)</option>
+                    </select>
+                </div>
+                
+                <div class="form-group" style="margin-bottom: 8px;"><label style="display:inline-block; width:20px; color:red">A:</label><input type="text" id="edit-opt-0" oninput="app.updatePreview()" style="width:90%"></div>
+                <div class="form-group" style="margin-bottom: 8px;"><label style="display:inline-block; width:20px; color:red">B:</label><input type="text" id="edit-opt-1" oninput="app.updatePreview()" style="width:90%"></div>
+                <div class="form-group" style="margin-bottom: 8px;"><label style="display:inline-block; width:20px; color:red">C:</label><input type="text" id="edit-opt-2" oninput="app.updatePreview()" style="width:90%"></div>
+                <div class="form-group" style="margin-bottom: 8px;"><label style="display:inline-block; width:20px; color:red">D:</label><input type="text" id="edit-opt-3" oninput="app.updatePreview()" style="width:90%"></div>
+            </div>
+
+            <div id="edit-tf-area" style="display:none; background: #e9ecef; padding: 10px; border-radius: 5px; margin-bottom: 15px;">
+                <div style="font-weight: bold; margin-bottom: 8px; color: #333;">Sửa các phát biểu Đúng/Sai:</div>
+                <div class="form-group" style="display:flex; gap:10px; margin-bottom: 8px;">
+                    <label style="width:20px; padding-top:10px;">a)</label>
+                    <input type="text" id="edit-tf-txt-0" oninput="app.updatePreview()" style="flex:1">
+                    <select id="edit-tf-ans-0" onchange="app.updatePreview()" style="width:70px; padding:5px; border-radius:4px;"><option value="Đ">Đúng</option><option value="S">Sai</option></select>
+                </div>
+                <div class="form-group" style="display:flex; gap:10px; margin-bottom: 8px;">
+                    <label style="width:20px; padding-top:10px;">b)</label>
+                    <input type="text" id="edit-tf-txt-1" oninput="app.updatePreview()" style="flex:1">
+                    <select id="edit-tf-ans-1" onchange="app.updatePreview()" style="width:70px; padding:5px; border-radius:4px;"><option value="Đ">Đúng</option><option value="S">Sai</option></select>
+                </div>
+                <div class="form-group" style="display:flex; gap:10px; margin-bottom: 8px;">
+                    <label style="width:20px; padding-top:10px;">c)</label>
+                    <input type="text" id="edit-tf-txt-2" oninput="app.updatePreview()" style="flex:1">
+                    <select id="edit-tf-ans-2" onchange="app.updatePreview()" style="width:70px; padding:5px; border-radius:4px;"><option value="Đ">Đúng</option><option value="S">Sai</option></select>
+                </div>
+                <div class="form-group" style="display:flex; gap:10px; margin-bottom: 8px;">
+                    <label style="width:20px; padding-top:10px;">d)</label>
+                    <input type="text" id="edit-tf-txt-3" oninput="app.updatePreview()" style="flex:1">
+                    <select id="edit-tf-ans-3" onchange="app.updatePreview()" style="width:70px; padding:5px; border-radius:4px;"><option value="Đ">Đúng</option><option value="S">Sai</option></select>
+                </div>
+            </div>
+
+            <div id="edit-complex-area" style="display:none; background: #fff3cd; padding: 15px; border-radius: 5px; margin-bottom: 15px; border: 1px solid #ffeeba;">
+                <div style="font-weight: bold; margin-bottom: 10px; color: #856404; border-bottom: 1px solid #ffeeba; padding-bottom: 5px;">🧩 Sửa Đáp án / Cấu trúc chi tiết:</div>
+                <div id="complex-container"></div>
+            </div>
+
+            <div class="form-group">
+                <label style="color: #28a745; font-weight: bold;">👀 Màn hình Live Preview:</label>
+                <div id="edit-preview" style="background: #fff; padding: 15px; border-radius: 5px; min-height: 80px; border: 2px dashed #28a745; font-size: 12pt; box-shadow: inset 0 0 10px rgba(0,0,0,0.05);"></div>
+            </div>
+            
+            <div class="form-group" style="display:flex; gap:15px; margin-bottom: 20px;">
+                <div style="flex:1;"><label>Điểm / câu:</label><input type="text" id="edit-pts" style="width:100%"></div>
+                <div style="flex:1;"><label>Đáp án đúng (Nếu là câu hỏi đơn):</label><textarea id="edit-ans" style="width:100%; height:45px; font-family:inherit;"></textarea></div>
+            </div>
+            
+            <div style="text-align: right; border-top: 1px solid #eee; padding-top: 15px;">
+                <button class="btn-cp" onclick="document.getElementById('edit-modal').style.display='none'" style="background: #6c757d;">Hủy</button>
+                <button class="btn-cp" onclick="app.saveQuickEdit()" style="background: #007bff;">💾 Lưu thay đổi</button>
+            </div>
+        </div>
+    </div>
+
+
+    <template id="tpl-header-page-1">
+        <div class="sync-phach-height">
+            <table class="header-table">
+                <colgroup><col style="width: 26%;"><col style="width: 10%;"><col style="width: 22%;"><col style="width: 22%;"><col style="width: 20%;"></colgroup>
+                <tr style="height: var(--h-ho-ten);">
+                    <td colspan="2"><span style="display: block; line-height: 1.5; padding-top: 2px;">HỌ TÊN: ............................................<br>...........................................................</span></td>
+                    <td colspan="2"><span class="nowrap-text">KỲ THI: <span class="cfg-exam">..........................................</span></span></td>
+                    <td rowspan="2" class="center" style="padding-top: 6px;">Số thứ tự bài thi<br><small>do cán bộ coi thi ghi</small></td>
+                </tr>
+                <tr style="height: var(--h-thong-tin);">
+                    <td colspan="2"><span class="nowrap-text">NGÀY SINH: ...........................................</span></td>
+                    <td colspan="2"><span class="nowrap-text">Khóa ngày: <span class="cfg-khoangay">.......................................</span></span></td>
+                </tr>
+                <tr style="height: var(--h-thong-tin);">
+                    <td colspan="2"><span class="nowrap-text">NƠI SINH: ..............................................</span></td>
+                    <td colspan="2"><span class="nowrap-text">Điểm thi: <span class="cfg-diemthi">..........................................</span></span></td>
+                    <td rowspan="2" class="center" style="padding-top: 6px;">Túi số lần 1<br><small>(do CB Làm phách ghi)</small></td>
+                </tr>
+                <tr style="height: var(--h-thong-tin);">
+                    <td colspan="2"><span class="nowrap-text">TRƯỜNG: <span class="cfg-truong">......................................</span></span></td>
+                    <td colspan="2"><span class="nowrap-text">Phòng thi số: ..........................................</span></td>
+                </tr>
+                <tr>
+                    <td rowspan="3" class="center" style="padding-top: 8px;">
+                        <b style="font-size: 12pt;">BÀI THI MÔN:</b><br><br>
+                        <div class="cfg-subject"><span style="font-size: 10pt;">..................................</span></div>
+                    </td>
+                    <td rowspan="3" class="center" style="padding-top: 8px;">SỐ BÁO DANH<br><small>do TS ghi</small></td>
+                    <td colspan="2" style="padding: 0; height: 1px;">
+                        <div style="display: flex; flex-direction: column; height: 100%;">
+                            <div class="center bold" style="height: var(--h-tieu-de-ky-tren); border-bottom: 1px solid black; display: flex; align-items: flex-start; justify-content: center; padding-top: 5px;">Họ, tên và chữ ký</div>
+                            <div style="display: flex; height: var(--h-cb-coi-thi); border-bottom: 1px solid black;">
+                                <div class="center" style="flex: 1; border-right: 1px solid black; display: flex; align-items: flex-start; justify-content: center; padding-top: 4px;">CB coi thi 1</div>
+                                <div class="center" style="flex: 1; display: flex; align-items: flex-start; justify-content: center; padding-top: 4px;">CB coi thi 2</div>
+                            </div>
+                            <div style="flex-grow: 1; display: flex; min-height: var(--h-vung-ky-tren);">
+                                <div style="flex: 1; border-right: 1px solid black;"></div><div style="flex: 1;"></div>
+                            </div>
+                        </div>
+                    </td>
+                    <td style="padding: 0; height: 1px;">
+                        <div style="display: flex; flex-direction: column; height: 100%;">
+                            <div class="center" style="flex-grow: 1; border-bottom: 1px solid black; display: flex; align-items: flex-start; justify-content: center; padding-top: 5px;">
+                                <div>Túi hoán vị<br><small>(do CB Làm phách ghi)</small></div>
+                            </div>
+                            <div style="padding: 6px; display: flex; align-items: flex-start;">Số phách ...................</div>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="roc-phach"></div>
+        <table class="header-table" style="margin-bottom: 15px;">
+            <colgroup><col style="width: 26%;"><col style="width: 10%;"><col style="width: 22%;"><col style="width: 22%;"><col style="width: 20%;"></colgroup>
+            <tr>
+                <td colspan="2" class="cell-loi-dan">
+                    <div class="center bold" style="margin-bottom: 3px; font-size: 10pt;">LỜI DẶN THÍ SINH</div>
+                    1. Ghi đầy đủ các mục ở trên, không được đánh dấu bài thi.<br>
+                    2. Ghi rõ tổng số tờ giấy thi đã làm bài.<br>
+                    Bằng số: ........ tờ. &nbsp;&nbsp; Bằng chữ: ............................ tờ.
+                </td>
+                <td colspan="2" style="padding: 0; height: 1px;">
+                    <div style="display: flex; flex-direction: column; height: 100%;">
+                        <div class="center bold" style="height: var(--h-tieu-de-ky-duoi); border-bottom: 1px solid black; display: flex; align-items: flex-start; justify-content: center; padding-top: 5px;">Họ, tên và chữ ký</div>
+                        <div style="display: flex; height: var(--h-cb-cham-thi); border-bottom: 1px solid black;">
+                            <div class="center" style="flex: 1; border-right: 1px solid black; display: flex; align-items: flex-start; justify-content: center; padding-top: 4px;">CB chấm thi 1</div>
+                            <div class="center" style="flex: 1; display: flex; align-items: flex-start; justify-content: center; padding-top: 4px;">CB chấm thi 2</div>
+                        </div>
+                        <div style="flex-grow: 1; display: flex; min-height: var(--h-vung-ky-duoi);">
+                            <div style="flex: 1; border-right: 1px solid black;"></div><div style="flex: 1;"></div>
+                        </div>
+                    </div>
+                </td>
+                <td style="padding: 0; height: 1px;">
+                    <div style="display: flex; flex-direction: column; height: 100%;">
+                        <div style="height: var(--h-tieu-de-ky-duoi); border-bottom: 1px solid black; display: flex; align-items: flex-start; padding-left: 6px; padding-top: 5px;">Số phách ...................</div>
+                        <div class="center" style="flex-grow: 1; display: flex; align-items: flex-start; justify-content: center; padding-top: 5px;">
+                            <div>Túi hoán vị<br><small>(do CB Làm phách ghi)</small></div>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" class="center bold" style="font-size: 11pt; padding-top: 8px;">LỜI GHI CỦA CÁN BỘ CHẤM THI</td>
+                <td colspan="2" style="padding: 0; height: 1px;">
+                    <div style="display: flex; flex-direction: column; height: 100%;">
+                        <div class="center bold" style="height: var(--h-tieu-de-diem); border-bottom: 1px solid black; display: flex; align-items: flex-start; justify-content: center; padding-top: 5px;">Điểm bài thi</div>
+                        <div style="display: flex; height: var(--h-chu-diem); border-bottom: 1px solid black;">
+                            <div class="center" style="flex: 1; border-right: 1px solid black; display: flex; align-items: flex-start; justify-content: center; padding-top: 4px;">Bằng số</div>
+                            <div class="center" style="flex: 1; display: flex; align-items: flex-start; justify-content: center; padding-top: 4px;">Bằng chữ</div>
+                        </div>
+                        <div style="flex-grow: 1; display: flex; min-height: var(--h-vung-ghi-diem);">
+                            <div style="flex: 1; border-right: 1px solid black;"></div><div style="flex: 1;"></div>
+                        </div>
+                    </div>
+                </td>
+                <td class="center" style="padding-top: 8px;">Số thứ tự bài thi<br><small>do cán bộ coi thi ghi</small></td>
+            </tr>
+        </table>
+    </template>
+
+    <template id="tpl-header-page-n">
+        <div class="sync-phach-height"><div class="do-not-write-box">THÍ SINH KHÔNG ĐƯỢC VIẾT VÀO PHẦN NÀY</div></div>
+        <div class="roc-phach"></div>
+    </template>
+
+
+    <div id="toast-container" class="toast-container no-print"></div>
+    <div id="loading-overlay" class="loading-overlay no-print" style="display: none;">
+        <div class="spinner"></div>
+        <div id="loading-text" class="loading-text">Đang xử lý...</div>
+    </div>
+
+
+    <script>
+        function handleCredentialResponse(response) {
+            const responsePayload = decodeJwtResponse(response.credential);
+            window.userEmail = responsePayload.email;
+            
+            const infoDiv = document.getElementById('user-info');
+            infoDiv.innerHTML = `✅ Chào bồ: <b>${responsePayload.name}</b><br>(${responsePayload.email})`;
+            infoDiv.style.display = 'block';
+            
+            document.querySelector('.g_id_signin').style.display = 'none';
+            const warning = document.getElementById('auth-warning');
+            if(warning) warning.style.display = 'none';
+            
+            console.log("Đã đăng nhập thành công:", window.userEmail);
+        }
+
+        function decodeJwtResponse(token) {
+            var base64Url = token.split('.')[1];
+            var base64 = base64Url.replace(/-/g, '+').replace(/_/g, '/');
+            var jsonPayload = decodeURIComponent(window.atob(base64).split('').map(function(c) {
+                return '%' + ('00' + c.charCodeAt(0).toString(16)).slice(-2);
+            }).join(''));
+            return JSON.parse(jsonPayload);
+        }
+    </script>
+
+    <script src="js/app-core.js"></script>
+    <script src="js/app-importer.js"></script>
+    <script src="js/app-matrix.js"></script>
+    <script src="js/app-staging.js"></script> 
+    <script src="js/app-shuffler.js"></script>
+    <script src="js/app-renderer.js"></script>
+    <script src="js/app-editor.js"></script> 
+    <script src="js/main.js"></script>
+
+</body>
+</html>
