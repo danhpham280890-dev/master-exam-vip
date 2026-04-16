@@ -47,6 +47,11 @@ app.renderDOM = function(fontSize, marginBottom) {
             }
         });
         
+        const endText = document.createElement('div');
+        endText.style.cssText = "text-align: center; font-weight: bold; margin-top: 15px; border-top: 1px dashed #ccc; padding-top: 10px; clear: both;";
+        endText.innerHTML = "------- HẾT -------";
+        currentPage.contentElement.appendChild(endText);
+
         let allPages = paper.querySelectorAll(`.page-container[data-made="${version.maDe}"]`);
         allPages.forEach((pageContainer, index) => {
             const footer = document.createElement('div'); footer.className = 'page-footer';
