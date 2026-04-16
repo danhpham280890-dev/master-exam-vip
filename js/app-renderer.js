@@ -48,7 +48,7 @@ app.renderDOM = function(fontSize, marginBottom) {
         });
         
         const endText = document.createElement('div');
-        endText.style.cssText = "text-align: center; font-weight: bold; margin-top: 15px; border-top: 1px dashed #ccc; padding-top: 10px; clear: both;";
+        endText.style.cssText = "text-align: center; font-weight: bold; margin-top: 5px; padding-top: 5px; clear: both;";
         endText.innerHTML = "------- HẾT -------";
         currentPage.contentElement.appendChild(endText);
 
