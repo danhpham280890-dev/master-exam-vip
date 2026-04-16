@@ -71,19 +71,26 @@
     </div>
 
     <div id="exam-paper">
-        <div id="welcome-screen" class="no-print" style="text-align: center; padding: 50px 20px; font-family: Arial, sans-serif; color: #444; background: white; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); max-width: 600px; margin: 40px auto;">
+        <div id="welcome-screen" class="no-print" style="text-align: center; padding: 40px 20px; font-family: Arial, sans-serif; color: #444; background: white; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); max-width: 650px; margin: 40px auto;">
             <h1 style="color: #007bff; margin-bottom: 10px;">🚀 MASTER EXAM V14</h1>
-            <p style="font-size: 12pt; color: #666; margin-bottom: 30px;">Hệ thống trộn đề thi thông minh - Chuẩn in ấn</p>
+            <p style="font-size: 12pt; color: #666; margin-bottom: 20px;">Hệ thống trộn đề thi thông minh - Chuẩn in ấn</p>
             
             <div id="auth-warning" style="color: #d9534f; margin-bottom: 20px; font-weight: bold; background: #fdf7f7; padding: 10px; border-radius: 5px; border: 1px solid #d9534f;">⚠️ Hãy Đăng nhập Google để dùng tính năng "Hút Data" VIP!</div>
             
-            <div style="text-align: left; display: inline-block; font-size: 11pt; line-height: 1.8;">
-                <b>👉 Hướng dẫn sử dụng nhanh:</b><br>
-                <span style="display: inline-block; width: 25px;">1️⃣</span> Bấm <b style="color:#20c997">📂 Nạp Kho Đạn</b> để tải file Excel/Link Google Sheets.<br>
-                <span style="display: inline-block; width: 25px;">2️⃣</span> Bấm <b style="color:#e83e8c">📊 Ma Trận Bốc Đề</b> để chọn số lượng câu.<br>
-                <span style="display: inline-block; width: 25px;">3️⃣</span> Duyệt qua các câu hỏi tại <b style="color:#fd7e14">Trạm Kiểm Duyệt</b>.<br>
-                <span style="display: inline-block; width: 25px;">4️⃣</span> Bấm <b style="color:#007bff">🖨️ In Đề</b> (hoặc lưu file PDF).<br>
-                <br><i>💡 <b>Mẹo:</b> Nhấp đúp chuột (Double-click) vào bất kỳ câu hỏi nào trên màn hình để chỉnh sửa nội dung/đáp án trực tiếp!</i>
+            <div style="margin: 0 auto 25px auto; padding: 20px; background: #f8f9fa; border: 2px dashed #007bff; border-radius: 10px; text-align: center;">
+                <label style="font-weight: bold; color: #0056b3; font-size: 13pt; display: block; margin-bottom: 10px;">🎨 BƯỚC 1: CHỌN MẪU PHÁCH / ĐỀ THI</label>
+                <select id="ui-template-selector" onchange="app.changeTemplate(this.value)" style="padding: 12px; font-size: 12pt; border-radius: 5px; border: 1px solid #007bff; width: 90%; cursor: pointer; background: #fff; color: #333; font-weight: bold; outline: none; box-shadow: 0 2px 5px rgba(0,123,255,0.1);">
+                    <option value="default">📜 Mẫu Truyền Thống (Chuẩn Bộ GD)</option>
+                    <option value="vip">💎 Mẫu VIP (Có Logo Trường - Sắp ra mắt)</option>
+                </select>
+            </div>
+
+            <div style="text-align: left; display: inline-block; font-size: 11pt; line-height: 1.8; background: #fff; padding: 20px; border-radius: 8px; border: 1px solid #eee;">
+                <b>👉 Các bước tiếp theo:</b><br>
+                <span style="display: inline-block; width: 25px;">2️⃣</span> Bấm <b style="color:#20c997">📂 Nạp Kho Đạn</b> để tải file Excel/Link Google Sheets.<br>
+                <span style="display: inline-block; width: 25px;">3️⃣</span> Bấm <b style="color:#e83e8c">📊 Ma Trận Bốc Đề</b> để chọn số lượng câu.<br>
+                <span style="display: inline-block; width: 25px;">4️⃣</span> Duyệt qua các câu hỏi tại <b style="color:#fd7e14">Trạm Kiểm Duyệt</b> rồi in.<br>
+                <br><i>💡 <b>Mẹo:</b> Nhấp đúp chuột vào bất kỳ câu hỏi nào để sửa nội dung trực tiếp!</i>
             </div>
         </div>
     </div>

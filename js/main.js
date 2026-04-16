@@ -56,6 +56,19 @@ app.toggleMode = function() {
     this.run();
 };
 
+app.changeTemplate = function(templateId) {
+    this.activeTemplate = templateId;
+    
+    // Lấy tên template để thông báo cho đẹp
+    let tplName = this.templates[templateId] ? this.templates[templateId].name : templateId;
+    this.toast(`Đã chuyển sang: ${tplName}`, "info");
+
+    // Nếu lúc chọn template mà đang có đề thi hiển thị trên màn hình thì tự động vẽ lại (render) luôn
+    if (this.workingData && this.workingData.length > 0) {
+        this.run();
+    }
+};
+
 app.preprocess = function() {
     this.totalSecs = 0;
     this.matrix = { NB: 0, TH: 0, VD: 0, VDC: 0 };
