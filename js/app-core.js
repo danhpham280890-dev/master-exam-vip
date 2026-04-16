@@ -11,7 +11,9 @@ window.app = {
     ansEssay: [], 
     totalSecs: 0,
     matrix: { NB: 0, TH: 0, VD: 0, VDC: 0 },
-    catalog: {} // Kho phân loại câu hỏi cho Ma trận
+    catalog: {}, // Kho phân loại câu hỏi cho Ma trận
+    templates: {},          // <--- Thêm dòng này: Kho chứa các mẫu template
+    activeTemplate: 'default' // <--- Thêm dòng này: Template mặc định sẽ dùng
 };
 app.clean = function(dirtyHTML) {
     if (!dirtyHTML) return "";

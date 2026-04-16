@@ -403,27 +403,53 @@ app.renderMasterSummary = function(paper) {
 };
 
 app.createNewPage = function(containerElement, maDe) {
-    this.pageCount++; let pageDiv = document.createElement('div'); pageDiv.className = 'page-container'; pageDiv.setAttribute('data-made', app.clean(maDe)); 
-    let tplClone = document.getElementById((this.pageCount === 1) ? 'tpl-header-page-1' : 'tpl-header-page-n').content.cloneNode(true);
-    if (this.pageCount === 1) {
-        const cfg = EXAM.config;
-        if(tplClone.querySelector('.cfg-truong')) tplClone.querySelector('.cfg-truong').innerHTML = `<b style="font-size:10.5pt">${app.clean(cfg.truong)}</b>`;
-        if(tplClone.querySelector('.cfg-exam')) tplClone.querySelector('.cfg-exam').innerHTML = `<b>${app.clean(cfg.kyThi)}</b>`;
-        if(tplClone.querySelector('.cfg-khoangay')) tplClone.querySelector('.cfg-khoangay').innerHTML = `<b>${app.clean(cfg.khoaNgay)}</b>`;
-        if(tplClone.querySelector('.cfg-diemthi')) tplClone.querySelector('.cfg-diemthi').innerHTML = `<b>${app.clean(cfg.diemThi)}</b>`;
-        if(tplClone.querySelector('.cfg-subject')) { let txt = `<span style="font-size: 11pt; font-weight: bold;">${app.clean(cfg.monThi)}</span>`; if (maDe) txt += `<br><span style="font-size:9pt; font-weight:normal">(Mã đề: ${app.clean(maDe)})</span>`; tplClone.querySelector('.cfg-subject').innerHTML = txt; }
+    this.pageCount++; 
+    let pageDiv = document.createElement('div'); 
+    pageDiv.className = 'page-container'; 
+    pageDiv.setAttribute('data-made', app.clean(maDe)); 
+    
+    // --- LẤY TEMPLATE TỪ HỆ THỐNG MỚI ---
+    const activeTpl = app.templates[app.activeTemplate] || app.templates['default'];
+    const htmlContent = (this.pageCount === 1) ? activeTpl.headerPage1 : activeTpl.headerPageN;
+    
+    let tempDiv = document.createElement('div');
+    tempDiv.innerHTML = htmlContent;
+    
+    // --- ĐỔ DỮ LIỆU ---
+    if (this.pageCount === 1 && activeTpl.applyData) {
+        activeTpl.applyData(tempDiv, EXAM.config, maDe);
     }
-    pageDiv.appendChild(tplClone); let contentAreaDiv = document.createElement('div'); contentAreaDiv.className = 'content-area';
+    
+    // --- GẮN VÀO TRANG ---
+    while (tempDiv.firstChild) {
+        pageDiv.appendChild(tempDiv.firstChild);
+    }
+
+    let contentAreaDiv = document.createElement('div'); 
+    contentAreaDiv.className = 'content-area';
+    
     if (this.pageCount === 1) {
         contentAreaDiv.classList.add('first-page-content');
-        let sidebarDiv = document.createElement('div'); sidebarDiv.className = 'score-sidebar';
+        let sidebarDiv = document.createElement('div'); 
+        sidebarDiv.className = 'score-sidebar';
         let sHTML = '<div class="bold" style="margin-bottom:5px; font-size: 11pt;">Điểm phần:</div>';
-        for (let i = 1; i <= (EXAM.config.soPhan || this.totalSecs || 1); i++) sHTML += `<div class="score-item"><span>Phần ${i}:</span><span>......đ</span></div>`;
+        for (let i = 1; i <= (EXAM.config.soPhan || this.totalSecs || 1); i++) {
+            sHTML += `<div class="score-item"><span>Phần ${i}:</span><span>......đ</span></div>`;
+        }
         sHTML += `<div class="score-total" style="margin-top:auto"><span>Tổng:</span><span>.......đ</span></div>`;
-        sidebarDiv.innerHTML = sHTML; contentAreaDiv.appendChild(sidebarDiv);
-        let titleDiv = document.createElement('div'); titleDiv.className = 'center bold'; titleDiv.innerText = 'BÀI LÀM'; titleDiv.style.cssText = 'font-size:13pt; margin-bottom:10px'; contentAreaDiv.appendChild(titleDiv);
+        sidebarDiv.innerHTML = sHTML; 
+        contentAreaDiv.appendChild(sidebarDiv);
+        
+        let titleDiv = document.createElement('div'); 
+        titleDiv.className = 'center bold'; 
+        titleDiv.innerText = 'BÀI LÀM'; 
+        titleDiv.style.cssText = 'font-size:13pt; margin-bottom:10px'; 
+        contentAreaDiv.appendChild(titleDiv);
     }
-    pageDiv.appendChild(contentAreaDiv); containerElement.appendChild(pageDiv);
+    
+    pageDiv.appendChild(contentAreaDiv); 
+    containerElement.appendChild(pageDiv);
+    
     return { pageElement: pageDiv, contentElement: contentAreaDiv };
 };
 
