@@ -24,7 +24,7 @@
             </div>
         `,
 
-        // XÓA SỔ HOÀN TOÀN: Để trống tuyệt đối để tối ưu diện tích nhét câu hỏi
+        // TRANG 2 TRỞ ĐI: Để trống hoàn toàn để tối ưu diện tích nhét câu hỏi
         headerPageN: ``,
 
         applyData: function(element, cfg, maDe) {
@@ -42,5 +42,6 @@
         }
     };
 
+    // Đăng ký template vào hệ thống
     window.app.templates['15phut'] = test15phTemplate;
 })();
